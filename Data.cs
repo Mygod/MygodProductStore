@@ -1,20 +1,33 @@
-﻿using System.Collections.Generic;
-using System.Web;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Windows;
 using System.Xml.Linq;
 
 namespace Mygod.Website.ProductStore
 {
     public static class Data
     {
-        public static bool Initialized;
-        public static List<Product> Products = new List<Product>();
+        public static readonly List<Product> Products = new List<Product>();
 
-        public static void Initialize(HttpServerUtility server)
+        static Data()
         {
-            if (Initialized) return;
-            Initialized = true;
-            foreach (var product in XDocument.Load(server.MapPath("/Products.xml")).Element("Products").Elements("Product"))
+            foreach (var product in XDocument.Parse(ReadText("/Products.xml")).Element("Products").Elements("Product"))
                 Products.Add(new Product(product));
+        }
+
+        private static string ReadText(string path)
+        {
+            // ReSharper disable PossibleNullReferenceException
+            try
+            {
+                return new StreamReader(Application.GetResourceStream(new Uri(path, UriKind.Relative)).Stream).ReadToEnd();
+            }
+            catch
+            {
+                return null;
+            }
+            // ReSharper restore PossibleNullReferenceException
         }
     }
 
@@ -23,16 +36,15 @@ namespace Mygod.Website.ProductStore
         public Product(XElement element)
         {
             ID = element.GetAttribute("ID");
-            Name = element.GetAttribute("Name");
-            Version = element.GetAttribute("Version");
+            Title = element.GetAttribute("Name");
+            var version = element.GetAttribute("Version");
+            if (version != null) Title += ' ' + version;
             Date = element.GetAttribute("Date");
             Requirements = element.GetAttribute("Requirements").Replace("\\", @"\\");
             Link = element.GetAttribute("Link");
         }
 
-        public readonly string ID, Name, Version, Date, Requirements, Link;
-
-        public string Title { get { return Name + (string.IsNullOrWhiteSpace(Version) ? string.Empty : (' ' + Version)); } }
+        public readonly string ID, Title, Date, Requirements, Link;
     }
 
     public static class Helper
