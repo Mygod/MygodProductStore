@@ -13,12 +13,14 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <p>欢迎来到 Mygod 产品专卖店™！你可以在 Mygod 网站罢工时来这里订购来自 Mygod 工作室™的产品。</p>
     <% var products = Data.Products.OrderByDescending(product => DateTime.Parse(product.Date)).ToArray(); %>
-    <% foreach (var product in products)
-       { %>
-    <button class="command-button" id="<%=product.ID %>" type="button">
-        <%=product.Title %>
-        <small>发布日期：<%=product.Date %></small>
-    </button><% } %>
+    <div id="buttons">
+        <% foreach (var product in products)
+           { %>
+        <button class="command-button" id="<%=product.ID %>" type="button">
+            <%=product.Title %>
+            <small>发布日期：<%=product.Date %></small>
+        </button><% } %>
+    </div>
     <div style="text-align: center;">Powered by <a href="http://mygodstudio.tk">Mygod 工作室™</a>　<a href="http://tieba.baidu.com/Mygod">售后服务</a></div>
     <div style="text-align: center;">Copyright &copy; 2013 Mygod Product Store™ V<%=Data.CurrentAssembly.GetName().Version.ToString() %></div>
     <script type="text/javascript">
