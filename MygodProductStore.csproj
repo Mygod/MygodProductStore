@@ -49,6 +49,7 @@
     <Content Include="css\modern.css" />
     <Content Include="css\theme-dark.css" />
     <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
     <Content Include="fonts\iconFont.eot" />
     <Content Include="fonts\iconFont.ttf" />
     <Content Include="fonts\iconFont.woff" />
