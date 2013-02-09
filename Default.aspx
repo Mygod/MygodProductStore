@@ -15,7 +15,7 @@
         <small>发布日期：<%=product.Date %></small>
     </button><% } %>
     <div style="text-align: center;">Powered by Mygod 工作室™　<a href="http://tieba.baidu.com/Mygod">售后服务</a></div>
-    <div style="text-align: center;">Copyright &copy; 2013 Mygod Product Store™ V1.0.0.1</div>
+    <div style="text-align: center;">Copyright &copy; 2013 Mygod Product Store™ V1.0.0.2</div>
     <script type="text/javascript">
         function subscribe(id, title, requirements, link) {
             $('#' + id).click(function () {
