@@ -16,9 +16,5 @@
         <a href="http://www.microsoft.com/zh-cn/download/details.aspx?id=17718">下载地址</a></p>
     <h3>可能遇到的问题</h3>
     <p>
-        　　Windows XP SP2或Windows Server 2003的用户如果遇到“必须安装 32 位 Windows 映像处理组件(WIC)”的提示信息，请点击<a href="WIC.exe">这里</a>安装WIC（32位）后再试。</p>
-    <h3>
-        安装完成</h3>
-    <p>
-        <a href="javascript:history.go(-1)">返回上一页</a></p>
+        　　Windows XP SP2或Windows Server 2003的用户如果遇到“必须安装 32 位 Windows 映像处理组件(WIC)”的提示信息，请点击<a href="http://pan.baidu.com/share/link?shareid=288646&uk=3104462449">这里</a>安装WIC（32位）后再试。</p>
 </asp:Content>
