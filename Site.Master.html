@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MygodProductStore.Site" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="css/modern.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="modern-ui">
+    <form id="form1" runat="server">
+    <div class="page">
+        <div class="page-header">
+            <div class="page-header-content">
+                <h1>Mygod 产品专卖店</h1>
+            </div>
+        </div>
+        <div class="page-region">
+            <div class="page-region-content" style="padding-left: 20px;">
+                <asp:ContentPlaceHolder ID="Content" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        
+    </div>
+    </form>
+</body>
+</html>
