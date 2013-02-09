@@ -127,7 +127,6 @@
     <Content Include="public\typography.php" />
     <Content Include="public\version.phtml" />
     <Content Include="public\windows8start.php" />
-    <None Include="WIC.exe" />
     <EmbeddedResource Include="Products.xml" />
     <Content Include="fonts\iconFont.svg" />
     <Content Include="fonts\license.txt" />
