@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="Mygod 产品专卖店™" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
          Inherits="Mygod.Website.ProductStore.Default" %>
+<%@ Import Namespace="System.Reflection" %>
 <%@ Import Namespace="Mygod.Website.ProductStore" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
     <script type="text/javascript" src="http://metroui.org.ua/js/assets/jquery-1.9.0.min.js"></script>
@@ -15,7 +16,7 @@
         <small>发布日期：<%=product.Date %></small>
     </button><% } %>
     <div style="text-align: center;">Powered by Mygod 工作室™　<a href="http://tieba.baidu.com/Mygod">售后服务</a></div>
-    <div style="text-align: center;">Copyright &copy; 2013 Mygod Product Store™ V1.0.0.2</div>
+    <div style="text-align: center;">Copyright &copy; 2013 Mygod Product Store™ <%=Assembly.GetEntryAssembly().GetName().Version.ToString() %></div>
     <script type="text/javascript">
         function subscribe(id, title, requirements, link) {
             $('#' + id).click(function () {
