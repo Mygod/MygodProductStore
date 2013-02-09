@@ -27,7 +27,7 @@
         while (basePage[basePage.length - 1] == '#') basePage = basePage.substr(0, basePage.length - 1);
         var pageID = location.href.replace(reg, "$2");
         function returnBase() {
-            location.href = basePage + '#';
+            location.href = basePage + '#Main';
         }
         function subscribe(id, title, requirements, link) {
             var f = function() {
