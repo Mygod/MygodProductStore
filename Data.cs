@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Windows;
+using System.Reflection;
 using System.Xml.Linq;
 
 namespace Mygod.Website.ProductStore
@@ -9,24 +8,15 @@ namespace Mygod.Website.ProductStore
     public static class Data
     {
         public static readonly List<Product> Products = new List<Product>();
+        public static readonly Assembly CurrentAssembly;
 
         static Data()
         {
-            foreach (var product in XDocument.Parse(ReadText("/Products.xml")).Element("Products").Elements("Product"))
-                Products.Add(new Product(product));
-        }
-
-        private static string ReadText(string path)
-        {
+            CurrentAssembly = Assembly.GetExecutingAssembly();
             // ReSharper disable PossibleNullReferenceException
-            try
-            {
-                return new StreamReader(Application.GetResourceStream(new Uri(path, UriKind.Relative)).Stream).ReadToEnd();
-            }
-            catch
-            {
-                return null;
-            }
+            foreach (var product in XDocument.Parse(new StreamReader(CurrentAssembly
+                .GetManifestResourceStream("Mygod.Website.ProductStore.Products.xml")).ReadToEnd()).Element("Products").Elements("Product"))
+                Products.Add(new Product(product));
             // ReSharper restore PossibleNullReferenceException
         }
     }
