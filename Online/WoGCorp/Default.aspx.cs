@@ -34,13 +34,14 @@ namespace Mygod.Website.ProductStore.Online.WoGCorp
                 foreach (var stat in response.Element("HighTowerStats").Elements("HighTowerStat"))
                 {
                     var countryCode = stat.Attribute("countryCode").Value;
-                    output += string.Format("<tr><td><img src=\"{6}.png\" /></td><td>{9}玩家 #{0}，存档名叫“{1}”，于 {8} 上传了TA的记录：" +
-                        "收集了 {4} 个球，使用 {5} 个球搭了 {2}m 高的塔。TA的最好记录是 {3}m。TA于 {7} 首次上传了TA的塔。</td></tr>{10}",
-                        long.Parse(stat.Attribute("player_id").Value), stat.Attribute("player_name").Value,
-                        double.Parse(stat.Attribute("height").Value), double.Parse(stat.Attribute("heightMax").Value),
-                        long.Parse(stat.Attribute("ballCount").Value), long.Parse(stat.Attribute("ballCountAttached").Value), countryCode,
-                        DateTime.Parse(stat.Attribute("timeCreated").Value).AddHours(15),
-                        DateTime.Parse(stat.Attribute("timeModified").Value).AddHours(15), CountryNames[countryCode], Environment.NewLine);
+                    output += string.Format("<tr><td><img src=\"{6}.png\" /></td><td>{9}玩家 #{0}，存档名叫“{1}”，于 " + 
+                        "{8:yyyy.M.d H:mm:ss} 上传了TA的记录：收集了 {4} 个球，使用 {5} 个球搭了 {2}m 高的塔。TA的最好记录是 {3}m。" +
+                        "TA于 {7:yyyy.M.d H:mm:ss} 首次上传了TA的塔。</td></tr>{10}", long.Parse(stat.Attribute("player_id").Value), 
+                        stat.Attribute("player_name").Value, double.Parse(stat.Attribute("height").Value), 
+                        double.Parse(stat.Attribute("heightMax").Value), long.Parse(stat.Attribute("ballCount").Value),
+                        long.Parse(stat.Attribute("ballCountAttached").Value), countryCode, 
+                        DateTime.Parse(stat.Attribute("timeCreated").Value).AddHours(16),
+                        DateTime.Parse(stat.Attribute("timeModified").Value).AddHours(16), CountryNames[countryCode], Environment.NewLine);
                 }
                 return "<table>" + output + "</table>";
                 // ReSharper restore PossibleNullReferenceException
