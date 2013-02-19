@@ -24,6 +24,10 @@
             Mygod嚼烂喂给你吃下载器
             <small>记住，Mygod嚼烂喂给你吃下载器……就是这么拽！它还可以当梯子使，不过……嘘！</small>
         </button>
+        <button class="command-button" type="button" id="youtube-downloader">
+            YouTube下载者 Online
+            <small>使用它可以下载任何一部YouTube上的视频！</small>
+        </button>
     </div>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -32,6 +36,7 @@
             $('#wogcorp').click(function () { location.href = '/Online/WoGCorp/'; });
             $('#browser-download').click(function () { location.href = '/Online/BrowserDownload.aspx'; });
             $('#chewer').click(function () { location.href = '/Online/Chewer.aspx'; });
+            $('#youtube-downloader').click(function () { location.href = '/Online/YouTubeDownloader.aspx'; });
         });
     </script>
 </asp:Content>
