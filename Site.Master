@@ -5,25 +5,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <link href="css/modern.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://metroui.org.ua/js/assets/jquery-1.9.0.min.js"></script>
     <asp:ContentPlaceHolder ID="Head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body class="modern-ui">
-    <form id="form1" runat="server">
+    <form runat="server" id="form">
     <div class="page">
         <div class="page-header">
             <div class="page-header-content">
-                <a href="/"><h1>Mygod 产品专卖店™</h1></a>
+                <h1><a href="/" class="h">Mygod 产品专卖店™</a></h1>
             </div>
         </div>
         <div class="page-region">
             <div class="page-region-content" style="padding-left: 20px;">
+                <h3><a href="http://mygodstudio.tk/" class="h">官网</a>　<a href="/" class="h">产品</a>　<a href="/Online/" class="h">在线工具</a></h3>
                 <asp:ContentPlaceHolder ID="Content" runat="server">
         
                 </asp:ContentPlaceHolder>
             </div>
         </div>
-        
     </div>
     </form>
 </body>

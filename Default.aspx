@@ -1,17 +1,11 @@
-﻿<%@ Page Title="Mygod 产品专卖店™" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
          Inherits="Mygod.Website.ProductStore.Default" %>
 <%@ Import Namespace="Mygod.Website.ProductStore" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
-    <script type="text/javascript" src="http://metroui.org.ua/js/assets/jquery-1.9.0.min.js"></script>
     <script type="text/javascript" src="javascript/dialog.js"></script>
-    <style type="text/css">
-        #dialogBox {
-            max-width: 800px;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    <p>欢迎来到 Mygod 产品专卖店™！你可以在 Mygod 网站罢工时来这里订购来自 <a href="http://mygodstudio.tk/">Mygod 工作室™</a>的<a href="http://mygodstudio.tk/Product/">产品</a>。</p>
+    <p>欢迎来到 Mygod 产品专卖店™！你可以在 Mygod 网站罢工时来这里订购来自 <a href="http://mygodstudio.tk/">Mygod 工作室™</a> 的<a href="http://mygodstudio.tk/Product/">产品</a>。</p>
     <% var products = Data.Products.OrderByDescending(product => DateTime.Parse(product.Date)).ToArray(); %>
     <div id="buttons">
         <% foreach (var product in products)
