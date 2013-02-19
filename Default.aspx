@@ -15,8 +15,6 @@
             <small>发布日期：<%=product.Date %></small>
         </button><% } %>
     </div>
-    <div style="text-align: center;">Powered by <a href="http://mygodstudio.tk">Mygod 工作室™</a>　<a href="http://tieba.baidu.com/Mygod">售后服务</a></div>
-    <div style="text-align: center;">Copyright &copy; 2013 Mygod Product Store™ V<%=Data.CurrentAssembly.GetName().Version.ToString() %></div>
     <script type="text/javascript">
         var reg = /(.*)#Product-(.*)/;
         var basePage = location.href.replace(reg, "$1");
