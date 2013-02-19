@@ -40,8 +40,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -110,7 +108,7 @@
     <Content Include="Online\MOM\textBar_cursor.png" />
     <Content Include="Online\MOM\textBar_middle_up.png" />
     <Content Include="Online\MOM\textBar_top_up.png" />
-    <Content Include="Online\OfflineDownloader.aspx" />
+    <Content Include="Online\Chewer.aspx" />
     <Content Include="Online\WoGCorp\AD.png" />
     <Content Include="Online\WoGCorp\AE.png" />
     <Content Include="Online\WoGCorp\AF.png" />
@@ -562,12 +560,12 @@
     <Compile Include="Online\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Online\OfflineDownloader.aspx.cs">
-      <DependentUpon>OfflineDownloader.aspx</DependentUpon>
+    <Compile Include="Online\Chewer.aspx.cs">
+      <DependentUpon>Chewer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Online\OfflineDownloader.aspx.designer.cs">
-      <DependentUpon>OfflineDownloader.aspx</DependentUpon>
+    <Compile Include="Online\Chewer.aspx.designer.cs">
+      <DependentUpon>Chewer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Online\WoGCorp\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

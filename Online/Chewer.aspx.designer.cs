@@ -10,6 +10,6 @@
 namespace Mygod.Website.ProductStore.Online {
     
     
-    public partial class OfflineDownloader {
+    public partial class Chewer {
     }
 }
