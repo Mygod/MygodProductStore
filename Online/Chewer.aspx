@@ -6,6 +6,7 @@
             width: 100%;
         }
     </style>
+    <script type="text/javascript" src="https://raw.github.com/carlo/jquery-base64/master/jquery.base64.min.js"></script>
     <script type="text/javascript">
         function isNullOrWhitespace(input) {
             if (!input) return true;
@@ -16,7 +17,7 @@
                 var box = $("#link-box");
                 var value = box.val();
                 if (isNullOrWhitespace(value) & value.indexOf("mygod.apphb.com") >= 0) return;
-                box.val("http://mygod.apphb.com/Online/Chewer.aspx?URL=" + encodeURIComponent(value));
+                box.val("http://mygod.apphb.com/Online/Chewer.aspx?URL=" + $.base64.encode(value));
             });
         });
     </script>

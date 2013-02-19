@@ -13,7 +13,7 @@ namespace Mygod.Website.ProductStore.Online
         {
             var url = Request.QueryString["URL"];
             if (string.IsNullOrWhiteSpace(url)) return;
-            url = HttpUtility.UrlDecode(url);
+            url = Encoding.UTF8.GetString(Convert.FromBase64String(url));
             #region 定义局部变量
             long startBytes = 0;
             const int packSize = 1024 * 10; //分块读取，每块10K bytes  

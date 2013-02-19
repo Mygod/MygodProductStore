@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Web.UI;
 
 namespace Mygod.Website.ProductStore.Online
@@ -11,7 +12,7 @@ namespace Mygod.Website.ProductStore.Online
             if (string.IsNullOrWhiteSpace(LinkBox.Text)) return;
             foreach (var link in YouTube.Video.GetVideoFromWebPageLink(LinkBox.Text).FmtStreamMap)
                 Output += string.Format("<a href='http://mygod.apphb.com/Online/Chewer.aspx?URL={0}'>{1}</a><br />{2}",
-                                        Server.UrlEncode(link.Url), link, Environment.NewLine);
+                                        Convert.ToBase64String(Encoding.UTF8.GetBytes(link.Url)), link, Environment.NewLine);
         }
 
         protected string Output;
