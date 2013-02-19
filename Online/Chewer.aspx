@@ -17,7 +17,7 @@
                 var box = $("#link-box");
                 var value = box.val();
                 if (isNullOrWhitespace(value) & value.indexOf("mygod.apphb.com") >= 0) return;
-                box.val("http://mygod.apphb.com/Online/Chewer.aspx?URL=" + $.base64.encode(value));
+                box.val("http://mygod.apphb.com/Online/Chewer.aspx?URL=" + $.base64.encode(value.split("").reverse().join("")));
             });
         });
     </script>
