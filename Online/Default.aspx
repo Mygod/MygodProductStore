@@ -20,6 +20,10 @@
             Mygod浏览器下载小工具
             <small>用来用浏览器下载一些东西……（我的第一个Javascript程序）</small>
         </button>
+        <button class="command-button" type="button" id="offline-downloader">
+            Mygod离线下载器
+            <small>记住，Mygod离线下载器……就是这么拽！它还可以当梯子使，不过……嘘！</small>
+        </button>
     </div>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -27,6 +31,7 @@
             $('#mom-en').click(function () { location.href = '/Online/MOM/English.htm'; });
             $('#wogcorp').click(function () { location.href = '/Online/WoGCorp/'; });
             $('#browser-download').click(function () { location.href = '/Online/BrowserDownload.aspx'; });
+            $('#offline-downloader').click(function () { location.href = '/Online/OfflineDownloader.aspx'; });
         });
     </script>
 </asp:Content>
