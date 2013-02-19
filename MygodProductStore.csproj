@@ -40,6 +40,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -351,6 +353,7 @@
     <Content Include="Online\WoGCorp\ZA.png" />
     <Content Include="Online\WoGCorp\ZM.png" />
     <Content Include="Online\WoGCorp\ZW.png" />
+    <Content Include="Online\YouTubeDownloader.aspx" />
     <Content Include="public\.htaccess" />
     <Content Include="public\accordion.php" />
     <Content Include="public\adsense.php" />
@@ -539,6 +542,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Extensions.cs" />
     <Compile Include="InstallDotNetFx40.aspx.cs">
       <DependentUpon>InstallDotNetFx40.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -546,6 +550,7 @@
     <Compile Include="InstallDotNetFx40.aspx.designer.cs">
       <DependentUpon>InstallDotNetFx40.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Online\Bases.cs" />
     <Compile Include="Online\BrowserDownload.aspx.cs">
       <DependentUpon>BrowserDownload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -575,6 +580,14 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Online\WoGCorp\WoGBuddy.cs" />
+    <Compile Include="Online\YouTube.cs" />
+    <Compile Include="Online\YouTubeDownloader.aspx.cs">
+      <DependentUpon>YouTubeDownloader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\YouTubeDownloader.aspx.designer.cs">
+      <DependentUpon>YouTubeDownloader.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InstallDotNetFx40Client.aspx.cs">
       <DependentUpon>InstallDotNetFx40Client.aspx</DependentUpon>
