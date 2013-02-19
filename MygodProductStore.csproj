@@ -12,7 +12,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Mygod.Website.ProductStore</RootNamespace>
-    <AssemblyName>MygodProductStore</AssemblyName>
+    <AssemblyName>Mygod Product Store™</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
