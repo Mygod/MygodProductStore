@@ -24,8 +24,9 @@
                 <asp:ContentPlaceHolder ID="Content" runat="server">
         
                 </asp:ContentPlaceHolder>
-                <div style="text-align: center;">Powered by <a href="http://mygodstudio.tk">Mygod 工作室™</a>　<a href="http://tieba.baidu.com/Mygod">售后服务</a></div>
-                <div style="text-align: center;">Copyright &copy; 2013 Mygod Product Store™ V<%=Data.CurrentAssembly.GetName().Version.ToString() %></div>
+                <div class="center">Powered by <a href="http://mygodstudio.tk">Mygod 工作室™</a>　<a href="http://tieba.baidu.com/Mygod">售后服务</a></div>
+                <div class="center">Mygod 产品专卖店™是 Mygod 工作室™的一项<a href="https://github.com/Mygod/MygodProductStore">开源项目</a>。
+                <div class="center">Copyright &copy; 2013 Mygod Product Store™ V<%=Data.CurrentAssembly.GetName().Version.ToString() %></div>
             </div>
         </div>
     </div>
