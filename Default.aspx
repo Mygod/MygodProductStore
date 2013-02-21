@@ -5,7 +5,7 @@
     <script type="text/javascript" src="javascript/dialog.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    <p>欢迎来到 Mygod 产品专卖店™！你可以在 Mygod 网站罢工时来这里订购来自 <a href="http://mygodstudio.tk/">Mygod 工作室™</a> 的<a href="http://mygodstudio.tk/Product/">产品</a>。</p>
+    <p>欢迎来到 Mygod 产品专卖店™！这是 Mygod 工作室™的一项<a href="https://github.com/Mygod/MygodProductStore">开源项目</a>。你可以在 Mygod 网站罢工时来这里订购来自 <a href="http://mygodstudio.tk/">Mygod 工作室™</a> 的<a href="http://mygodstudio.tk/Product/">产品</a>。</p>
     <% var products = Data.Products.OrderByDescending(product => DateTime.Parse(product.Date)).ToArray(); %>
     <div id="buttons">
         <% foreach (var product in products)
