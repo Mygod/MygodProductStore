@@ -25,8 +25,8 @@
             <small>记住，Mygod嚼烂喂给你吃下载器……就是这么拽！它还可以当梯子使，不过……嘘！</small>
         </button>
         <button class="command-button" type="button" id="youtube-downloader">
-            YouTube下载者 Online
-            <small>使用它可以下载任何一部YouTube上的视频！</small>
+            你管下载者 Online
+            <small>使用它可以下载任何一部你管上的视频！</small>
         </button>
         <button class="command-button" type="button" id="offline-downloader">
             Mygod离线下载器
