@@ -35,8 +35,8 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 Status = "你的下载正在开始……刷新试试？";
                 return;
             }
-            var startTime = DateTime.Parse(download.Attribute("startTime").Value);
-            StartTime = startTime.AddHours(8).ToString("yyyy.M.d h:mm:ss.fff");
+            var startTime = R.Parse(download.Attribute("startTime").Value);
+            StartTime = startTime.AddHours(8).ToString("yyyy.M.d H:mm:ss.fff");
             var attr = download.Attribute("message");
             if (attr != null)
             {
@@ -59,22 +59,22 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 if (impossibleEnds) Never();
                 else
                 {
-                    var spentTime = DateTime.UtcNow - startTime;
+                    var spentTime = R.UtcNow - startTime;
                     SpentTime = spentTime.ToString("g");
                     var averageDownloadSpeed = downloadedFileSize / spentTime.TotalSeconds;
                     AverageDownloadSpeed = GetSize(averageDownloadSpeed);
                     var remainingTime =
                         new TimeSpan((long)(spentTime.Ticks * (fileSize - downloadedFileSize) / (double)downloadedFileSize));
                     RemainingTime = remainingTime.ToString("g");
-                    EndingTime = (startTime + spentTime + remainingTime).AddHours(8).ToString("yyyy.M.d h:mm:ss.fff");
+                    EndingTime = (startTime + spentTime + remainingTime).AddHours(8).ToString("yyyy.M.d H:mm:ss.fff");
                 }
             }
             else
             {
                 Status = "下载完毕，刷新开始下载";
                 RemainingTime = new TimeSpan(0).ToString("g");
-                var endingTime = DateTime.Parse(attr.Value);
-                EndingTime = endingTime.AddHours(8).ToString("yyyy.M.d h:mm:ss.fff");
+                var endingTime = R.Parse(attr.Value);
+                EndingTime = endingTime.AddHours(8).ToString("yyyy.M.d H:mm:ss.fff");
                 var spentTime = endingTime - startTime;
                 SpentTime = spentTime.ToString("g");
                 var averageDownloadSpeed = downloadedFileSize / spentTime.TotalSeconds;

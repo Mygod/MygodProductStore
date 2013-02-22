@@ -10,7 +10,7 @@
 namespace Mygod.Website.ProductStore.Online {
     
     
-    public partial class YouTubeDownloader {
+    public partial class NiGuanDownloader {
         
         /// <summary>
         /// LinkBox 控件。

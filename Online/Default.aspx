@@ -40,7 +40,7 @@
             $('#wogcorp').click(function () { location.href = 'WoGCorp/'; });
             $('#browser-download').click(function () { location.href = 'BrowserDownload.aspx'; });
             $('#chewer').click(function () { location.href = 'Chewer.aspx'; });
-            $('#youtube-downloader').click(function () { location.href = 'YouTubeDownloader.aspx'; });
+            $('#youtube-downloader').click(function () { location.href = 'NiGuanDownloader.aspx'; });
             $('#offline-downloader').click(function () { location.href = 'OfflineDownloader/'; });
         });
     </script>

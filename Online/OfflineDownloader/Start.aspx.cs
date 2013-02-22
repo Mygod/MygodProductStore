@@ -17,6 +17,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
             var url = Request.QueryString["URL"];
             if (string.IsNullOrWhiteSpace(url)) return;
             url = Encoding.UTF8.GetString(Convert.FromBase64String(url)).Reverse().Aggregate(string.Empty, (c, s) => c + s);
+            url = TFQR.Decode(TFQR.GetUrlType(url), url);
             string md5 = FormsAuthentication.HashPasswordForStoringInConfigFile(url, "MD5"),
                    path = Server.MapPath("/Temp/" + md5), xmlPath = path + ".xml";
             if (!File.Exists(xmlPath))
@@ -48,10 +49,10 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                                 fileLength = null;
                             }
                         if (fileLength != null) download.Add(new XAttribute("size", fileLength));
-                        download.Add(new XAttribute("fileName", fileName), new XAttribute("startTime", DateTime.UtcNow));
+                        download.Add(new XAttribute("fileName", fileName), new XAttribute("startTime", R.UtcNow));
                         doc.Save(xmlPath);
                         stream.CopyTo(fileStream = File.Create(path));
-                        download.Add(new XAttribute("endTime", DateTime.UtcNow));
+                        download.Add(new XAttribute("endTime", R.UtcNow));
                         doc.Save(xmlPath);
                     }
                     catch (Exception exc)
