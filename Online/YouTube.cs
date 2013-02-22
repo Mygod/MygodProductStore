@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Mygod.Website.ProductStore.Online
 {
@@ -15,29 +16,82 @@ namespace Mygod.Website.ProductStore.Online
                     .ToDictionary(pair => pair.Key, pair => pair.Value);
                 if (videoInfo.Contains("status=fail"))
                     throw new Exception("获取视频信息失败！原因：" + Uri.UnescapeDataString(information["reason"]).Replace('+', ' '));
-                FmtStreamMap = information["url_encoded_fmt_stream_map"].UrlDecode().Split(',').SelectMany(s => FmtStream.Create(s, this)).ToList();
+                FmtStreamMap = information["url_encoded_fmt_stream_map"].UrlDecode().Split(',')
+                    .SelectMany(s => FmtStream.Create(s, this)).ToList();
                 information.Remove("url_encoded_fmt_stream_map");
             }
 
-            public static Video GetVideoFromWebPageLink(string link)
-            {
-                var v = link.IndexOf("v=", StringComparison.Ordinal);
-                link = string.Format(R.GetVideoInfoLink, v < 0 ? link.Substring(link.LastIndexOf('/') + 1) : link.Substring(v + 2, 11));
-                var data = Settings.Client.DownloadString(link);
-                return new Video(data);
-            }
-            public static Video GetVideoFromWebPage(string link)
-            {
-                var data = Settings.Client.DownloadString(link);   // find video inner
-                var uefsm = data.IndexOf("data-video-id=\"", StringComparison.Ordinal);
-                if (uefsm < 0) throw new ArgumentException("您的URL格式不对。");
-                data = data.Substring(uefsm + 15);
-                return GetVideoFromVideoID(data.Substring(0, data.IndexOf('\"')));
-            }
-
+            private static readonly Regex
+                R0 = new Regex("(?|&)v=([A-Za-z0-9_\\-]{11})", RegexOptions.Compiled), 
+                R1 = new Regex("data-video-id=([\"'])([A-Za-z0-9_\\-]{11})\\1", RegexOptions.Compiled),
+                R2 = new Regex("youtube(.googleapis)?.com/(v|embed)/([A-Za-z0-9_\\-]{11})", RegexOptions.Compiled),
+                RSuper = new Regex("[A-Za-z0-9_\\-]{11}", RegexOptions.Compiled);
             private static Video GetVideoFromVideoID(string id)
             {
                 return new Video(Settings.Client.DownloadString(string.Format(R.GetVideoInfoLink, id)));
+            }
+            private static Video GetVideoFromContent(string link)
+            {
+                var exceptionList = new List<Exception>();
+                var match = R0.Match(link);
+                while (match.Success)
+                    try
+                    {
+                        return GetVideoFromVideoID(match.Value);
+                    }
+                    catch (Exception e)
+                    {
+                        exceptionList.Add(e);
+                    }
+                match = R1.Match(link);
+                while (match.Success)
+                    try
+                    {
+                        return GetVideoFromVideoID(match.Groups[2].Value);
+                    }
+                    catch (Exception e)
+                    {
+                        exceptionList.Add(e);
+                    }
+                match = R2.Match(link);
+                while (match.Success)
+                    try
+                    {
+                        return GetVideoFromVideoID(match.Groups[3].Value);
+                    }
+                    catch (Exception e)
+                    {
+                        exceptionList.Add(e);
+                    }
+                match = RSuper.Match(link);
+                while (match.Success)
+                    try
+                    {
+                        return GetVideoFromVideoID(match.Value);
+                    }
+                    catch (Exception e)
+                    {
+                        exceptionList.Add(e);
+                    }
+                throw new AggregateException("未找到视频。", exceptionList);
+            }
+            public static Video GetVideoFromLink(string link)
+            {
+                try
+                {
+                    return GetVideoFromContent(link);
+                }
+                catch (Exception e1)
+                {
+                    try
+                    {
+                        return GetVideoFromContent(Settings.Client.DownloadString(link));   // find video inner
+                    }
+                    catch (Exception e2)
+                    {
+                        throw new AggregateException(e1, e2);
+                    }
+                }
             }
             private readonly Dictionary<string, string> information;
             public readonly List<FmtStream> FmtStreamMap;
