@@ -40,8 +40,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -111,6 +110,9 @@
     <Content Include="Online\MOM\textBar_middle_up.png" />
     <Content Include="Online\MOM\textBar_top_up.png" />
     <Content Include="Online\Chewer.aspx" />
+    <Content Include="Online\OfflineDownloader\Default.aspx" />
+    <Content Include="Online\OfflineDownloader\Destroy.aspx" />
+    <Content Include="Online\OfflineDownloader\Fetch.aspx" />
     <Content Include="Online\WoGCorp\AD.png" />
     <Content Include="Online\WoGCorp\AE.png" />
     <Content Include="Online\WoGCorp\AF.png" />
@@ -572,6 +574,27 @@
     <Compile Include="Online\Chewer.aspx.designer.cs">
       <DependentUpon>Chewer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Online\OfflineDownloader\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\OfflineDownloader\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Online\OfflineDownloader\Destroy.aspx.cs">
+      <DependentUpon>Destroy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\OfflineDownloader\Destroy.aspx.designer.cs">
+      <DependentUpon>Destroy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Online\OfflineDownloader\Fetch.aspx.cs">
+      <DependentUpon>Fetch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\OfflineDownloader\Fetch.aspx.designer.cs">
+      <DependentUpon>Fetch.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Online\WoGCorp\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -612,6 +635,9 @@
     <Content Include="Online\MOM\loop_superbirds.ogg" />
     <Content Include="Online\MOM\momStartup.ogg" />
     <Content Include="Online\MOM\TCCEB.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Temp\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

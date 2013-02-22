@@ -28,15 +28,20 @@
             YouTube下载者 Online
             <small>使用它可以下载任何一部YouTube上的视频！</small>
         </button>
+        <button class="command-button" type="button" id="offline-downloader">
+            Mygod离线下载器
+            <small>迅雷会员一点也不拽，Mygod会员现在也可以获得离线下载的功能！它居然也可以当梯子使，不过……嘘！</small>
+        </button>
     </div>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('#mom-cn').click(function () { location.href = '/Online/MOM/'; });
-            $('#mom-en').click(function () { location.href = '/Online/MOM/English.htm'; });
-            $('#wogcorp').click(function () { location.href = '/Online/WoGCorp/'; });
-            $('#browser-download').click(function () { location.href = '/Online/BrowserDownload.aspx'; });
-            $('#chewer').click(function () { location.href = '/Online/Chewer.aspx'; });
-            $('#youtube-downloader').click(function () { location.href = '/Online/YouTubeDownloader.aspx'; });
+            $('#mom-cn').click(function () { location.href = 'MOM/'; });
+            $('#mom-en').click(function () { location.href = 'MOM/English.htm'; });
+            $('#wogcorp').click(function () { location.href = 'WoGCorp/'; });
+            $('#browser-download').click(function () { location.href = 'BrowserDownload.aspx'; });
+            $('#chewer').click(function () { location.href = 'Chewer.aspx'; });
+            $('#youtube-downloader').click(function () { location.href = 'YouTubeDownloader.aspx'; });
+            $('#offline-downloader').click(function () { location.href = 'OfflineDownloader/'; });
         });
     </script>
 </asp:Content>
