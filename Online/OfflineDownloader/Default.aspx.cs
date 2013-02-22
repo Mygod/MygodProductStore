@@ -19,6 +19,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
             {
                 var download = new XElement("download", new XAttribute("url", url));
                 var doc = new XDocument(download);
+                Directory.CreateDirectory(Path.GetDirectoryName(xmlPath));
                 doc.Save(xmlPath);
                 var thread = new Thread(() =>
                 {
