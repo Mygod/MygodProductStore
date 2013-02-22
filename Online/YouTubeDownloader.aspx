@@ -15,5 +15,5 @@
     <div>&nbsp;</div>
     <div class="center"><asp:Button ID="SubmitButton" runat="server" Text="我就是那个神奇的按钮" /></div>
     <p><%=Output %></p>
-    <div>想要不通过本服务器直接下载？试试该产品的完整版<a href="/#Product-66">掩耳</a>！</div>
+    <div>离线下载支持使用迅雷。不想通过本服务器直接下载？试试该产品的完整版<a href="/#Product-66">掩耳</a>！</div>
 </asp:Content>

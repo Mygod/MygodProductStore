@@ -25,7 +25,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <h2 class="center">Mygod嚼烂喂给你吃下载器</h2>
     <div>记住，Mygod嚼烂喂给你吃下载器……就是这么拽！它还可以当梯子使，不过……嘘！</div>
-    <div>把地址贴上来，然后按下那个神奇的按钮，在那之后你就可以打开这个链接下载了。</div>
+    <div>把地址贴上来，然后按下那个神奇的按钮，在那之后你就可以打开这个链接下载了。很遗憾经测试迅雷似乎并不能用，如果你想用迅雷下载，试试<a href="OfflineDownloader/">Mygod离线下载器</a>！</div>
     <div>
         <input type="text" id="link-box" />
     </div>

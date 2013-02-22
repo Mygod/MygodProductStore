@@ -30,7 +30,9 @@
             <div>预计结束时间：<%=EndingTime %></div>
             <div>当前任务总数：<%=TaskCount %></div>
             <div class="progress-bar">
+                <%-- ReSharper disable UnexpectedValue --%>
                 <div class="bar" style="width: <%=Percentage %>%;"></div>
+                <%-- ReSharper restore UnexpectedValue --%>
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
@@ -66,5 +68,7 @@
             很简单，刷新一下，你的下载就会开始。Enjoy! :D</li>
         <li>下载离线下载器下载好的文件的速度真**慢啊……<br />
             是的，我们似乎也发现了我们的网速受到了土啬的限制，你可以试试使用迅雷（使用这个页面的地址下载），或者换个时间来下。如果运气好，可以全速下载。</li>
+        <li>我可以使用迅雷下载吗？<br />
+            是的！研究表明<strong>你完全可以用迅雷下载</strong>，而且似乎迅雷下载得更快！</li>
     </ol>
 </asp:Content>
