@@ -5,6 +5,7 @@
             width: 100%;
         }
     </style>
+    <script type="text/javascript" src="https://raw.github.com/carlo/jquery-base64/master/jquery.base64.min.js"></script>
     <script type="text/javascript">
         function isNullOrWhitespace(input) {
             if (!input) return true;
