@@ -16,7 +16,9 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
 
         private void Update(bool firstLoad)
         {
-            TaskCount = Application.Count + "/" + new DirectoryInfo(Server.MapPath("/Temp")).GetFiles().Length / 2;
+            var temp = Server.MapPath("/Temp");
+            Directory.CreateDirectory(temp);
+            TaskCount = Application.Count + "/" + new DirectoryInfo(temp).GetFiles().Length / 2;
             Url = FileSize = DownloadedFileSize = AverageDownloadSpeed = StartTime = SpentTime = RemainingTime = EndingTime = "未知";
             Percentage = "0";
             string md5 = Request.QueryString["Key"] ?? string.Empty, path = Server.MapPath("/Temp/" + md5), xmlPath = path + ".xml";
