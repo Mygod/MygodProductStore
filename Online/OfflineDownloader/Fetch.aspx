@@ -37,7 +37,7 @@
         </ContentTemplate>
     </asp:UpdatePanel>
     <div>&nbsp;</div>
-    <div class="center">你的任务被服务器咔嚓了？下载完了这个机密文件准备把它销毁了？服务器端的这个文件已经更新了？点击下面可怕的按钮销毁你的文件！</div>
+    <div class="center">你的任务被服务器咔嚓了？下载失败了？下载完了这个机密文件准备把它销毁了？服务器端的这个文件已经更新了？点击下面可怕的按钮销毁你的文件！</div>
     <div>&nbsp;</div>
     <div class="center"><button type="button" id="terrible-button">我就是那个可怕的按钮</button></div>
     <div>&nbsp;</div>
@@ -46,7 +46,7 @@
         <li>盯着上面的进度看它不断更新；</li>
         <li>跳踢踏舞；</li>
         <li>上Mygod 工作室™或Mygod 产品专卖店™的网站；</li>
-        <li>下载些来自Mygod 工作室™的伟大产品；</li>
+        <li>订购些来自Mygod 工作室™的伟大产品；</li>
         <li>撞墙；</li>
         <li>抱怨Mygod离线下载器下载得太慢；</li>
         <li>再<a href="/Online/OfflineDownloader/" target="_blank">开始一个新任务</a>；</li>
@@ -69,6 +69,6 @@
         <li>下载离线下载器下载好的文件的速度真**慢啊……<br />
             是的，我们似乎也发现了我们的网速受到了土啬的限制，你可以试试使用迅雷（使用这个页面的地址下载），或者换个时间来下。如果运气好，可以全速下载。</li>
         <li>我可以使用迅雷下载吗？<br />
-            是的！研究表明<strong>你完全可以用迅雷下载</strong>，而且似乎迅雷下载得更快！</li>
+            是的！研究表明<strong>你完全可以用迅雷下载</strong>，而且似乎迅雷下载得更快！只要等离线下载完成后将此页的链接复制到迅雷中即可！</li>
     </ol>
 </asp:Content>
