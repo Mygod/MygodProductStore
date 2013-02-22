@@ -59,7 +59,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 if (impossibleEnds) Never();
                 else
                 {
-                    var spentTime = DateTime.Now - startTime;
+                    var spentTime = DateTime.UtcNow - startTime;
                     SpentTime = spentTime.ToString("g");
                     var averageDownloadSpeed = downloadedFileSize / spentTime.TotalSeconds;
                     AverageDownloadSpeed = GetSize(averageDownloadSpeed);

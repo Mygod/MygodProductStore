@@ -48,10 +48,10 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                                 fileLength = null;
                             }
                         if (fileLength != null) download.Add(new XAttribute("size", fileLength));
-                        download.Add(new XAttribute("fileName", fileName), new XAttribute("startTime", DateTime.Now));
+                        download.Add(new XAttribute("fileName", fileName), new XAttribute("startTime", DateTime.UtcNow));
                         doc.Save(xmlPath);
                         stream.CopyTo(fileStream = File.Create(path));
-                        download.Add(new XAttribute("endTime", DateTime.Now));
+                        download.Add(new XAttribute("endTime", DateTime.UtcNow));
                         doc.Save(xmlPath);
                     }
                     catch (Exception exc)
