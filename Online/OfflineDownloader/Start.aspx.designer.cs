@@ -10,6 +10,6 @@
 namespace Mygod.Website.ProductStore.Online.OfflineDownloader {
     
     
-    public partial class Default {
+    public partial class Start {
     }
 }

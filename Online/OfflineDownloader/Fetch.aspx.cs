@@ -34,7 +34,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 return;
             }
             var startTime = DateTime.Parse(download.Attribute("startTime").Value);
-            StartTime = startTime.ToString("yyyy.M.d h:mm:ss.fff");
+            StartTime = startTime.AddHours(8).ToString("yyyy.M.d h:mm:ss.fff");
             var attr = download.Attribute("message");
             if (attr != null)
             {
@@ -64,7 +64,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                     var remainingTime =
                         new TimeSpan((long)(spentTime.Ticks * (fileSize - downloadedFileSize) / (double)downloadedFileSize));
                     RemainingTime = remainingTime.ToString("g");
-                    EndingTime = (startTime + spentTime + remainingTime).ToString("yyyy.M.d h:mm:ss.fff");
+                    EndingTime = (startTime + spentTime + remainingTime).AddHours(8).ToString("yyyy.M.d h:mm:ss.fff");
                 }
             }
             else
@@ -72,7 +72,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 Status = "下载完毕，刷新开始下载";
                 RemainingTime = new TimeSpan(0).ToString("g");
                 var endingTime = DateTime.Parse(attr.Value);
-                EndingTime = endingTime.ToString("yyyy.M.d h:mm:ss.fff");
+                EndingTime = endingTime.AddHours(8).ToString("yyyy.M.d h:mm:ss.fff");
                 var spentTime = endingTime - startTime;
                 SpentTime = spentTime.ToString("g");
                 var averageDownloadSpeed = downloadedFileSize / spentTime.TotalSeconds;
