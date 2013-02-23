@@ -9,9 +9,11 @@ namespace Mygod.Website.ProductStore.Online
     {
         public class Video : VideoBase
         {
-            private Video(string videoInfo)
+            private Video(string id)
             {
-                information = (from info in videoInfo.Split('&') let i = info.IndexOf('=') 
+                var videoInfo = Settings.Client.DownloadString(string.Format(R.GetVideoInfoLink, this.id = id));
+                information = (from info in videoInfo.Split('&')
+                               let i = info.IndexOf('=')
                                select new { Key = info.Substring(0, i), Value = info.Substring(i + 1) })
                     .ToDictionary(pair => pair.Key, pair => pair.Value);
                 if (videoInfo.Contains("status=fail"))
@@ -22,82 +24,96 @@ namespace Mygod.Website.ProductStore.Online
             }
 
             private static readonly Regex
-                R0 = new Regex("(?|&)v=([A-Za-z0-9_\\-]{11})", RegexOptions.Compiled), 
-                R1 = new Regex("data-video-id=([\"'])([A-Za-z0-9_\\-]{11})\\1", RegexOptions.Compiled),
-                R2 = new Regex("youtube(.googleapis)?.com/(v|embed)/([A-Za-z0-9_\\-]{11})", RegexOptions.Compiled),
-                RSuper = new Regex("[A-Za-z0-9_\\-]{11}", RegexOptions.Compiled);
-            private static Video GetVideoFromVideoID(string id)
+                R0 = new Regex("data-video-id=(\"|')([A-Za-z0-9_\\-]{11})\\1", RegexOptions.Compiled),
+                R1 = new Regex("(\\?|&)v=([A-Za-z0-9_\\-]{11})", RegexOptions.Compiled),
+                R2 = new Regex("youtube(|.googleapis).com/(v|embed)/([A-Za-z0-9_\\-]{11})", RegexOptions.Compiled);
+            private static IEnumerable<Video> GetVideoFromContent(ISet<string> exception, string link)
             {
-                return new Video(Settings.Client.DownloadString(string.Format(R.GetVideoInfoLink, id)));
-            }
-            private static Video GetVideoFromContent(string link)
-            {
-                var exceptionList = new List<Exception>();
                 var match = R0.Match(link);
                 while (match.Success)
+                {
+                    Video result = null;
                     try
                     {
-                        return GetVideoFromVideoID(match.Value);
+                        var id = match.Groups[2].Value;
+                        if (!exception.Contains(id))
+                        {
+                            exception.Add(id);
+                            result = new Video(id);
+                        }
                     }
-                    catch (Exception e)
-                    {
-                        exceptionList.Add(e);
-                    }
+                    catch { }
+                    if (result != null) yield return result;
+                    match = match.NextMatch();
+                }
                 match = R1.Match(link);
                 while (match.Success)
+                {
+                    Video result = null;
                     try
                     {
-                        return GetVideoFromVideoID(match.Groups[2].Value);
+                        var id = match.Groups[2].Value;
+                        if (!exception.Contains(id))
+                        {
+                            exception.Add(id);
+                            result = new Video(id);
+                        }
                     }
-                    catch (Exception e)
-                    {
-                        exceptionList.Add(e);
-                    }
+                    catch { }
+                    if (result != null) yield return result;
+                    match = match.NextMatch();
+                }
                 match = R2.Match(link);
                 while (match.Success)
+                {
+                    Video result = null;
                     try
                     {
-                        return GetVideoFromVideoID(match.Groups[3].Value);
+                        var id = match.Groups[3].Value;
+                        if (!exception.Contains(id))
+                        {
+                            exception.Add(id);
+                            result = new Video(id);
+                        }
                     }
-                    catch (Exception e)
-                    {
-                        exceptionList.Add(e);
-                    }
-                match = RSuper.Match(link);
-                while (match.Success)
-                    try
-                    {
-                        return GetVideoFromVideoID(match.Value);
-                    }
-                    catch (Exception e)
-                    {
-                        exceptionList.Add(e);
-                    }
-                throw new AggregateException("未找到视频。", exceptionList);
+                    catch { }
+                    if (result != null) yield return result;
+                    match = match.NextMatch();
+                }
             }
-            public static Video GetVideoFromLink(string link)
+            public static IEnumerable<Video> GetVideoFromLink(string link)
             {
-                try
-                {
-                    return GetVideoFromContent(link);
-                }
-                catch (Exception e1)
-                {
-                    try
-                    {
-                        return GetVideoFromContent(Settings.Client.DownloadString(link));   // find video inner
-                    }
-                    catch (Exception e2)
-                    {
-                        throw new AggregateException(e1, e2);
-                    }
-                }
+                var result = new HashSet<string>();
+                foreach (var video in GetVideoFromContent(result, link)) yield return video;
+                foreach (var video in GetVideoFromContent(result, Settings.Client.DownloadString(link))) yield return video;
             }
+
+            private readonly string id;
             private readonly Dictionary<string, string> information;
             public readonly List<FmtStream> FmtStreamMap;
 
             public override string Title { get { return Uri.UnescapeDataString(information["title"]).Replace('+', ' '); } }
             public override string Author { get { return Uri.UnescapeDataString(information["author"]).Replace('+', ' '); } }
+            public string Url { get { return "http://www.youtube.com/watch?v=" + id; } }
+
+            public override bool Equals(object obj)
+            {
+                if (ReferenceEquals(null, obj)) return false;
+                if (ReferenceEquals(this, obj)) return true;
+                return obj.GetType() == GetType() && Equals((Video)obj);
+            }
+            private bool Equals(Video other)
+            {
+                return string.Equals(id, other.id);
+            }
+            public override int GetHashCode()
+            {
+                return (id != null ? id.GetHashCode() : 0);
+            }
+            public override string ToString()
+            {
+                return Title;
+            }
         }
 
         public class FmtStream : VideoLinkBase
@@ -110,7 +126,8 @@ namespace Mygod.Website.ProductStore.Online
 
             private FmtStream(VideoFormat videoFormat, VideoEncodings videoEncoding, int videoWidth, int videoHeight,
                               double? videoMinBitrate, double? videoMaxBitrate, AudioEncodings audioEncoding, int audioMinChannels,
-                              int audioMaxChannels, int audioSamplingRate, int? audioBitrate, string url, Video parent) : this(parent, url)
+                              int audioMaxChannels, int audioSamplingRate, int? audioBitrate, string url, Video parent)
+                : this(parent, url)
             {
                 Format = videoFormat;
                 VideoEncoding = videoEncoding;
@@ -127,10 +144,11 @@ namespace Mygod.Website.ProductStore.Online
 
             public static IEnumerable<FmtStream> Create(string data, Video parent)
             {
-                var dic = (from info in data.Split('&') let i = info.IndexOf('=')
+                var dic = (from info in data.Split('&')
+                           let i = info.IndexOf('=')
                            select new { Key = info.Substring(0, i), Value = info.Substring(i + 1) })
                     .ToDictionary(pair => pair.Key, pair => pair.Value);
-                var result = Create(Convert.ToInt32(dic["itag"]), dic["url"].UrlDecode() + "&signature=" + dic["sig"], 
+                var result = Create(Convert.ToInt32(dic["itag"]), dic["url"].UrlDecode() + "&signature=" + dic["sig"],
                                     dic["fallback_host"], parent).ToList();
                 foreach (var u in result.OfType<UnknownFmtStream>())
                 {
@@ -144,7 +162,7 @@ namespace Mygod.Website.ProductStore.Online
             {
                 var fallbackUrl = url.Substring(7);
                 fallbackUrl = "http://" + fallbackHost + fallbackUrl.Remove(0, fallbackUrl.IndexOf('/'));
-                var urls = string.IsNullOrEmpty(fallbackHost) ? new[] { url } : new[] {url, fallbackUrl};
+                var urls = string.IsNullOrEmpty(fallbackHost) ? new[] { url } : new[] { url, fallbackUrl };
                 switch (itag)
                 {
                     case 0:     //OUTDATED, 4 Unknown
@@ -264,6 +282,17 @@ namespace Mygod.Website.ProductStore.Online
             // ReSharper restore MemberCanBePrivate.Global
 
             private readonly Video parent;
+            public override string Properties
+            {
+                get
+                {
+                    return string.Format("视频格式：{0}{10}视频编码：{1}{10}视频最大大小：{2}x{3}{10}视频比特率：{4}MBps{10}" +
+                                         "音频编码：{5}{10}音频声道数：{6}{10}音频采样速率：{7}{10}音频比特率：{8}KBps{10}" +
+                                         "视频下载地址：{9}{10}", VideoFormatToString(), VideoEncodingsToString(), MaxVideoWidth,
+                                         MaxVideoHeight, VideoBitrateToString(), AudioEncodingsToString(), ChannelsToString(),
+                                         SamplingRate, AudioBitrate, Url, Environment.NewLine);
+                }
+            }
 
             public override VideoBase Parent { get { return parent; } }
             public override string Extension { get { return GetVideoFormatExtension(Format); } }
@@ -337,7 +366,8 @@ namespace Mygod.Website.ProductStore.Online
 
         private class UnknownFmtStream : FmtStream
         {
-            public UnknownFmtStream(int code, string url, Video parent) : base(parent, url)
+            public UnknownFmtStream(int code, string url, Video parent)
+                : base(parent, url)
             {
                 videoTypeCode = code;
             }
@@ -396,14 +426,14 @@ namespace Mygod.Website.ProductStore.Online
 
         public enum VideoEncodings
         {
-            Undefined, 
-            SorensonH263, 
+            Undefined,
+            SorensonH263,
             H264Main,
-            H264Baseline, 
+            H264Baseline,
             H264High,
-            H2643D, 
-            VP8, 
-            VP83D, 
+            H2643D,
+            VP8,
+            VP83D,
             MPEG4Visual
         }
 

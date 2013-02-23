@@ -12,6 +12,7 @@ namespace Mygod.Website.ProductStore.Online
     {
         public abstract string Url { get; }
         public abstract string Extension { get; }
+        public abstract string Properties { get; }
         public abstract VideoBase Parent { get; }
         public abstract int CompareTo(VideoLinkBase other);
     }

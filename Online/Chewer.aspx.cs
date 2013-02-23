@@ -14,8 +14,12 @@ namespace Mygod.Website.ProductStore.Online
         {
             var url = Request.QueryString["URL"];
             if (string.IsNullOrWhiteSpace(url)) return;
-            url = Encoding.UTF8.GetString(Convert.FromBase64String(url)).Reverse().Aggregate(string.Empty, (c, s) => c + s);
-            url = TFQR.Decode(TFQR.GetUrlType(url), url);
+            var type = TFQR.GetUrlType(url);
+            while (type != Operation.Normal)
+            {
+                url = TFQR.Decode(type, url);
+                type = TFQR.GetUrlType(url);
+            }
             #region 定义局部变量
             long startBytes = 0;
             const int packSize = 1024 * 10; //分块读取，每块10K bytes  

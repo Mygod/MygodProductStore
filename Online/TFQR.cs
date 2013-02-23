@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Text;
 
 namespace Mygod.Website.ProductStore.Online
@@ -73,6 +74,23 @@ namespace Mygod.Website.ProductStore.Online
             return PublicDecode(link, "fs2you://", String.Empty, String.Empty, "RayFile");
         }
 
+        public static string Reverse(string value)
+        {
+            return value.Reverse().Aggregate(string.Empty, (c, s) => c + s);
+        }
+
+        public static string OfflineEncode(string link)
+        {
+            return PublicEncode(Reverse(link), "http://mygod.apphb.com/Online/OfflineDownloader/Start.aspx?URL=", string.Empty,
+                                string.Empty, "Mygod离线下载器");
+        }
+
+        public static string OfflineDecode(string link)
+        {
+            return Reverse(PublicDecode(link, "http://mygod.apphb.com/Online/OfflineDownloader/Start.aspx?URL=", string.Empty,
+                           string.Empty, "Mygod离线下载器"));
+        }
+
         public static string Encode(Operation to, string i)
         {
             switch (to)
@@ -88,6 +106,8 @@ namespace Mygod.Website.ProductStore.Online
                     return QQDLEncode(i);
                 case Operation.RayFile:
                     return RayFileEncode(i);
+                case Operation.Offline:
+                    return OfflineEncode(i);
                 default:
                     throw new ArgumentException("未知的链接格式！");
             }
@@ -113,6 +133,11 @@ namespace Mygod.Website.ProductStore.Online
             }
         }
 
+        public static string Decode(string i)
+        {
+            return Decode(GetUrlType(i), i);
+        }
+
         public static string ConvertUrl(Operation from, Operation to, string i)
         {
             return from == to ? i : Encode(to, Decode(from, i));
@@ -126,6 +151,7 @@ namespace Mygod.Website.ProductStore.Online
         public static Operation GetUrlType(string i)
         {
             var l = i.ToLower();
+            if (l.StartsWith("http://mygod.apphb.com/online/offlinedownloader/start.aspx?url=")) return Operation.Offline;
             if (l.StartsWith("thunder://")) return Operation.Thunder;
             if (l.StartsWith("flashget://")) return Operation.FlashGet;
             if (l.StartsWith("qqdl://")) return Operation.QQDL;
@@ -135,6 +161,6 @@ namespace Mygod.Website.ProductStore.Online
 
     enum Operation
     {
-        HideEar, Copy, Normal, Thunder, FlashGet, QQDL, RayFile, Download
+        HideEar, Copy, Normal, Thunder, FlashGet, QQDL, RayFile, Download, Offline
     }
 }
