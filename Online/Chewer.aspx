@@ -8,15 +8,11 @@
     </style>
     <script type="text/javascript" src="https://raw.github.com/carlo/jquery-base64/master/jquery.base64.min.js"></script>
     <script type="text/javascript">
-        function isNullOrWhitespace(input) {
-            if (!input) return true;
-            return input.replace(/\s/g, '').length < 1;
-        }
         $(document).ready(function () {
             $("#magic-button").click(function () {
                 var box = $("#link-box");
                 var value = box.val();
-                if (!isNullOrWhitespace(value) && value.indexOf("mygod.apphb.com") < 0)
+                if (!isNullOrWhiteSpace(value) && value.indexOf("mygod.apphb.com") < 0)
                     box.val("http://mygod.apphb.com/Online/Chewer.aspx?URL=" + $.base64.encode(value.split("").reverse().join("")));
             });
         });

@@ -54,6 +54,8 @@
     <Content Include="fonts\iconFont.eot" />
     <Content Include="fonts\iconFont.ttf" />
     <Content Include="fonts\iconFont.woff" />
+    <Content Include="javascript\countdowns.js" />
+    <Content Include="javascript\generic.js" />
     <Content Include="less\accordion.less" />
     <Content Include="less\bricks.less" />
     <Content Include="less\buttons.less" />
@@ -89,6 +91,7 @@
     <Content Include="less\tiles.less" />
     <Content Include="less\typography.less" />
     <Content Include="Online\BrowserDownload.aspx" />
+    <Content Include="Online\Countdowns.aspx" />
     <Content Include="Online\Default.aspx" />
     <Content Include="Online\MOM\askbutton.png" />
     <Content Include="Online\MOM\bigcomputer2.mp3" />
@@ -404,6 +407,13 @@
     </Compile>
     <Compile Include="Online\BrowserDownload.aspx.designer.cs">
       <DependentUpon>BrowserDownload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Online\Countdowns.aspx.cs">
+      <DependentUpon>Countdowns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\Countdowns.aspx.designer.cs">
+      <DependentUpon>Countdowns.aspx</DependentUpon>
     </Compile>
     <Compile Include="Online\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

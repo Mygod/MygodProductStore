@@ -7,14 +7,10 @@
     </style>
     <script type="text/javascript" src="https://raw.github.com/carlo/jquery-base64/master/jquery.base64.min.js"></script>
     <script type="text/javascript">
-        function isNullOrWhitespace(input) {
-            if (!input) return true;
-            return input.replace(/\s/g, '').length < 1;
-        }
         $(document).ready(function () {
             $("#magic-button").click(function () {
                 var value = $("#link-box").val();
-                if (!isNullOrWhitespace(value)) location.href = "Start.aspx?URL=" + $.base64.encode(value.split("").reverse().join(""));
+                if (!isNullOrWhiteSpace(value)) location.href = "Start.aspx?URL=" + $.base64.encode(value.split("").reverse().join(""));
             });
         });
     </script>
