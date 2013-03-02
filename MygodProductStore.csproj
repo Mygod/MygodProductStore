@@ -60,6 +60,8 @@
     <Content Include="fonts\iconFont.eot" />
     <Content Include="fonts\iconFont.ttf" />
     <Content Include="fonts\iconFont.woff" />
+    <Content Include="images\Logo.png" />
+    <Content Include="images\RSS.png" />
     <Content Include="javascript\countdowns.js" />
     <Content Include="javascript\generic.js" />
     <Content Include="less\accordion.less" />
@@ -96,7 +98,6 @@
     <Content Include="less\theme-dark.less" />
     <Content Include="less\tiles.less" />
     <Content Include="less\typography.less" />
-    <Content Include="Logo.png" />
     <Content Include="Online\BrowserDownload.aspx" />
     <Content Include="Online\Countdowns.aspx" />
     <Content Include="Online\Default.aspx" />

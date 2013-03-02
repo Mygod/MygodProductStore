@@ -50,9 +50,10 @@ namespace Mygod.Website.ProductStore
             Date = element.GetAttribute("Date");
             Requirements = element.GetAttribute("Requirements").Replace("\\", @"\\");
             Link = element.GetAttribute("Link");
+            Producer = element.GetAttribute("Producer");
         }
 
-        public readonly string ID, Title, Date, Requirements, Link;
+        public readonly string ID, Title, Date, Requirements, Link, Producer;
     }
 
     public static class Helper
