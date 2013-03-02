@@ -19,7 +19,7 @@
     <asp:UpdatePanel ID="Panel" runat="server">
         <ContentTemplate>
             <asp:Timer runat="server" ID="Timer" Interval="1000"></asp:Timer>
-            <div>原文件地址：　<%=Url %></div>
+            <div style="word-wrap: break-word;">原文件地址：　<%=Url %></div>
             <div>当前状态：　　<%=Status %></div>
             <div>文件总大小：　<%=FileSize %></div>
             <div>已下载大小：　<%=DownloadedFileSize %></div>
