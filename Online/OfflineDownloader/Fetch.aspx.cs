@@ -16,12 +16,13 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
 
         private void Update(bool firstLoad)
         {
-            var temp = Server.MapPath("/Temp");
+            var temp = Server.MapPath("/Temp/OfflineDownloader/");
             Directory.CreateDirectory(temp);
             TaskCount = Application.Count + "/" + new DirectoryInfo(temp).GetFiles().Length / 2;
             Url = FileSize = DownloadedFileSize = AverageDownloadSpeed = StartTime = SpentTime = RemainingTime = EndingTime = "未知";
             Percentage = "0";
-            string md5 = Request.QueryString["Key"] ?? string.Empty, path = Server.MapPath("/Temp/" + md5), xmlPath = path + ".xml";
+            string md5 = Request.QueryString["Key"] ?? string.Empty, path = Server.MapPath("/Temp/OfflineDownloader/" + md5), 
+                   xmlPath = path + ".xml";
             if (!File.Exists(xmlPath))
             {
                 Status = "你的文件消失了……我甚至不能确定它是否存在过。可能是服务器反应太慢了，按F5踹他一脚（刷新）试试。";

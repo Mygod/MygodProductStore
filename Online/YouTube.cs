@@ -16,7 +16,7 @@ namespace Mygod.Website.ProductStore.Online
                                let i = info.IndexOf('=')
                                select new { Key = info.Substring(0, i), Value = info.Substring(i + 1) })
                     .ToDictionary(pair => pair.Key, pair => pair.Value);
-                if (videoInfo.Contains("status=fail"))
+                if (!information.ContainsKey("status") || information["status"] == "fail")
                     throw new Exception("获取视频信息失败！原因：" + Uri.UnescapeDataString(information["reason"]).Replace('+', ' '));
                 FmtStreamMap = information["url_encoded_fmt_stream_map"].UrlDecode().Split(',')
                     .SelectMany(s => FmtStream.Create(s, this)).ToList();

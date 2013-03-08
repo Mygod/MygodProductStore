@@ -10,7 +10,8 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string md5 = Request.QueryString["Key"] ?? string.Empty, path = Server.MapPath("/Temp/" + md5), xmlPath = path + ".xml";
+            string md5 = Request.QueryString["Key"] ?? string.Empty, path = Server.MapPath("/Temp/OfflineDownloader/" + md5), 
+                   xmlPath = path + ".xml";
             var found = true;
             if (Application[md5] != null) ((Thread)Application[md5]).Abort();
             DeleteWithRetries(path);

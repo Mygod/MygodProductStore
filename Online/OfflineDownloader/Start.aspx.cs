@@ -19,7 +19,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
             url = Encoding.UTF8.GetString(Convert.FromBase64String(url)).Reverse().Aggregate(string.Empty, (c, s) => c + s);
             url = TFQR.Decode(TFQR.GetUrlType(url), url);
             string md5 = FormsAuthentication.HashPasswordForStoringInConfigFile(url, "MD5"),
-                   path = Server.MapPath("/Temp/" + md5), xmlPath = path + ".xml";
+                   path = Server.MapPath("/Temp/OfflineDownloader/" + md5), xmlPath = path + ".xml";
             if (!File.Exists(xmlPath))
             {
                 var download = new XElement("download", new XAttribute("url", url));
