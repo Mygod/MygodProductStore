@@ -19,6 +19,7 @@ namespace Mygod.Website.ProductStore
                 .GetManifestResourceStream("Mygod.Website.ProductStore.Products.xml")).ReadToEnd()).Element("Products").Elements("Product"))
                 Products.Add(new Product(product));
             // ReSharper restore PossibleNullReferenceException
+            Products = Products.OrderByDescending(product => DateTime.Parse(product.Date)).ToList();
         }
 
         private static DateTime? compilationTime;
