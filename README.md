@@ -9,3 +9,4 @@ Third Party Libraries
 =====================
 ASP.NET RSS Toolkit: http://aspnetrsstoolkit.codeplex.com/
 Metro UI CSS: http://metroui.org.ua/
+jquery-base64: https://github.com/carlo/jquery-base64

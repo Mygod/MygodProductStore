@@ -10,7 +10,6 @@
     <ProjectGuid>{60EC5A91-5825-447D-9FD5-7DB7298BE835}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Mygod.Website.ProductStore</RootNamespace>
     <AssemblyName>MygodProductStore</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -485,7 +484,7 @@
     <Compile Include="Online\NiGuanDownloader.aspx.designer.cs">
       <DependentUpon>NiGuanDownloader.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="InstallDotNetFx40Client.aspx.cs">
       <DependentUpon>InstallDotNetFx40Client.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
