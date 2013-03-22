@@ -16,5 +16,5 @@
     <div class="center"><asp:Button ID="SubmitButton" runat="server" Text="我就是那个神奇的按钮" /></div>
     <p><%=Output %></p>
     <div>离线下载支持使用迅雷。不想通过本服务器直接下载？试试该产品的完整版<a href="/#Product-66">掩耳</a>！</div>
-    <div>出现错误504 Gateway Time-out？看来你打算下载一个很大很大的播放列表……请耐心等待一会儿后重试。</div>
+    <div>出现错误504 Gateway Time-out？看来你打算下载一个很大很大的播放列表……请稍后重试。</div>
 </asp:Content>
