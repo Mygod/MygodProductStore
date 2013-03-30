@@ -6520,6 +6520,14 @@ pre code {
     max-width: 800px;
 }
 
-.center {
+.center, .screenshots {
     text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.screenshots img {
+    max-width: 100%;
 }

@@ -60,7 +60,6 @@
     <Content Include="fonts\iconFont.ttf" />
     <Content Include="fonts\iconFont.woff" />
     <Content Include="images\Logo.png" />
-    <Content Include="images\RSS.png" />
     <Content Include="javascript\countdowns.js" />
     <Content Include="javascript\generic.js" />
     <Content Include="less\accordion.less" />
@@ -388,6 +387,7 @@
     <Content Include="javascript\start-menu.js" />
     <Content Include="javascript\tile-drag.js" />
     <Content Include="javascript\tile-slider.js" />
+    <Content Include="Screenshots.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -400,9 +400,6 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Extensions.cs" />
-    <Compile Include="Feed.ashx.cs">
-      <DependentUpon>Feed.ashx</DependentUpon>
-    </Compile>
     <Compile Include="InstallDotNetFx40.aspx.cs">
       <DependentUpon>InstallDotNetFx40.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -492,6 +489,13 @@
     <Compile Include="InstallDotNetFx40Client.aspx.designer.cs">
       <DependentUpon>InstallDotNetFx40Client.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Screenshots.aspx.cs">
+      <DependentUpon>Screenshots.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screenshots.aspx.designer.cs">
+      <DependentUpon>Screenshots.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -508,9 +512,6 @@
     <Content Include="Online\MOM\loop_superbirds.ogg" />
     <Content Include="Online\MOM\momStartup.ogg" />
     <Content Include="Online\MOM\TCCEB.TTF" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Feed.ashx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

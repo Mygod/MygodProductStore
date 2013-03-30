@@ -1,6 +1,5 @@
 ﻿using System;
-using System.IO;
-using System.Web.Security;
+using System.Linq;
 using System.Web.UI;
 
 namespace Mygod.Website.ProductStore.Online
@@ -11,7 +10,9 @@ namespace Mygod.Website.ProductStore.Online
         {
             Output = string.Empty;
             if (string.IsNullOrWhiteSpace(LinkBox.Text)) return;
-            foreach (var video in YouTube.Video.GetVideoFromLink(LinkBox.Text))
+            int count;
+            if (!int.TryParse(CountBox.Text, out count) || count <= 0) count = int.MaxValue;
+            foreach (var video in YouTube.Video.GetVideoFromLink(LinkBox.Text).Take(count))
             {
                 Output += string.Format("<h3><a href='{1}'>{0}</a></h3>{2}", video.Title, video.Url, Environment.NewLine);
                 foreach (var link in video.FmtStreamMap) Output += string.Format("<div><a href='Chewer.aspx?URL={0}'>{1}</a>　" +

@@ -22,15 +22,20 @@
         function returnBase() {
             location.href = basePage + '#Main';
         }
-        function subscribe(id, title, requirements, link) {
+        function subscribe(id, title, requirements, link, screenshots) {
             var f = function() {
                 location.href = basePage + "#Product-" + id;
-                var buttons = {
-                    '官方下载': {
-                        'action': function() {
-                            window.open('http://mygodstudio.tk/Product/Details.aspx?ID=' + id);
-                            returnBase();
-                        }
+                var buttons = { };
+                if (screenshots != null) buttons.查看截图 = {
+                    'action': function() {
+                        window.open("Screenshots.aspx?ID=" + id);
+                        returnBase();
+                    }
+                };
+                buttons.官方下载 = {
+                    'action': function() {
+                        window.open('http://mygodstudio.tk/Product/Details.aspx?ID=' + id);
+                        returnBase();
                     }
                 };
                 if (link != null) buttons.镜像下载 = {
@@ -58,7 +63,7 @@
         }
         $(document).ready(function () {
             <% foreach (var product in Data.Products)
-               { %>subscribe('<%= product.ID %>', '<%=product.Title %>', '<%=product.Requirements %>', <%=product.Link == null ? "null" : '\'' + product.Link + '\''%>);
+               { %>subscribe('<%= product.ID %>', '<%=product.Title %>', '<%=product.Requirements %>', <%=product.Link == null ? "null" : '\'' + product.Link + '\''%>, <%=product.Screenshots == null ? "null" : '\'' + product.Screenshots + '\''%>);
             <% } %>
         });
     </script>

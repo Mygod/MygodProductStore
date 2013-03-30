@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -9,7 +9,7 @@ namespace Mygod.Website.ProductStore
 {
     public static class Data
     {
-        public static readonly List<Product> Products = new List<Product>();
+        public static readonly Products Products = new Products();
         public static readonly Assembly CurrentAssembly;
 
         static Data()
@@ -17,10 +17,10 @@ namespace Mygod.Website.ProductStore
             CurrentAssembly = Assembly.GetExecutingAssembly();
             // ReSharper disable PossibleNullReferenceException
             foreach (var product in XDocument.Parse(new StreamReader(CurrentAssembly
-                .GetManifestResourceStream("Mygod.Website.ProductStore.Products.xml")).ReadToEnd()).Element("Products").Elements("Product"))
-                Products.Add(new Product(product));
+                .GetManifestResourceStream("Mygod.Website.ProductStore.Products.xml")).ReadToEnd()).Element("Products")
             // ReSharper restore PossibleNullReferenceException
-            Products = Products.OrderByDescending(product => DateTime.Parse(product.Date)).ToList();
+                .Elements("Product").Select(product => new Product(product)).OrderByDescending(product => DateTime.Parse(product.Date)))
+                Products.Add(product);
         }
 
         private static DateTime? compilationTime;
@@ -41,21 +41,30 @@ namespace Mygod.Website.ProductStore
         }
     }
 
+    public class Products : KeyedCollection<string, Product>
+    {
+        protected override string GetKeyForItem(Product item)
+        {
+            return item.ID;
+        }
+    }
+
     public class Product
     {
         public Product(XElement element)
         {
             ID = element.GetAttribute("ID");
-            Title = element.GetAttribute("Name");
+            Title = Name = element.GetAttribute("Name");
             var attr = element.GetAttribute("Version");
             if (attr != null) Title += ' ' + attr;
             Date = element.GetAttribute("Date");
             Requirements = element.GetAttribute("Requirements").Replace("\\", @"\\");
             Link = element.GetAttribute("Link");
             Producer = element.GetAttribute("Producer");
+            Screenshots = element.GetAttribute("Screenshots");
         }
 
-        public readonly string ID, Title, Date, Requirements, Link, Producer;
+        public readonly string ID, Name, Title, Date, Requirements, Link, Producer, Screenshots;
     }
 
     public static class Helper
