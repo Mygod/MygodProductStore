@@ -36,6 +36,10 @@
             Mygod离线下载器
             <small>迅雷会员一点也不拽，Mygod会员现在也可以获得离线下载的功能！</small>
         </button>
+        <button class="command-button" type="button" id="wog-leaderboard">
+            粘粘世界吧排行榜
+            <small>wogfan in China!</small>
+        </button>
     </div>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -47,6 +51,7 @@
             $('#chewer').click(function () { location.href = 'Chewer.aspx'; });
             $('#youtube-downloader').click(function () { location.href = 'NiGuanDownloader.aspx'; });
             $('#offline-downloader').click(function () { location.href = 'OfflineDownloader/'; });
+            $('#wog-leaderboard').click(function () { location.href = 'WoGLeaderboard/'; });
         });
     </script>
 </asp:Content>

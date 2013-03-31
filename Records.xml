@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Records>
+    <Chapter Name="Chapter 1: The Goo Filled Hills">
+      <Level Name="Going Up">
+        <WorldRecord>
+          <Goos Value="11" Setter="" />
+          <Moves Value="3" Setter="" />
+          <Goal Value="2" Setter="Peter B" />
+          <OCD Value="5" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="11" Setter="" />
+          <Moves Value="3" Setter="" />
+          <Goal Value="3" Setter="dahkjdas" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Small Divide">
+        <WorldRecord>
+          <Goos Value="23" Setter="Peter B" />
+          <Moves Value="5" Setter="LTumbleweed" />
+          <Goal Value="5" Setter="Peter B" />
+          <OCD Value="8" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="21" Setter="dahkjdas" />
+          <Moves Value="8" Setter="" />
+          <Goal Value="7" Setter="dahkjdas" />
+          <OCD Value="10" Setter="dahkjdas" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Hang Low">
+        <WorldRecord>
+          <Goos Value="30" Setter="LTumbleweed" />
+          <Moves Value="4" Setter="dwerdwer" />
+          <Goal Value="9" Setter="Peter B" />
+          <OCD Value="40" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="24" Setter="dwerdwer" />
+          <Moves Value="4" Setter="dwerdwer" />
+          <Goal Value="14" Setter="粘粘球世界" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Impale Sticky">
+        <WorldRecord>
+          <Goos Value="53" Setter="LTumbleweed" />
+          <Moves Value="5" Setter="Peter B" />
+          <Goal Value="15" Setter="DaftasBrush" />
+          <OCD Value="21" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="48" Setter="dwerdwer" />
+          <Moves Value="12" Setter="dwerdwer" />
+          <Goal Value="19" Setter="dahkjdas" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Flying Machine">
+        <WorldRecord>
+          <Goos Value="10" Setter="Peter B" />
+          <Moves Value="1" Setter="DEFE" />
+          <Goal Value="10" Setter="Pavke" />
+          <OCD Value="10" Setter="Pavke" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="10" Setter="Mygod" />
+          <Moves Value="2" Setter="dwerdwer" />
+          <Goal Value="12" Setter="dahkjdas" />
+          <OCD Value="12" Setter="dahkjdas" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Fisty's Bog">
+        <WorldRecord>
+          <Goos Value="20" Setter="Peter B" />
+          <Moves Value="6" Setter="Peter B" />
+          <Goal Value="12" Setter="Peter B" />
+          <OCD Value="12" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="16" Setter="dwerdwer" />
+          <Moves Value="14" Setter="dwerdwer" />
+          <Goal Value="22" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Tower of Goo">
+        <WorldRecord>
+          <Goos Value="105" Setter="Peter B" />
+          <Moves Value="11" Setter="naveed_rizvi" />
+          <Goal Value="19" Setter="Peter B" />
+          <OCD Value="27" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="89" Setter="dwerdwer" />
+          <Moves Value="19" Setter="Mygod" />
+          <Goal Value="24" Setter="dahkjdas" />
+          <OCD Value="37" Setter="dahkjdas" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Ivy Towers">
+        <WorldRecord>
+          <Goos Value="16" Setter="" />
+          <Moves Value="0" Setter="DEFE" />
+          <Goal Value="2" Setter="Peter B" />
+          <OCD Value="6" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="16" Setter="" />
+          <Moves Value="2" Setter="" />
+          <Goal Value="4" Setter="粘粘球世界" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Tumbler">
+        <WorldRecord>
+          <Goos Value="36" Setter="" />
+          <Moves Value="0" Setter="Peter B" />
+          <Goal Value="4" Setter="Peter B" />
+          <OCD Value="15" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="36" Setter="" />
+          <Moves Value="1" Setter="Wogfan4Evr" />
+          <Goal Value="8" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Chain">
+        <WorldRecord>
+          <Goos Value="39" Setter="" />
+          <Moves Value="0" Setter="Kopa" />
+          <Goal Value="12" Setter="Peter B" />
+          <OCD Value="21" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="39" Setter="dwerdwer" />
+          <Moves Value="5" Setter="Wogfan4Evr" />
+          <Goal Value="25" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Ode to the Bridge Builder">
+        <WorldRecord>
+          <Goos Value="61" Setter="Peter B" />
+          <Moves Value="8" Setter="Peter B" />
+          <Goal Value="16" Setter="Peter B" />
+          <OCD Value="26" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="58" Setter="dwerdwer" />
+          <Moves Value="20" Setter="dwerdwer" />
+          <Goal Value="25" Setter="dahkjdas" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Regurgitation Pumping Station">
+        <WorldRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="2" Setter="Pavke" />
+          <Goal Value="16" Setter="Peter B" />
+          <OCD Value="16" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="36" Setter="Mygod" />
+          <Goal Value="44" Setter="dwerdwer" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+    </Chapter>
+    <Chapter Name="Chapter 2: Little Miss World of Goo">
+      <Level Name="Drool">
+        <WorldRecord>
+          <Goos Value="38" Setter="dwerdwer" />
+          <Moves Value="3" Setter="thB" />
+          <Goal Value="14" Setter="Peter B" />
+          <OCD Value="21" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="38" Setter="dwerdwer" />
+          <Moves Value="12" Setter="Wogfan4Evr" />
+          <Goal Value="23" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Fly Away Little Ones">
+        <WorldRecord>
+          <Goos Value="15" Setter="Peter B" />
+          <Moves Value="0" Setter="Kopa" />
+          <Goal Value="8" Setter="Peter B" />
+          <OCD Value="17" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="14" Setter="dwerdwer" />
+          <Moves Value="2" Setter="Wogfan4Evr" />
+          <Goal Value="16" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Blustery Day">
+        <WorldRecord>
+          <Goos Value="36" Setter="Peter B" />
+          <Moves Value="6" Setter="Peter B" />
+          <Goal Value="23" Setter="DaftasBrush" />
+          <OCD Value="32" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="30" Setter="dwerdwer" />
+          <Moves Value="17" Setter="Wogfan4Evr" />
+          <Goal Value="42" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Welcoming Unit">
+        <WorldRecord>
+          <Goos Value="92" Setter="" />
+          <Moves Value="0" Setter="DEFE" />
+          <Goal Value="20" Setter="Peter B" />
+          <OCD Value="44" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="92" Setter="" />
+          <Moves Value="8" Setter="Wogfan4Evr" />
+          <Goal Value="40" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Beauty School">
+        <WorldRecord>
+          <Goos Value="18" Setter="" />
+          <Moves Value="0" Setter="Cycl4Mate" />
+          <Goal Value="12" Setter="Peter B" />
+          <OCD Value="12" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="18" Setter="" />
+          <Moves Value="0" Setter="Wogfan4Evr" />
+          <Goal Value="18" Setter="" />
+          <OCD Value="18" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Leap Hole">
+        <WorldRecord>
+          <Goos Value="8" Setter="" />
+          <Moves Value="2" Setter="Kopa" />
+          <Goal Value="2" Setter="Peter B" />
+          <OCD Value="2" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="8" Setter="" />
+          <Moves Value="2" Setter="Wogfan4Evr" />
+          <Goal Value="8" Setter="dwerdwer" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Whistler">
+        <WorldRecord>
+          <Goos Value="38" Setter="Pavke" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="16" Setter="Peter B" />
+          <OCD Value="16" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="28" Setter="dwerdwer" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="22" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Volcanic Percolator Day Spa">
+        <WorldRecord>
+          <Goos Value="18" Setter="" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="18" Setter="DaftasBrush" />
+          <OCD Value="18" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="18" Setter="" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="21" Setter="dahkjdas" />
+          <OCD Value="21" Setter="dahkjdas" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Beauty and the Electric Tentacle">
+        <WorldRecord>
+          <Goos Value="56" Setter="goomatz" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="13" Setter="Pavke" />
+          <OCD Value="19" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="49" Setter="Mygod" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="20" Setter="dahkjdas" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="The Red Carpet">
+        <WorldRecord>
+          <Goos Value="18" Setter="" />
+          <Moves Value="0" Setter="Marius" />
+          <Goal Value="11" Setter="Peter B" />
+          <OCD Value="11" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="18" Setter="" />
+          <Moves Value="15" Setter="dwerdwer" />
+          <Goal Value="36" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Genetic Sorting Machine">
+        <WorldRecord>
+          <Goos Value="24" Setter="dwerdwer" />
+          <Moves Value="0" Setter="LTumbleweed" />
+          <Goal Value="31" Setter="Pavke" />
+          <OCD Value="31" Setter="Pavke" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="24" Setter="dwerdwer" />
+          <Moves Value="4" Setter="lkjhgfdsa431" />
+          <Goal Value="57" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+    </Chapter>
+    <Chapter Name="Chapter 3: Cog in the Machine">
+      <Level Name="Burning Man">
+        <WorldRecord>
+          <Goos Value="43" Setter="Peter B" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="3" Setter="Peter B" />
+          <OCD Value="3" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="38" Setter="Mygod" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="13" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Second Hand Smoke">
+        <WorldRecord>
+          <Goos Value="36" Setter="Peter B" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="8" Setter="Peter B" />
+          <OCD Value="10" Setter="" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="31" Setter="dwerdwer" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="15" Setter="dwerdwer" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Misty's Long Bony Road">
+        <WorldRecord>
+          <Goos Value="65" Setter="Peter B" />
+          <Moves Value="5" Setter="Peter B" />
+          <Goal Value="15" Setter="Peter B" />
+          <OCD Value="39" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="55" Setter="dwerdwer" />
+          <Moves Value="25" Setter="Mygod" />
+          <Goal Value="56" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="The Third Wheel">
+        <WorldRecord>
+          <Goos Value="26" Setter="Peter B" />
+          <Moves Value="3" Setter="Peter B" />
+          <Goal Value="25" Setter="Peter B" />
+          <OCD Value="25" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="26" Setter="Mygod" />
+          <Moves Value="6" Setter="Wogfan4Evr" />
+          <Goal Value="61" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Water Lock">
+        <WorldRecord>
+          <Goos Value="46" Setter="goomatz" />
+          <Moves Value="0" Setter="" />
+          <Goal Value="21" Setter="Peter B" />
+          <OCD Value="45" Setter="naveed_rizvi" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="44" Setter="" />
+          <Moves Value="3" Setter="Wogfan4Evr" />
+          <Goal Value="60" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Super Fuse Challenge Time">
+        <WorldRecord>
+          <Goos Value="32" Setter="" />
+          <Moves Value="2" Setter="Peter B" />
+          <Goal Value="7" Setter="Peter B" />
+          <OCD Value="46" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="32" Setter="" />
+          <Moves Value="10" Setter="Wogfan4Evr" />
+          <Goal Value="13" Setter="粘粘球世界" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Upper Shaft">
+        <WorldRecord>
+          <Goos Value="57" Setter="DaftasBrush" />
+          <Moves Value="0" Setter="Pavke" />
+          <Goal Value="15" Setter="Peter B" />
+          <OCD Value="33" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="56" Setter="dwerdwer" />
+          <Moves Value="11" Setter="Wogfan4Evr" />
+          <Goal Value="21" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="You Have To Explode The Head">
+        <WorldRecord>
+          <Goos Value="95" Setter="Kopa" />
+          <Moves Value="0" Setter="Kopa" />
+          <Goal Value="7" Setter="Peter B" />
+          <OCD Value="12" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="94" Setter="dwerdwer" />
+          <Moves Value="2" Setter="dwerdwer" />
+          <Goal Value="18" Setter="dahkjdas" />
+          <OCD Value="18" Setter="dahkjdas" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Incineration Destination">
+        <WorldRecord>
+          <Goos Value="16" Setter="" />
+          <Moves Value="4" Setter="Peter B" />
+          <Goal Value="29" Setter="Peter B" />
+          <OCD Value="29" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="16" Setter="" />
+          <Moves Value="20" Setter="Wogfan4Evr" />
+          <Goal Value="42" Setter="dahkjdas" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Product Launcher">
+        <WorldRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="1" Setter="" />
+          <Goal Value="51" Setter="DaftasBrush" />
+          <OCD Value="51" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="1" Setter="" />
+          <Goal Value="69" Setter="dwerdwer" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+    </Chapter>
+    <Chapter Name="Chapter 4: Information Superhighway">
+      <Level Name="Hello, World">
+        <WorldRecord>
+          <Goos Value="20" Setter="Kopa" />
+          <Moves Value="0" Setter="Peter B" />
+          <Goal Value="3" Setter="Peter B" />
+          <OCD Value="3" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="20" Setter="dwerdwer" />
+          <Moves Value="5" Setter="dwerdwer" />
+          <Goal Value="9" Setter="" />
+          <OCD Value="9" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Bulletin Board System">
+        <WorldRecord>
+          <Goos Value="15" Setter="dwerdwer" />
+          <Moves Value="2" Setter="Peter B" />
+          <Goal Value="14" Setter="Peter B" />
+          <OCD Value="32" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="15" Setter="dwerdwer" />
+          <Moves Value="9" Setter="Wogfan4Evr" />
+          <Goal Value="23" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Grape Vine Virus">
+        <WorldRecord>
+          <Goos Value="19" Setter="dwerdwer" />
+          <Moves Value="19" Setter="Pavke" />
+          <Goal Value="31" Setter="DaftasBrush" />
+          <OCD Value="35" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="19" Setter="dwerdwer" />
+          <Moves Value="39" Setter="Wogfan4Evr" />
+          <Goal Value="83" Setter="dwerdwer" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Graphic Processing Unit">
+        <WorldRecord>
+          <Goos Value="21" Setter="" />
+          <Moves Value="9" Setter="DaftasBrush" />
+          <Goal Value="14" Setter="DaftasBrush" />
+          <OCD Value="17" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="21" Setter="" />
+          <Moves Value="13" Setter="dwerdwer" />
+          <Goal Value="27" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Road Blocks">
+        <WorldRecord>
+          <Goos Value="28" Setter="" />
+          <Moves Value="1" Setter="DaftasBrush" />
+          <Goal Value="7" Setter="Peter B" />
+          <OCD Value="7" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="28" Setter="dwerdwer" />
+          <Moves Value="3" Setter="dwerdwer" />
+          <Goal Value="22" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Graceful Failure">
+        <WorldRecord>
+          <Goos Value="12" Setter="dwerdwer" />
+          <Moves Value="1" Setter="" />
+          <Goal Value="6" Setter="DaftasBrush" />
+          <OCD Value="6" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="12" Setter="dwerdwer" />
+          <Moves Value="2" Setter="Mygod" />
+          <Goal Value="20" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Alice and Bob and the Third Party">
+        <WorldRecord>
+          <Goos Value="43" Setter="" />
+          <Moves Value="1" Setter="Pavke" />
+          <Goal Value="22" Setter="Peter B" />
+          <OCD Value="29" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="43" Setter="" />
+          <Moves Value="13" Setter="Wogfan4Evr" />
+          <Goal Value="58" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="The Server Farm">
+        <WorldRecord>
+          <Goos Value="30" Setter="Peter B" />
+          <Moves Value="3" Setter="Peter B" />
+          <Goal Value="5" Setter="Peter B" />
+          <OCD Value="10" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="28" Setter="dahkjdas" />
+          <Moves Value="9" Setter="dwerdwer" />
+          <Goal Value="11" Setter="dwerdwer" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="MOM's Computer">
+        <WorldRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="1" Setter="Kopa" />
+          <Goal Value="2" Setter="Peter B" />
+          <OCD Value="2" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="1" Setter="Wogfan4Evr" />
+          <Goal Value="6" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Deliverance">
+        <WorldRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="2" Setter="" />
+          <Goal Value="48" Setter="DaftasBrush" />
+          <OCD Value="55" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="5" Setter="" />
+          <Goal Value="68" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+    </Chapter>
+    <Chapter Name="Epilogue: End of the World">
+      <Level Name="Infesty the Worm">
+        <WorldRecord>
+          <Goos Value="36" Setter="Peter B" />
+          <Moves Value="2" Setter="LTumbleweed" />
+          <Goal Value="27" Setter="Peter B" />
+          <OCD Value="48" Setter="Peter B" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="21" Setter="dwerdwer" />
+          <Moves Value="11" Setter="Wogfan4Evr" />
+          <Goal Value="52" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Horizontal Transportation Innovation Committee">
+        <WorldRecord>
+          <Goos Value="64" Setter="Peter B" />
+          <Moves Value="0" Setter="Pavke" />
+          <Goal Value="13" Setter="Peter B" />
+          <OCD Value="28" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="58" Setter="dwerdwer" />
+          <Moves Value="1" Setter="Wogfan4Evr" />
+          <Goal Value="31" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Weather Vane">
+        <WorldRecord>
+          <Goos Value="108" Setter="Peter B" />
+          <Moves Value="10" Setter="Peter B" />
+          <Goal Value="12" Setter="DaftasBrush" />
+          <OCD Value="30" Setter="DaftasBrush" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="94" Setter="粘粘球世界" />
+          <Moves Value="16" Setter="Wogfan4Evr" />
+          <Goal Value="37" Setter="Wogfan4Evr" />
+          <OCD Value="5999" Setter="" />
+        </TiebaRecord>
+      </Level>
+      <Level Name="Observatory Observation Station">
+        <WorldRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="6" Setter="Peter B" />
+          <Goal Value="32" Setter="" />
+          <OCD Value="32" Setter="" />
+        </WorldRecord>
+        <TiebaRecord>
+          <Goos Value="0" Setter="" />
+          <Moves Value="7" Setter="" />
+          <Goal Value="35" Setter="Wogfan4Evr" />
+          <OCD Value="35" Setter="Wogfan4Evr" />
+        </TiebaRecord>
+      </Level>
+    </Chapter>
+</Records>

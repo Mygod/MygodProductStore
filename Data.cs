@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace Mygod.Website.ProductStore
     public static class Data
     {
         public static readonly Products Products = new Products();
+        public static readonly Records Records;
         public static readonly Assembly CurrentAssembly;
 
         static Data()
@@ -18,9 +20,13 @@ namespace Mygod.Website.ProductStore
             // ReSharper disable PossibleNullReferenceException
             foreach (var product in XDocument.Parse(new StreamReader(CurrentAssembly
                 .GetManifestResourceStream("Mygod.Website.ProductStore.Products.xml")).ReadToEnd()).Element("Products")
-            // ReSharper restore PossibleNullReferenceException
                 .Elements("Product").Select(product => new Product(product)).OrderByDescending(product => DateTime.Parse(product.Date)))
+            // ReSharper restore PossibleNullReferenceException
                 Products.Add(product);
+            // ReSharper disable AssignNullToNotNullAttribute
+            Records = new Records(XDocument.Parse(new StreamReader(CurrentAssembly
+                .GetManifestResourceStream("Mygod.Website.ProductStore.Records.xml")).ReadToEnd()).Element("Records"));
+            // ReSharper restore AssignNullToNotNullAttribute
         }
 
         private static DateTime? compilationTime;
@@ -39,6 +45,193 @@ namespace Mygod.Website.ProductStore
                 return compilationTime.Value;
             }
         }
+    }
+
+    public class Records : List<Chapter>
+    {
+        public Records(XElement element)
+        {
+            foreach (var chapter in element.Elements("Chapter")) Add(new Chapter(chapter));
+            foreach (var chapter in this) for (var i = 0; i < 4; i++)
+            {
+                TiebaSum[i] += chapter.TiebaSum[i];
+                WorldSum[i] += chapter.WorldSum[i];
+            }
+        }
+
+        public readonly int[] TiebaSum = new int[4], WorldSum = new int[4];
+    }
+
+    public class Chapter : List<Level>
+    {
+        public Chapter(XElement element)
+        {
+            Name = element.GetAttribute("Name");
+            foreach (var level in element.Elements("Level")) Add(new Level(this, level));
+            foreach (var level in this) for (var i = 0; i < 4; i++)
+            {
+                TiebaSum[i] += level.TiebaRecord[i].Value;
+                WorldSum[i] += level.WorldRecord[i].Value;
+            }
+        }
+
+        public readonly string Name;
+
+        public readonly int[] TiebaSum = new int[4], WorldSum = new int[4];
+    }
+
+    public class Level
+    {
+        public Level(Chapter parent, XElement element)
+        {
+            Parent = parent;
+            Name = element.GetAttribute("Name");
+            WorldRecord = new LevelRecord(this, element.Element("WorldRecord"), true);
+            TiebaRecord = new LevelRecord(this, element.Element("TiebaRecord"), false);
+        }
+
+        public readonly Chapter Parent;
+        public readonly string Name;
+        public readonly LevelRecord WorldRecord, TiebaRecord;
+    }
+
+    public class LevelRecord : List<Record>
+    {
+        public LevelRecord(Level parent, XElement element, bool isWorldRecord)
+        {
+            Parent = parent;
+            foreach (var record in element.Elements()) Add(new Record(this, record, isWorldRecord));
+        }
+
+        public readonly Level Parent;
+    }
+
+    public class Record
+    {
+        public Record(LevelRecord parent, XElement element, bool isWorldRecord)
+        {
+            Parent = parent;
+            Type = (RecordType) Enum.Parse(typeof(RecordType), element.Name.LocalName, true);
+            Value = int.Parse(element.GetAttribute("Value"));
+            Setter = element.GetAttribute("Setter");
+            if (string.IsNullOrWhiteSpace(Setter)) return;
+            if (isWorldRecord) Players.Instance.SetWorldRecord(Setter, Type);
+            else Players.Instance.SetTiebaRecord(Setter, Type);
+        }
+
+        public LevelRecord Parent;
+        public int Value;
+        public RecordType Type;
+        public string Setter;
+
+        private string overview, tooltip;
+        public string Overview
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(overview))
+                {
+                    overview = Type == RecordType.Goal || Type == RecordType.OCD
+                    ? string.Format("{0}:{1:00}", Value / 60, Value % 60) : Value.ToString();
+                    if (!string.IsNullOrWhiteSpace(Setter)) overview += " (" + Setter + ")";
+                }
+                return overview;
+            }
+        }
+        public string Tooltip
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(tooltip))
+                {
+                    var worldRecord = Parent.Parent.WorldRecord[(int) Type];
+                    var delta = Math.Abs(worldRecord.Value - Value);
+                    tooltip = Overview + "&#13;" + (delta == 0 ? "与世界纪录 " + worldRecord + " 相同！"
+                        : "离世界纪录 " + worldRecord + " 差 " + delta + ' ' + GetUnit(Type) + "！");
+                }
+                return tooltip;
+            }
+        }
+
+        private static string GetUnit(RecordType type)
+        {
+            switch (type)
+            {
+                case RecordType.Goos:                       return "球";
+                case RecordType.Moves:                      return "步";
+                case RecordType.Goal: case RecordType.OCD:  return "秒";
+                default:                                    return string.Empty;
+            }
+        }
+
+        public override string ToString()
+        {
+            return Overview;
+        }
+    }
+
+    public class Players : KeyedCollection<string, Player>
+    {
+        private Players()
+        {
+        }
+        static Players()
+        {
+            Instance = new Players();
+        }
+
+        public static readonly Players Instance;
+
+        protected override string GetKeyForItem(Player item)
+        {
+            return item.ID;
+        }
+
+        public void SetWorldRecord(string id, RecordType type)
+        {
+            if (!Contains(id)) Add(new Player(id));
+            var player = this[id];
+            player.WorldRecordsCount[(int)type]++;
+            player.WorldRecordsTotal++;
+        }
+
+        public void SetTiebaRecord(string id, RecordType type)
+        {
+            if (!Contains(id)) Add(new Player(id));
+            var player = this[id];
+            player.TiebaRecordsCount[(int)type]++;
+            player.TiebaRecordsTotal++;
+        }
+    }
+
+    public class Player
+    {
+        public Player(string id)
+        {
+            ID = id;
+        }
+
+        public readonly string ID;
+        public readonly int[] WorldRecordsCount = new int[4], TiebaRecordsCount = new int[4];
+        public int WorldRecordsTotal, TiebaRecordsTotal;
+        private string strCache;
+
+        public override string ToString()
+        {
+            if (string.IsNullOrEmpty(strCache))
+            {
+                strCache = ID;
+                if (WorldRecordsTotal > 0) strCache += "，破了 " + WorldRecordsTotal + " 项世界纪录";
+                if (TiebaRecordsTotal > 0) strCache += "，破了 " + TiebaRecordsTotal + " 项贴吧纪录";
+                strCache += "。";
+            }
+            return strCache;
+        }
+    }
+
+    public enum RecordType
+    {
+        Goos, Moves, Goal, OCD
     }
 
     public class Products : KeyedCollection<string, Product>

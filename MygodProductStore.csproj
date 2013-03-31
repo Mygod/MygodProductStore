@@ -387,6 +387,8 @@
     <Content Include="javascript\start-menu.js" />
     <Content Include="javascript\tile-drag.js" />
     <Content Include="javascript\tile-slider.js" />
+    <Content Include="Online\WoGLeaderboard\Default.aspx" />
+    <EmbeddedResource Include="Records.xml" />
     <Content Include="Screenshots.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -473,6 +475,13 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Online\WoGCorp\WoGBuddy.cs" />
+    <Compile Include="Online\WoGLeaderboard\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\WoGLeaderboard\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Online\YouTube.cs" />
     <Compile Include="Online\NiGuanDownloader.aspx.cs">
       <DependentUpon>NiGuanDownloader.aspx</DependentUpon>
