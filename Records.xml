@@ -12,7 +12,7 @@
           <Goos Value="11" Setter="" />
           <Moves Value="3" Setter="" />
           <Goal Value="3" Setter="dahkjdas" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="12" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Small Divide">
@@ -40,7 +40,7 @@
           <Goos Value="24" Setter="dwerdwer" />
           <Moves Value="4" Setter="dwerdwer" />
           <Goal Value="14" Setter="粘粘球世界" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="78" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Impale Sticky">
@@ -54,7 +54,7 @@
           <Goos Value="48" Setter="dwerdwer" />
           <Moves Value="12" Setter="dwerdwer" />
           <Goal Value="19" Setter="dahkjdas" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="55" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Flying Machine">
