@@ -16,7 +16,7 @@
     <div class="screenshots">
         <% foreach (var screenshot in product.Screenshots.Split(new[] { '^' }, StringSplitOptions.RemoveEmptyEntries))
            { %>
-        <a href="<%=screenshot %>" target="blank"><img src="<%=screenshot %>" alt="截图<%=++i %>" title="点击看大图" /></a>
+        <a href="<%=screenshot %>" target="_blank"><img src="<%=screenshot %>" alt="截图<%=++i %>" title="点击看大图" /></a>
         <% } %>
     </div>
     <% } %>
