@@ -12,7 +12,7 @@
           <Goos Value="11" Setter="" />
           <Moves Value="3" Setter="" />
           <Goal Value="3" Setter="dahkjdas" />
-          <OCD Value="12" Setter="Mygod" />
+          <OCD Value="8" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="Small Divide">
@@ -251,7 +251,7 @@
         <TiebaRecord>
           <Goos Value="8" Setter="" />
           <Moves Value="2" Setter="Wogfan4Evr" />
-          <Goal Value="8" Setter="dwerdwer" />
+          <Goal Value="4" Setter="粘粘球世界" />
           <OCD Value="5999" Setter="" />
         </TiebaRecord>
       </Level>
@@ -407,7 +407,7 @@
         <TiebaRecord>
           <Goos Value="32" Setter="" />
           <Moves Value="10" Setter="Wogfan4Evr" />
-          <Goal Value="13" Setter="粘粘球世界" />
+          <Goal Value="11" Setter="粘粘球世界" />
           <OCD Value="5999" Setter="" />
         </TiebaRecord>
       </Level>
