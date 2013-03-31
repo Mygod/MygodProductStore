@@ -135,7 +135,7 @@
           <OCD Value="21" Setter="Peter B" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="39" Setter="dwerdwer" />
+          <Goos Value="39" Setter="" />
           <Moves Value="5" Setter="Wogfan4Evr" />
           <Goal Value="25" Setter="Wogfan4Evr" />
           <OCD Value="50" Setter="dahkjdas" />
@@ -164,9 +164,9 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="0" Setter="" />
-          <Moves Value="36" Setter="Mygod" />
-          <Goal Value="44" Setter="dwerdwer" />
-          <OCD Value="5999" Setter="" />
+          <Moves Value="9" Setter="粘粘球世界" />
+          <Goal Value="42" Setter="粘粘球世界" />
+          <OCD Value="42" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
     </Chapter>
@@ -222,7 +222,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="92" Setter="" />
-          <Moves Value="8" Setter="Wogfan4Evr" />
+          <Moves Value="7" Setter="粘粘球世界" />
           <Goal Value="40" Setter="Wogfan4Evr" />
           <OCD Value="5999" Setter="" />
         </TiebaRecord>
@@ -578,7 +578,7 @@
           <Goos Value="28" Setter="dahkjdas" />
           <Moves Value="9" Setter="dwerdwer" />
           <Goal Value="11" Setter="dwerdwer" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="16" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="MOM's Computer">
