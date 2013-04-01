@@ -29,7 +29,7 @@
         </tr>
             <% } %>
         <tr>
-            <td><strong>本章总计</strong></td>
+            <td><strong><%=chapter.Name %> 总计</strong></td>
             <td><%=chapter.TiebaSum[0] %> (<%=chapter.WorldSum[0] %>)</td>
             <td><%=chapter.TiebaSum[1] %> (<%=chapter.WorldSum[1] %>)</td>
             <td><%=chapter.TiebaSum[2] %>s (<%=chapter.WorldSum[2] %>s)</td>

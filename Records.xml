@@ -24,7 +24,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="21" Setter="dahkjdas" />
-          <Moves Value="8" Setter="" />
+          <Moves Value="7" Setter="dahkjdas" />
           <Goal Value="7" Setter="dahkjdas" />
           <OCD Value="10" Setter="dahkjdas" />
         </TiebaRecord>
@@ -93,7 +93,7 @@
           <OCD Value="27" Setter="Peter B" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="89" Setter="dwerdwer" />
+          <Goos Value="102" Setter="dahkjdas" />
           <Moves Value="19" Setter="Mygod" />
           <Goal Value="24" Setter="dahkjdas" />
           <OCD Value="37" Setter="dahkjdas" />
@@ -182,7 +182,7 @@
           <Goos Value="38" Setter="dwerdwer" />
           <Moves Value="12" Setter="Wogfan4Evr" />
           <Goal Value="23" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="56" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Fly Away Little Ones">
@@ -210,7 +210,7 @@
           <Goos Value="30" Setter="dwerdwer" />
           <Moves Value="17" Setter="Wogfan4Evr" />
           <Goal Value="42" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="62" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="Welcoming Unit">
@@ -224,7 +224,7 @@
           <Goos Value="92" Setter="" />
           <Moves Value="7" Setter="粘粘球世界" />
           <Goal Value="40" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="279" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Beauty School">
@@ -252,7 +252,7 @@
           <Goos Value="8" Setter="" />
           <Moves Value="2" Setter="Wogfan4Evr" />
           <Goal Value="4" Setter="粘粘球世界" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="4" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Whistler">
@@ -266,7 +266,7 @@
           <Goos Value="28" Setter="dwerdwer" />
           <Moves Value="0" Setter="" />
           <Goal Value="22" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="22" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
       <Level Name="Volcanic Percolator Day Spa">
@@ -294,7 +294,7 @@
           <Goos Value="49" Setter="Mygod" />
           <Moves Value="0" Setter="" />
           <Goal Value="20" Setter="dahkjdas" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="29" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="The Red Carpet">
@@ -308,7 +308,7 @@
           <Goos Value="18" Setter="" />
           <Moves Value="13" Setter="粘粘球世界" />
           <Goal Value="35" Setter="粘粘球世界" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="35" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Genetic Sorting Machine">
@@ -338,7 +338,7 @@
           <Goos Value="38" Setter="Mygod" />
           <Moves Value="0" Setter="" />
           <Goal Value="13" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="13" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
       <Level Name="Second Hand Smoke">
@@ -352,7 +352,7 @@
           <Goos Value="31" Setter="dwerdwer" />
           <Moves Value="0" Setter="" />
           <Goal Value="15" Setter="dwerdwer" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="16" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Misty's Long Bony Road">
@@ -366,7 +366,7 @@
           <Goos Value="55" Setter="dwerdwer" />
           <Moves Value="25" Setter="Mygod" />
           <Goal Value="56" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="496" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="The Third Wheel">
@@ -380,7 +380,7 @@
           <Goos Value="26" Setter="Mygod" />
           <Moves Value="6" Setter="Wogfan4Evr" />
           <Goal Value="61" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="2761" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Water Lock">
@@ -450,7 +450,7 @@
           <Goos Value="16" Setter="" />
           <Moves Value="20" Setter="Wogfan4Evr" />
           <Goal Value="42" Setter="dahkjdas" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="42" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="Product Launcher">
@@ -536,7 +536,7 @@
           <Goos Value="28" Setter="dwerdwer" />
           <Moves Value="3" Setter="dwerdwer" />
           <Goal Value="22" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="22" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
       <Level Name="Graceful Failure">
@@ -592,7 +592,7 @@
           <Goos Value="0" Setter="" />
           <Moves Value="1" Setter="Wogfan4Evr" />
           <Goal Value="6" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="6" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
       <Level Name="Deliverance">
@@ -606,7 +606,7 @@
           <Goos Value="0" Setter="" />
           <Moves Value="5" Setter="" />
           <Goal Value="68" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="68" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
     </Chapter>
