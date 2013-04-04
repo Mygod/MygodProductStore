@@ -67,7 +67,7 @@ namespace Mygod.Website.ProductStore
         public Chapter(XElement element)
         {
             Name = element.GetAttribute("Name");
-            foreach (var level in element.Elements("Level")) Add(new Level(this, level));
+            foreach (var level in element.Elements("Level")) Add(new Level(level));
             foreach (var level in this) for (var i = 0; i < 4; i++)
             {
                 TiebaSum[i] += level.TiebaRecord[i].Value;
@@ -82,15 +82,13 @@ namespace Mygod.Website.ProductStore
 
     public class Level
     {
-        public Level(Chapter parent, XElement element)
+        public Level(XElement element)
         {
-            Parent = parent;
             Name = element.GetAttribute("Name");
             WorldRecord = new LevelRecord(this, element.Element("WorldRecord"), true);
             TiebaRecord = new LevelRecord(this, element.Element("TiebaRecord"), false);
         }
 
-        public readonly Chapter Parent;
         public readonly string Name;
         public readonly LevelRecord WorldRecord, TiebaRecord;
     }
@@ -115,8 +113,8 @@ namespace Mygod.Website.ProductStore
             Value = int.Parse(element.GetAttribute("Value"));
             Setter = element.GetAttribute("Setter");
             if (string.IsNullOrWhiteSpace(Setter)) return;
-            if (isWorldRecord) Players.Instance.SetWorldRecord(Setter, Type);
-            else Players.Instance.SetTiebaRecord(Setter, Type);
+            if (isWorldRecord) Players.Instance.SetWorldRecord(this);
+            else Players.Instance.SetTiebaRecord(this);
         }
 
         public LevelRecord Parent;
@@ -124,15 +122,23 @@ namespace Mygod.Website.ProductStore
         public RecordType Type;
         public string Setter;
 
-        private string overview, tooltip;
+        private string formattedValue, overview, tooltip;
+        public string FormattedValue
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(formattedValue)) formattedValue = Type == RecordType.Goal || Type == RecordType.OCD
+                    ? string.Format("{0}:{1:00}", Value / 60, Value % 60) : Value.ToString();
+                return formattedValue;
+            }
+        }
         public string Overview
         {
             get
             {
                 if (string.IsNullOrEmpty(overview))
                 {
-                    overview = Type == RecordType.Goal || Type == RecordType.OCD
-                    ? string.Format("{0}:{1:00}", Value / 60, Value % 60) : Value.ToString();
+                    overview = FormattedValue;
                     if (!string.IsNullOrWhiteSpace(Setter)) overview += " (" + Setter + ")";
                 }
                 return overview;
@@ -146,14 +152,14 @@ namespace Mygod.Website.ProductStore
                 {
                     var worldRecord = Parent.Parent.WorldRecord[(int) Type];
                     var delta = Math.Abs(worldRecord.Value - Value);
-                    tooltip = Overview + "&#13;" + (delta == 0 ? "与世界纪录 " + worldRecord + " 相同！"
+                    tooltip = Overview + "&#10;" + (delta == 0 ? "与世界纪录 " + worldRecord + " 相同！"
                         : "离世界纪录 " + worldRecord + " 差 " + delta + ' ' + GetUnit(Type) + "！");
                 }
                 return tooltip;
             }
         }
 
-        private static string GetUnit(RecordType type)
+        public static string GetUnit(RecordType type)
         {
             switch (type)
             {
@@ -187,20 +193,28 @@ namespace Mygod.Website.ProductStore
             return item.ID;
         }
 
-        public void SetWorldRecord(string id, RecordType type)
+        public void SetWorldRecord(Record record)
         {
-            if (!Contains(id)) Add(new Player(id));
-            var player = this[id];
-            player.WorldRecordsCount[(int)type]++;
+            if (!Contains(record.Setter)) Add(new Player(record.Setter));
+            var player = this[record.Setter];
             player.WorldRecordsTotal++;
+            if (!string.IsNullOrWhiteSpace(player.WorldRecords)) player.WorldRecords += "&#10;";
+            player.WorldRecords += string.Format("{0} {1}{2}{3}", record.Parent.Parent.Name,
+                                                 record.Type == RecordType.OCD ? "OCD " : string.Empty, record.FormattedValue,
+                                                 record.Type == RecordType.Goal || record.Type == RecordType.OCD
+                                                     ? string.Empty : Record.GetUnit(record.Type));
         }
 
-        public void SetTiebaRecord(string id, RecordType type)
+        public void SetTiebaRecord(Record record)
         {
-            if (!Contains(id)) Add(new Player(id));
-            var player = this[id];
-            player.TiebaRecordsCount[(int)type]++;
+            if (!Contains(record.Setter)) Add(new Player(record.Setter));
+            var player = this[record.Setter];
             player.TiebaRecordsTotal++;
+            if (!string.IsNullOrWhiteSpace(player.TiebaRecords)) player.TiebaRecords += "&#10;";
+            player.TiebaRecords += string.Format("{0} {1}{2}{3}", record.Parent.Parent.Name,
+                                                 record.Type == RecordType.OCD ? "OCD " : string.Empty, record.FormattedValue,
+                                                 record.Type == RecordType.Goal || record.Type == RecordType.OCD
+                                                     ? string.Empty : Record.GetUnit(record.Type));
         }
     }
 
@@ -212,9 +226,19 @@ namespace Mygod.Website.ProductStore
         }
 
         public readonly string ID;
-        public readonly int[] WorldRecordsCount = new int[4], TiebaRecordsCount = new int[4];
         public int WorldRecordsTotal, TiebaRecordsTotal;
+        public string WorldRecords = string.Empty, TiebaRecords = string.Empty;
         private string strCache;
+
+        public string Records
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(WorldRecords)) return TiebaRecords;
+                return string.IsNullOrEmpty(TiebaRecords) ? WorldRecords
+                    : "世界纪录：&#10;" + WorldRecords + "&#10;&#10;贴吧纪录：&#10;" + TiebaRecords;
+            }
+        }
 
         public override string ToString()
         {

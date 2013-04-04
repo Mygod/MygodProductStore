@@ -180,9 +180,9 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="38" Setter="dwerdwer" />
-          <Moves Value="12" Setter="Wogfan4Evr" />
+          <Moves Value="5" Setter="粘粘球世界" />
           <Goal Value="23" Setter="Wogfan4Evr" />
-          <OCD Value="56" Setter="Mygod" />
+          <OCD Value="48" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
       <Level Name="Fly Away Little Ones">
@@ -306,7 +306,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="18" Setter="" />
-          <Moves Value="13" Setter="粘粘球世界" />
+          <Moves Value="2" Setter="MayBeSuper" />
           <Goal Value="35" Setter="粘粘球世界" />
           <OCD Value="35" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -394,7 +394,7 @@
           <Goos Value="44" Setter="" />
           <Moves Value="3" Setter="Wogfan4Evr" />
           <Goal Value="60" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="178" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Super Fuse Challenge Time">
