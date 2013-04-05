@@ -436,7 +436,7 @@
           <Goos Value="94" Setter="dwerdwer" />
           <Moves Value="2" Setter="dwerdwer" />
           <Goal Value="18" Setter="dahkjdas" />
-          <OCD Value="18" Setter="dahkjdas" />
+          <OCD Value="5999" Setter="" />
         </TiebaRecord>
       </Level>
       <Level Name="Incineration Destination">
@@ -548,7 +548,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="12" Setter="dwerdwer" />
-          <Moves Value="1" Setter="MaybeSuper" />
+          <Moves Value="1" Setter="MayBeSuper" />
           <Goal Value="14" Setter="粘粘球世界" />
           <OCD Value="14" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -604,8 +604,8 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="0" Setter="" />
-          <Moves Value="2" Setter="MaybeSuper" />
-          <Goal Value="61" Setter="MaybeSuper" />
+          <Moves Value="2" Setter="MayBeSuper" />
+          <Goal Value="61" Setter="MayBeSuper" />
           <OCD Value="68" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
