@@ -39,7 +39,7 @@
         <TiebaRecord>
           <Goos Value="24" Setter="dwerdwer" />
           <Moves Value="4" Setter="dwerdwer" />
-          <Goal Value="14" Setter="粘粘球世界" />
+          <Goal Value="13" Setter="MayBeSuper" />
           <OCD Value="78" Setter="Mygod" />
         </TiebaRecord>
       </Level>
@@ -194,7 +194,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="14" Setter="dwerdwer" />
-          <Moves Value="2" Setter="Wogfan4Evr" />
+          <Moves Value="0" Setter="MayBeSuper" />
           <Goal Value="16" Setter="Wogfan4Evr" />
           <OCD Value="46" Setter="dahkjdas" />
         </TiebaRecord>
@@ -237,8 +237,8 @@
         <TiebaRecord>
           <Goos Value="18" Setter="" />
           <Moves Value="0" Setter="Wogfan4Evr" />
-          <Goal Value="18" Setter="" />
-          <OCD Value="18" Setter="" />
+          <Goal Value="17" Setter="MayBeSuper" />
+          <OCD Value="17" Setter="MayBeSuper" />
         </TiebaRecord>
       </Level>
       <Level Name="Leap Hole">
@@ -306,7 +306,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="18" Setter="" />
-          <Moves Value="2" Setter="MayBeSuper" />
+          <Moves Value="1" Setter="MayBeSuper" />
           <Goal Value="35" Setter="粘粘球世界" />
           <OCD Value="35" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -380,7 +380,7 @@
           <Goos Value="26" Setter="Mygod" />
           <Moves Value="6" Setter="Wogfan4Evr" />
           <Goal Value="61" Setter="Wogfan4Evr" />
-          <OCD Value="2761" Setter="Mygod" />
+          <OCD Value="86" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
       <Level Name="Water Lock">
@@ -406,7 +406,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="32" Setter="" />
-          <Moves Value="10" Setter="Wogfan4Evr" />
+          <Moves Value="9" Setter="粘粘球世界" />
           <Goal Value="11" Setter="粘粘球世界" />
           <OCD Value="5999" Setter="" />
         </TiebaRecord>
@@ -463,8 +463,8 @@
         <TiebaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="1" Setter="" />
-          <Goal Value="69" Setter="dwerdwer" />
-          <OCD Value="5999" Setter="" />
+          <Goal Value="66" Setter="MayBeSuper" />
+          <OCD Value="66" Setter="MayBeSuper" />
         </TiebaRecord>
       </Level>
     </Chapter>
@@ -479,8 +479,8 @@
         <TiebaRecord>
           <Goos Value="20" Setter="dwerdwer" />
           <Moves Value="5" Setter="dwerdwer" />
-          <Goal Value="9" Setter="" />
-          <OCD Value="9" Setter="" />
+          <Goal Value="8" Setter="Wogfan4Evr" />
+          <OCD Value="8" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
       <Level Name="Bulletin Board System">
@@ -507,7 +507,7 @@
         <TiebaRecord>
           <Goos Value="19" Setter="dwerdwer" />
           <Moves Value="39" Setter="Wogfan4Evr" />
-          <Goal Value="83" Setter="dwerdwer" />
+          <Goal Value="75" Setter="MayBeSuper" />
           <OCD Value="5999" Setter="" />
         </TiebaRecord>
       </Level>
@@ -548,7 +548,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="12" Setter="dwerdwer" />
-          <Moves Value="2" Setter="Mygod" />
+          <Moves Value="1" Setter="MaybeSuper" />
           <Goal Value="14" Setter="粘粘球世界" />
           <OCD Value="14" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -564,7 +564,7 @@
           <Goos Value="43" Setter="" />
           <Moves Value="13" Setter="Wogfan4Evr" />
           <Goal Value="58" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="78" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
       <Level Name="The Server Farm">
@@ -577,7 +577,7 @@
         <TiebaRecord>
           <Goos Value="28" Setter="dahkjdas" />
           <Moves Value="9" Setter="dwerdwer" />
-          <Goal Value="11" Setter="dwerdwer" />
+          <Goal Value="10" Setter="MayBeSuper" />
           <OCD Value="16" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
@@ -604,8 +604,8 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="0" Setter="" />
-          <Moves Value="5" Setter="" />
-          <Goal Value="68" Setter="Wogfan4Evr" />
+          <Moves Value="2" Setter="MaybeSuper" />
+          <Goal Value="61" Setter="MaybeSuper" />
           <OCD Value="68" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
@@ -649,7 +649,7 @@
         <TiebaRecord>
           <Goos Value="94" Setter="粘粘球世界" />
           <Moves Value="16" Setter="Wogfan4Evr" />
-          <Goal Value="37" Setter="Wogfan4Evr" />
+          <Goal Value="20" Setter="粘粘球世界" />
           <OCD Value="5999" Setter="" />
         </TiebaRecord>
       </Level>
