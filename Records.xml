@@ -181,7 +181,7 @@
         <TiebaRecord>
           <Goos Value="38" Setter="dwerdwer" />
           <Moves Value="5" Setter="粘粘球世界" />
-          <Goal Value="23" Setter="Wogfan4Evr" />
+          <Goal Value="21" Setter="粘粘球世界" />
           <OCD Value="48" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
@@ -306,7 +306,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="18" Setter="" />
-          <Moves Value="1" Setter="MayBeSuper" />
+          <Moves Value="1" Setter="志尊·虚拟" />
           <Goal Value="35" Setter="粘粘球世界" />
           <OCD Value="35" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -434,9 +434,9 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="94" Setter="dwerdwer" />
-          <Moves Value="2" Setter="dwerdwer" />
+          <Moves Value="1" Setter="粘粘球世界" />
           <Goal Value="18" Setter="dahkjdas" />
-          <OCD Value="5999" Setter="" />
+          <OCD Value="25" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Incineration Destination">
@@ -478,9 +478,9 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="20" Setter="dwerdwer" />
-          <Moves Value="5" Setter="dwerdwer" />
-          <Goal Value="8" Setter="Wogfan4Evr" />
-          <OCD Value="8" Setter="Wogfan4Evr" />
+          <Moves Value="3" Setter="粘粘球世界" />
+          <Goal Value="6" Setter="粘粘球世界" />
+          <OCD Value="6" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Bulletin Board System">
@@ -620,7 +620,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="21" Setter="dwerdwer" />
-          <Moves Value="11" Setter="Wogfan4Evr" />
+          <Moves Value="5" Setter="粘粘球世界" />
           <Goal Value="52" Setter="Wogfan4Evr" />
           <OCD Value="5999" Setter="" />
         </TiebaRecord>
