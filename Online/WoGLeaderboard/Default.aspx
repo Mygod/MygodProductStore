@@ -47,9 +47,9 @@
     
     <h3>顶尖玩家排行榜</h3>
     <div>说明：悬停可查看破了哪些纪录。</div>
-    <% foreach (var player in Players.Instance.OrderByDescending(player => player.WorldRecordsTotal)
-                                     .ThenByDescending(player => player.TiebaRecordsTotal))
+    <% foreach (var player in Players.Instance.OrderByDescending(player => player.WorldRecords.Count)
+                                     .ThenByDescending(player => player.TiebaRecords.Count))
        { %>
-    <div><span title="<%=player.Records %>"><%=player %></span></div>
+    <div><%=player %></div>
     <% } %>
 </asp:Content>

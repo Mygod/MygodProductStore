@@ -113,14 +113,15 @@ namespace Mygod.Website.ProductStore
             Value = int.Parse(element.GetAttribute("Value"));
             Setter = element.GetAttribute("Setter");
             if (string.IsNullOrWhiteSpace(Setter)) return;
-            if (isWorldRecord) Players.Instance.SetWorldRecord(this);
-            else Players.Instance.SetTiebaRecord(this);
+            IsWorldRecord = isWorldRecord;
+            Players.Instance.SetRecord(this);
         }
 
         public LevelRecord Parent;
         public int Value;
         public RecordType Type;
         public string Setter;
+        public bool IsWorldRecord;
 
         private string formattedValue, overview, tooltip;
         public string FormattedValue
@@ -174,6 +175,12 @@ namespace Mygod.Website.ProductStore
         {
             return Overview;
         }
+
+        public string GetDetailedString()
+        {
+            return string.Format("{0} {1}{2}{3}", Parent.Parent.Name, Type == RecordType.OCD ? "OCD " : string.Empty, FormattedValue,
+                                 Type == RecordType.Goal || Type == RecordType.OCD ? string.Empty : GetUnit(Type));
+        }
     }
 
     public class Players : KeyedCollection<string, Player>
@@ -193,32 +200,14 @@ namespace Mygod.Website.ProductStore
             return item.ID;
         }
 
-        public void SetWorldRecord(Record record)
+        public void SetRecord(Record record)
         {
             if (!Contains(record.Setter)) Add(new Player(record.Setter));
-            var player = this[record.Setter];
-            player.WorldRecordsTotal++;
-            if (!string.IsNullOrWhiteSpace(player.WorldRecords)) player.WorldRecords += "&#10;";
-            player.WorldRecords += string.Format("{0} {1}{2}{3}", record.Parent.Parent.Name,
-                                                 record.Type == RecordType.OCD ? "OCD " : string.Empty, record.FormattedValue,
-                                                 record.Type == RecordType.Goal || record.Type == RecordType.OCD
-                                                     ? string.Empty : Record.GetUnit(record.Type));
-        }
-
-        public void SetTiebaRecord(Record record)
-        {
-            if (!Contains(record.Setter)) Add(new Player(record.Setter));
-            var player = this[record.Setter];
-            player.TiebaRecordsTotal++;
-            if (!string.IsNullOrWhiteSpace(player.TiebaRecords)) player.TiebaRecords += "&#10;";
-            player.TiebaRecords += string.Format("{0} {1}{2}{3}", record.Parent.Parent.Name,
-                                                 record.Type == RecordType.OCD ? "OCD " : string.Empty, record.FormattedValue,
-                                                 record.Type == RecordType.Goal || record.Type == RecordType.OCD
-                                                     ? string.Empty : Record.GetUnit(record.Type));
+            this[record.Setter].Add(record);
         }
     }
 
-    public class Player
+    public class Player : List<Record>
     {
         public Player(string id)
         {
@@ -226,30 +215,63 @@ namespace Mygod.Website.ProductStore
         }
 
         public readonly string ID;
-        public int WorldRecordsTotal, TiebaRecordsTotal;
-        public string WorldRecords = string.Empty, TiebaRecords = string.Empty;
         private string strCache;
+        private readonly List<Record> worldRecords = new List<Record>(), tiebaRecords = new List<Record>();
 
-        public string Records
+        public List<Record> WorldRecords
         {
-            get
-            {
-                if (string.IsNullOrEmpty(WorldRecords)) return TiebaRecords;
-                return string.IsNullOrEmpty(TiebaRecords) ? WorldRecords
-                    : "世界纪录：&#10;" + WorldRecords + "&#10;&#10;贴吧纪录：&#10;" + TiebaRecords;
-            }
+            get { AssortRecords(); return worldRecords; }
+        }
+        public List<Record> TiebaRecords
+        {
+            get { AssortRecords(); return tiebaRecords; }
+        }
+
+        private void AssortRecords()
+        {
+            if (worldRecords.Count == 0 && tiebaRecords.Count == 0)
+                foreach (var record in this) if (record.IsWorldRecord) worldRecords.Add(record); else tiebaRecords.Add(record);
         }
 
         public override string ToString()
         {
             if (string.IsNullOrEmpty(strCache))
             {
-                strCache = ID;
-                if (WorldRecordsTotal > 0) strCache += "，破了 " + WorldRecordsTotal + " 项世界纪录";
-                if (TiebaRecordsTotal > 0) strCache += "，破了 " + TiebaRecordsTotal + " 项贴吧纪录";
-                strCache += "。";
+                AssortRecords();
+                strCache = "<b>" + ID + "</b>" + GetRecordsString(WorldRecords, "世界") + GetRecordsString(TiebaRecords, "贴吧") + "。";
             }
             return strCache;
+        }
+
+        private static readonly string[] RecordTypes = new[] { "球数", "步数", " Goal ", " OCD " };
+
+        private static string GetRecordsString(ICollection<Record> records, string type)
+        {
+            if (records.Count == 0) return string.Empty;
+            var result = "，破了 " + records.Count + " 项" + type + "纪录（";
+            var r = new List<Record>[4];
+            for (var i = 0; i < 4; i++) r[i] = new List<Record>();
+            foreach (var record in records) r[(int) record.Type].Add(record);
+            var first = true;
+            for (var i = 0; i < 4; i++)
+            {
+                if (r[i].Count == 0) continue;
+                if (first) first = false; else result += '，';
+                result += string.Format("<span title=\"{2}\">{0} 项{1}纪录</span>", r[i].Count, RecordTypes[i],
+                                        GetAssortedRecordsString(r[i]));
+            }
+            return result + '）';
+        }
+
+        private static string GetAssortedRecordsString(IEnumerable<Record> records)
+        {
+            var result = string.Empty;
+            foreach (var record in records)
+            {
+                if (!string.IsNullOrEmpty(result)) result += "&#10;";
+                result += record.GetDetailedString();
+            }
+            return result;
         }
     }
 
