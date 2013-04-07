@@ -26,7 +26,7 @@
           <Goos Value="21" Setter="dahkjdas" />
           <Moves Value="7" Setter="dahkjdas" />
           <Goal Value="7" Setter="dahkjdas" />
-          <OCD Value="10" Setter="dahkjdas" />
+          <OCD Value="9" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Hang Low">
@@ -81,8 +81,8 @@
         <TiebaRecord>
           <Goos Value="16" Setter="dwerdwer" />
           <Moves Value="13" Setter="dahkjdas" />
-          <Goal Value="22" Setter="Wogfan4Evr" />
-          <OCD Value="23" Setter="Wogfan4Evr" />
+          <Goal Value="19" Setter="粘粘球世界" />
+          <OCD Value="19" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Tower of Goo">
@@ -96,7 +96,7 @@
           <Goos Value="102" Setter="dahkjdas" />
           <Moves Value="19" Setter="Mygod" />
           <Goal Value="24" Setter="dahkjdas" />
-          <OCD Value="37" Setter="dahkjdas" />
+          <OCD Value="33" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Ivy Towers">
@@ -138,7 +138,7 @@
           <Goos Value="39" Setter="" />
           <Moves Value="5" Setter="Wogfan4Evr" />
           <Goal Value="25" Setter="Wogfan4Evr" />
-          <OCD Value="38" Setter="粘粘球世界" />
+          <OCD Value="35" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Ode to the Bridge Builder">
@@ -337,8 +337,8 @@
         <TiebaRecord>
           <Goos Value="39" Setter="粘粘球世界" />
           <Moves Value="0" Setter="" />
-          <Goal Value="13" Setter="Wogfan4Evr" />
-          <OCD Value="13" Setter="Wogfan4Evr" />
+          <Goal Value="12" Setter="粘粘球世界" />
+          <OCD Value="12" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Second Hand Smoke">
@@ -394,7 +394,7 @@
           <Goos Value="44" Setter="" />
           <Moves Value="3" Setter="Wogfan4Evr" />
           <Goal Value="60" Setter="Wogfan4Evr" />
-          <OCD Value="178" Setter="Mygod" />
+          <OCD Value="93" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="Super Fuse Challenge Time">
@@ -435,7 +435,7 @@
         <TiebaRecord>
           <Goos Value="94" Setter="dwerdwer" />
           <Moves Value="1" Setter="粘粘球世界" />
-          <Goal Value="18" Setter="dahkjdas" />
+          <Goal Value="11" Setter="粘粘球世界" />
           <OCD Value="18" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
@@ -663,8 +663,8 @@
         <TiebaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="6" Setter="Wogfan4Evr" />
-          <Goal Value="34" Setter="MayBeSuper" />
-          <OCD Value="34" Setter="MayBeSuper" />
+          <Goal Value="32" Setter="Mygod" />
+          <OCD Value="32" Setter="Mygod" />
         </TiebaRecord>
       </Level>
     </Chapter>
