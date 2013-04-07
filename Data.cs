@@ -138,10 +138,7 @@ namespace Mygod.Website.ProductStore
             get
             {
                 if (string.IsNullOrEmpty(overview))
-                {
-                    overview = FormattedValue;
-                    if (!string.IsNullOrWhiteSpace(Setter)) overview += " (" + Setter + ")";
-                }
+                    overview = FormattedValue + (string.IsNullOrWhiteSpace(Setter) ? string.Empty : " (" + Setter + ")");
                 return overview;
             }
         }
@@ -238,7 +235,8 @@ namespace Mygod.Website.ProductStore
             if (string.IsNullOrEmpty(strCache))
             {
                 AssortRecords();
-                strCache = "<b>" + ID + "</b>" + GetRecordsString(WorldRecords, "世界") + GetRecordsString(TiebaRecords, "贴吧") + "。";
+                strCache = "<span class=\"bold\">" + ID + "</span>"
+                    + GetRecordsString(WorldRecords, "世界") + GetRecordsString(TiebaRecords, "贴吧") + "。";
             }
             return strCache;
         }

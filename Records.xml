@@ -138,7 +138,7 @@
           <Goos Value="39" Setter="" />
           <Moves Value="5" Setter="Wogfan4Evr" />
           <Goal Value="25" Setter="Wogfan4Evr" />
-          <OCD Value="50" Setter="dahkjdas" />
+          <OCD Value="38" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Ode to the Bridge Builder">
@@ -171,7 +171,7 @@
       </Level>
     </Chapter>
     <Chapter Name="Chapter 2: Little Miss World of Goo">
-      <Level Name="Drool">
+      <Level Name="34">
         <WorldRecord>
           <Goos Value="38" Setter="dwerdwer" />
           <Moves Value="3" Setter="thB" />
@@ -182,7 +182,7 @@
           <Goos Value="38" Setter="dwerdwer" />
           <Moves Value="5" Setter="粘粘球世界" />
           <Goal Value="21" Setter="粘粘球世界" />
-          <OCD Value="48" Setter="Wogfan4Evr" />
+          <OCD Value="34" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Fly Away Little Ones">
@@ -436,7 +436,7 @@
           <Goos Value="94" Setter="dwerdwer" />
           <Moves Value="1" Setter="粘粘球世界" />
           <Goal Value="18" Setter="dahkjdas" />
-          <OCD Value="25" Setter="粘粘球世界" />
+          <OCD Value="18" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="Incineration Destination">
@@ -577,8 +577,8 @@
         <TiebaRecord>
           <Goos Value="28" Setter="dahkjdas" />
           <Moves Value="9" Setter="dwerdwer" />
-          <Goal Value="10" Setter="MayBeSuper" />
-          <OCD Value="16" Setter="dahkjdas" />
+          <Goal Value="9" Setter="粘粘球世界" />
+          <OCD Value="13" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="MOM's Computer">
@@ -620,8 +620,8 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="21" Setter="dwerdwer" />
-          <Moves Value="5" Setter="粘粘球世界" />
-          <Goal Value="52" Setter="Wogfan4Evr" />
+          <Moves Value="4" Setter="dahkjdas" />
+          <Goal Value="50" Setter="粘粘球世界" />
           <OCD Value="5999" Setter="" />
         </TiebaRecord>
       </Level>
