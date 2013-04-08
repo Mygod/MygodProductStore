@@ -389,6 +389,7 @@
     <Content Include="javascript\tile-slider.js" />
     <Content Include="Online\WoGLeaderboard\Default.aspx" />
     <EmbeddedResource Include="Records.xml" />
+    <Content Include="Online\WoGLeaderboard\Submit.aspx" />
     <Content Include="Screenshots.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -481,6 +482,13 @@
     </Compile>
     <Compile Include="Online\WoGLeaderboard\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Online\WoGLeaderboard\Submit.aspx.cs">
+      <DependentUpon>Submit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\WoGLeaderboard\Submit.aspx.designer.cs">
+      <DependentUpon>Submit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Online\YouTube.cs" />
     <Compile Include="Online\NiGuanDownloader.aspx.cs">

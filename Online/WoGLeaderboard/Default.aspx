@@ -56,4 +56,6 @@
        { %>
     <div><%=player %></div>
     <% } %>
+    <div>&nbsp;</div>
+    <div><a href="Submit.aspx">现在提交你的记录！</a></div>
 </asp:Content>

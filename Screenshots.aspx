@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Screenshots.aspx.cs" Inherits="Mygod.Website.ProductStore.Screenshots" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Screenshots.aspx.cs"
+         Inherits="Mygod.Website.ProductStore.Screenshots" %>
 <%@ Import Namespace="Mygod.Website.ProductStore" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
 </asp:Content>

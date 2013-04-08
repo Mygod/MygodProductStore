@@ -223,7 +223,7 @@
         <TiebaRecord>
           <Goos Value="92" Setter="" />
           <Moves Value="7" Setter="粘粘球世界" />
-          <Goal Value="40" Setter="Wogfan4Evr" />
+          <Goal Value="39" Setter="粘粘球世界" />
           <OCD Value="279" Setter="Mygod" />
         </TiebaRecord>
       </Level>
@@ -321,8 +321,8 @@
         <TiebaRecord>
           <Goos Value="24" Setter="dwerdwer" />
           <Moves Value="4" Setter="lkjhgfdsa431" />
-          <Goal Value="57" Setter="Wogfan4Evr" />
-          <OCD Value="5999" Setter="" />
+          <Goal Value="44" Setter="Wogfan4Evr" />
+          <OCD Value="44" Setter="Wogfan4Evr" />
         </TiebaRecord>
       </Level>
     </Chapter>
@@ -365,7 +365,7 @@
         <TiebaRecord>
           <Goos Value="55" Setter="dwerdwer" />
           <Moves Value="25" Setter="Mygod" />
-          <Goal Value="56" Setter="Wogfan4Evr" />
+          <Goal Value="48" Setter="粘粘球世界" />
           <OCD Value="70" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
@@ -391,7 +391,7 @@
           <OCD Value="45" Setter="naveed_rizvi" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="44" Setter="" />
+          <Goos Value="46" Setter="Mygod" />
           <Moves Value="3" Setter="Wogfan4Evr" />
           <Goal Value="60" Setter="Wogfan4Evr" />
           <OCD Value="93" Setter="dahkjdas" />
