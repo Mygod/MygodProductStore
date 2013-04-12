@@ -39,7 +39,7 @@
         <TiebaRecord>
           <Goos Value="24" Setter="dwerdwer" />
           <Moves Value="4" Setter="dwerdwer" />
-          <Goal Value="13" Setter="MayBeSuper" />
+          <Goal Value="12" Setter="dahkjdas" />
           <OCD Value="56" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
@@ -109,7 +109,7 @@
         <TiebaRecord>
           <Goos Value="16" Setter="" />
           <Moves Value="2" Setter="" />
-          <Goal Value="4" Setter="粘粘球世界" />
+          <Goal Value="3" Setter="粘粘球世界" />
           <OCD Value="20" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
@@ -152,7 +152,7 @@
           <Goos Value="58" Setter="dwerdwer" />
           <Moves Value="20" Setter="dwerdwer" />
           <Goal Value="25" Setter="dahkjdas" />
-          <OCD Value="37" Setter="dahkjdas" />
+          <OCD Value="36" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="Regurgitation Pumping Station">
@@ -195,7 +195,7 @@
         <TiebaRecord>
           <Goos Value="14" Setter="dwerdwer" />
           <Moves Value="0" Setter="MayBeSuper" />
-          <Goal Value="16" Setter="Wogfan4Evr" />
+          <Goal Value="14" Setter="dahkjdas" />
           <OCD Value="27" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
@@ -223,7 +223,7 @@
         <TiebaRecord>
           <Goos Value="92" Setter="" />
           <Moves Value="7" Setter="粘粘球世界" />
-          <Goal Value="39" Setter="粘粘球世界" />
+          <Goal Value="39" Setter="dahkjdas" />
           <OCD Value="279" Setter="Mygod" />
         </TiebaRecord>
       </Level>
@@ -265,8 +265,8 @@
         <TiebaRecord>
           <Goos Value="28" Setter="dwerdwer" />
           <Moves Value="0" Setter="" />
-          <Goal Value="22" Setter="Wogfan4Evr" />
-          <OCD Value="22" Setter="Wogfan4Evr" />
+          <Goal Value="20" Setter="dahkjdas" />
+          <OCD Value="20" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="Volcanic Percolator Day Spa">
@@ -293,7 +293,7 @@
         <TiebaRecord>
           <Goos Value="49" Setter="Mygod" />
           <Moves Value="0" Setter="" />
-          <Goal Value="20" Setter="dahkjdas" />
+          <Goal Value="17" Setter="粘粘球世界" />
           <OCD Value="29" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
@@ -306,7 +306,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="18" Setter="" />
-          <Moves Value="1" Setter="志尊·虚拟" />
+          <Moves Value="0" Setter="dahkjdas" />
           <Goal Value="35" Setter="粘粘球世界" />
           <OCD Value="35" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -485,7 +485,7 @@
       </Level>
       <Level Name="Bulletin Board System">
         <WorldRecord>
-          <Goos Value="15" Setter="dwerdwer" />
+          <Goos Value="16" Setter="Peter B" />
           <Moves Value="2" Setter="Peter B" />
           <Goal Value="14" Setter="Peter B" />
           <OCD Value="32" Setter="Peter B" />
@@ -577,7 +577,7 @@
         <TiebaRecord>
           <Goos Value="28" Setter="dahkjdas" />
           <Moves Value="9" Setter="dwerdwer" />
-          <Goal Value="9" Setter="粘粘球世界" />
+          <Goal Value="8" Setter="dahkjdas" />
           <OCD Value="13" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
@@ -591,8 +591,8 @@
         <TiebaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="1" Setter="Wogfan4Evr" />
-          <Goal Value="6" Setter="Wogfan4Evr" />
-          <OCD Value="6" Setter="Wogfan4Evr" />
+          <Goal Value="4" Setter="粘粘球世界" />
+          <OCD Value="4" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Deliverance">
@@ -621,7 +621,7 @@
         <TiebaRecord>
           <Goos Value="21" Setter="dwerdwer" />
           <Moves Value="4" Setter="dahkjdas" />
-          <Goal Value="50" Setter="粘粘球世界" />
+          <Goal Value="48" Setter="dahkjdas" />
           <OCD Value="5999" Setter="" />
         </TiebaRecord>
       </Level>
