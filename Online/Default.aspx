@@ -44,9 +44,9 @@
             <small>wogfan in China!</small>
         </button>
         <span id="admin-features">
-            <button class="command-button" type="button" id="server-peeker">
-                服务器偷窥器
-                <small>用于做一些不好的事情，例如偷窥当前服务器的桌面。</small>
+            <button class="command-button" type="button" id="nothing-seriously">
+                什么都没有
+                <small>嘿嘿……什么都没有……</small>
             </button>
         </span>
     </div>
@@ -65,7 +65,6 @@
             $('#youtube-downloader').click(function () { location.href = 'NiGuanDownloader.aspx'; });
             $('#offline-downloader').click(function () { location.href = 'OfflineDownloader/'; });
             $('#wog-leaderboard').click(function () { location.href = 'WoGLeaderboard/'; });
-            $('#server-peeker').click(function () { location.href = 'ServerPeeker.ashx'; });
 
             $('#admin-password-box').keypress(function () {
                 setTimeout(function() {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
@@ -23,6 +24,7 @@ namespace Mygod.Website.ProductStore.OfflineDownloader
             var doc = XDocument.Load(xmlPath);
             var download = doc.Element("download");
             var url = download.Attribute("url").Value;
+            download.SetAttributeValue("id", Process.GetCurrentProcess().Id);
             try
             {
                 var request = WebRequest.Create(url);

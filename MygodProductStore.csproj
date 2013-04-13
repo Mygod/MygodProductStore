@@ -531,9 +531,6 @@
     <Compile Include="Online\OfflineDownloader\Start.aspx.designer.cs">
       <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Online\ServerPeeker.ashx.cs">
-      <DependentUpon>ServerPeeker.ashx</DependentUpon>
-    </Compile>
     <Compile Include="Online\TFQR.cs" />
     <Compile Include="Online\WoGCorp\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -596,9 +593,6 @@
     <Content Include="Online\MOM\loop_superbirds.ogg" />
     <Content Include="Online\MOM\momStartup.ogg" />
     <Content Include="Online\MOM\TCCEB.TTF" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Online\ServerPeeker.ashx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

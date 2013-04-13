@@ -57,7 +57,16 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
             attr = download.Attribute("endTime");
             if (attr == null)
             {
-                var impossibleEnds = processing == 0;
+                attr = download.Attribute("id");
+                bool impossibleEnds;
+                try
+                {
+                    impossibleEnds = attr != null && Process.GetProcessById(int.Parse(attr.Value)).ProcessName == "MygodOfflineDownloader";
+                }
+                catch
+                {
+                    impossibleEnds = true;
+                }
                 Status = impossibleEnds ? "已被咔嚓" : "正在下载";
                 if (impossibleEnds) Never();
                 else
