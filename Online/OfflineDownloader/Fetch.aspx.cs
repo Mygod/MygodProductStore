@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Web;
@@ -18,7 +19,8 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
         {
             var temp = Server.MapPath("/Temp/OfflineDownloader/");
             Directory.CreateDirectory(temp);
-            TaskCount = Application.Count + "/" + new DirectoryInfo(temp).GetFiles().Length / 2;
+            var processing = Process.GetProcessesByName("MygodOfflineDownloader").LongLength;
+            TaskCount = processing + "/" + new DirectoryInfo(temp).GetFiles("*.xml");
             Url = FileSize = DownloadedFileSize = AverageDownloadSpeed = StartTime = SpentTime = RemainingTime = EndingTime = "未知";
             Percentage = "0";
             string md5 = Request.QueryString["Key"] ?? string.Empty, path = Server.MapPath("/Temp/OfflineDownloader/" + md5), 
@@ -55,7 +57,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
             attr = download.Attribute("endTime");
             if (attr == null)
             {
-                var impossibleEnds = Application[md5] == null;
+                var impossibleEnds = processing == 0;
                 Status = impossibleEnds ? "已被咔嚓" : "正在下载";
                 if (impossibleEnds) Never();
                 else
