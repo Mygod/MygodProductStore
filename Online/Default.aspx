@@ -50,7 +50,7 @@
             </button>
         </span>
     </div>
-    <div>
+    <div style="visibility: collapse;">
         输入管理员密码以解锁网站管理功能：
         <input type="password" id="admin-password-box" />
     </div>
