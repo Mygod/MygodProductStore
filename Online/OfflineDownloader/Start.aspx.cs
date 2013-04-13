@@ -27,7 +27,8 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 var doc = new XDocument(download);
                 Directory.CreateDirectory(Path.GetDirectoryName(xmlPath));
                 doc.Save(xmlPath);
-                Process.Start(Server.MapPath("/Subprojects/MygodOfflineDownloader/bin/Release/MygodOfflineDownloader.exe"), path);
+                Process.Start(Path.Combine(new DirectoryInfo(Server.MapPath("/")).Parent.Parent.FullName, "MygodOfflineDownloader.exe"),
+                              path);
             }
             Response.Redirect("Fetch.aspx?Key=" + md5);
         }
