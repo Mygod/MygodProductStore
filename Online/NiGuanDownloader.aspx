@@ -16,7 +16,7 @@
     <div></div>
     <div>&nbsp;</div>
     <div class="center"><asp:Button ID="SubmitButton" runat="server" Text="我就是那个神奇的按钮" /></div>
-    <p><%=Output %></p>
     <div>离线下载支持使用迅雷。不想通过本服务器直接下载？试试该产品的完整版<a href="/#Product-66">掩耳</a>！</div>
     <div>获取视频信息的速度太慢？出现错误504 Gateway Time-out？看来该页上视频太多了……请一次少获取几个视频，或稍后重试。</div>
+    <p><% GetEmAll(); %></p>
 </asp:Content>
