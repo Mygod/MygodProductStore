@@ -2,9 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Net;
 using System.Text;
-using System.Threading;
 using System.Web.Security;
 using System.Web.UI;
 using System.Xml.Linq;
@@ -27,8 +25,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 var doc = new XDocument(download);
                 Directory.CreateDirectory(Path.GetDirectoryName(xmlPath));
                 doc.Save(xmlPath);
-                Process.Start(Path.Combine(new DirectoryInfo(Server.MapPath("/")).Parent.Parent.FullName, "MygodOfflineDownloader.exe"),
-                              path);
+                Process.Start(Server.MapPath("MygodOfflineDownloader.exe"), path);
             }
             Response.Redirect("Fetch.aspx?Key=" + md5);
         }

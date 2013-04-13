@@ -159,6 +159,7 @@
     <Content Include="less\theme-dark.less" />
     <Content Include="less\tiles.less" />
     <Content Include="less\typography.less" />
+    <Content Include="Online\OfflineDownloader\MygodOfflineDownloader.exe" />
     <Content Include="Online\BrowserDownload.aspx" />
     <Content Include="Online\Countdowns.aspx" />
     <Content Include="Online\Default.aspx" />
