@@ -7,10 +7,10 @@ using Mygod.Website.ProductStore.Online;
 
 namespace Mygod.Website.ProductStore
 {
-    static class R
+    public static class R
     {
         private static readonly TimeSpan Offset = NtpClient.GetNetworkTime("time.windows.com") - DateTime.UtcNow;
-        internal static DateTime UtcNow { get { return DateTime.SpecifyKind(DateTime.UtcNow.Add(Offset), DateTimeKind.Unspecified); } }
+        public static DateTime UtcNow { get { return DateTime.SpecifyKind(DateTime.UtcNow.Add(Offset), DateTimeKind.Unspecified); } }
         internal static DateTime Parse(string value)
         {
             return DateTime.SpecifyKind(DateTime.Parse(value), DateTimeKind.Unspecified);
@@ -23,7 +23,8 @@ namespace Mygod.Website.ProductStore
                 .Replace(":", "%3").Replace("*", "%4").Replace("?", "%5").Replace("\"", "%6").Replace("<", "%7").Replace(">", "%8")
                 .Replace("|", "%9");
         }
-        internal static readonly string GetVideoInfoLink = "http://www.youtube.com/get_video_info?video_id={0}&eurl=http://mygodstudio.tk/";
+        internal static readonly string GetVideoInfoLink =
+            "http://www.youtube.com/get_video_info?video_id={0}&eurl=http://mygodstudio.tk/";
 
         internal static string UrlDecode(this string str)
         {

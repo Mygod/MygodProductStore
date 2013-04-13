@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -26,48 +27,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 var doc = new XDocument(download);
                 Directory.CreateDirectory(Path.GetDirectoryName(xmlPath));
                 doc.Save(xmlPath);
-                var thread = new Thread(() =>
-                {
-                    FileStream fileStream = null;
-                    try
-                    {
-                        var request = WebRequest.Create(url);
-                        var response = request.GetResponse();
-                        var stream = response.GetResponseStream();
-                        var disposition = response.Headers["Content-Disposition"] ?? string.Empty;
-                        var pos = disposition.IndexOf("filename=", StringComparison.Ordinal);
-                        var fileName = pos >= 0 ? disposition.Substring(pos + 9).Trim('"', '\'') : Path.GetFileName(url);
-                        long? fileLength;
-                        if (stream.CanSeek) fileLength = stream.Length;
-                        else
-                            try
-                            {
-                                fileLength = response.ContentLength;
-                            }
-                            catch
-                            {
-                                fileLength = null;
-                            }
-                        if (fileLength != null) download.Add(new XAttribute("size", fileLength));
-                        download.Add(new XAttribute("fileName", fileName), new XAttribute("startTime", R.UtcNow));
-                        doc.Save(xmlPath);
-                        stream.CopyTo(fileStream = File.Create(path));
-                        download.Add(new XAttribute("endTime", R.UtcNow));
-                        doc.Save(xmlPath);
-                    }
-                    catch (Exception exc)
-                    {
-                        download.Add(new XAttribute("message", exc.Message));
-                        doc.Save(xmlPath);
-                    }
-                    finally
-                    {
-                        if (fileStream != null) fileStream.Close();
-                        Application.Remove(md5);
-                    }
-                });
-                thread.Start();
-                Application[md5] = thread;
+                Process.Start(Server.MapPath("/Subprojects/MygodOfflineDownloader/bin/Release/MygodOfflineDownloader.exe"), path);
             }
             Response.Redirect("Fetch.aspx?Key=" + md5);
         }

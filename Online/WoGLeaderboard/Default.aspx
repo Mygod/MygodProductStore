@@ -7,9 +7,9 @@
 
     <h3>关卡纪录</h3>
     <div>说明：悬停可查看与世界纪录的差距。</div>
-    <table>
-        <thead>
-            <tr>
+    <table style="width: 100%">
+        <thead style="width: 100%">
+            <tr style="width: 100%">
                 <td class="bold">关卡名</td>
                 <td class="bold">最多球数</td>
                 <td class="bold">最少步数</td>

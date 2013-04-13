@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="在线工具" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
          Inherits="Mygod.Website.ProductStore.Online.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
+    <script type="text/javascript">
+        var newline = "CuW8gOS4queOqeeskee9ouS6hu+8geavleern+ayoeacieS6uuS8muWCu+WIsOaKiue9keermeeuoeeQhuWKn+iDveeahOWvhueggeaYjuaWh+WtmOWCqOWcqEhUTUzmlofku7bph4zvvIHkuI3ov4fkvaDov5jmmK/op6PplIHlh6DkuKrmnInotqPnmoTlip/og73vvIHmga3llpzkvaDvvIE=";
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <div>
@@ -40,6 +43,16 @@
             粘粘世界吧排行榜
             <small>wogfan in China!</small>
         </button>
+        <span id="admin-features">
+            <button class="command-button" type="button" id="server-peeker">
+                服务器偷窥器
+                <small>用于做一些不好的事情，例如偷窥当前服务器的桌面。</small>
+            </button>
+        </span>
+    </div>
+    <div>
+        输入管理员密码以解锁网站管理功能：
+        <input type="password" id="admin-password-box" />
     </div>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -52,6 +65,16 @@
             $('#youtube-downloader').click(function () { location.href = 'NiGuanDownloader.aspx'; });
             $('#offline-downloader').click(function () { location.href = 'OfflineDownloader/'; });
             $('#wog-leaderboard').click(function () { location.href = 'WoGLeaderboard/'; });
+            $('#server-peeker').click(function () { location.href = 'ServerPeeker.ashx'; });
+
+            $('#admin-password-box').keypress(function () {
+                setTimeout(function() {
+                    if ($('#admin-password-box').val() != "mygodisthebest") return;
+                    $('#admin-features').show();
+                    alert("网站管理功能解锁成功！" + $.base64.decode(newline));
+                }, 5);
+            });
+            $('#admin-features').hide();
         });
     </script>
 </asp:Content>

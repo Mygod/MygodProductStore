@@ -37,15 +37,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="RssToolkit">
-      <HintPath>.\RssToolkit.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -61,7 +57,74 @@
     <Content Include="fonts\iconFont.woff" />
     <Content Include="images\Logo.png" />
     <Content Include="javascript\countdowns.js" />
+    <Content Include="javascript\CryptoJS\aes-min.js" />
+    <Content Include="javascript\CryptoJS\aes.js" />
+    <Content Include="javascript\CryptoJS\cipher-core-min.js" />
+    <Content Include="javascript\CryptoJS\cipher-core.js" />
+    <Content Include="javascript\CryptoJS\core-min.js" />
+    <Content Include="javascript\CryptoJS\core.js" />
+    <Content Include="javascript\CryptoJS\enc-base64-min.js" />
+    <Content Include="javascript\CryptoJS\enc-base64.js" />
+    <Content Include="javascript\CryptoJS\enc-utf16-min.js" />
+    <Content Include="javascript\CryptoJS\enc-utf16.js" />
+    <Content Include="javascript\CryptoJS\evpkdf-min.js" />
+    <Content Include="javascript\CryptoJS\evpkdf.js" />
+    <Content Include="javascript\CryptoJS\format-hex-min.js" />
+    <Content Include="javascript\CryptoJS\format-hex.js" />
+    <Content Include="javascript\CryptoJS\hmac-min.js" />
+    <Content Include="javascript\CryptoJS\hmac.js" />
+    <Content Include="javascript\CryptoJS\lib-typedarrays-min.js" />
+    <Content Include="javascript\CryptoJS\lib-typedarrays.js" />
+    <Content Include="javascript\CryptoJS\md5-min.js" />
+    <Content Include="javascript\CryptoJS\md5.js" />
+    <Content Include="javascript\CryptoJS\mode-cfb-min.js" />
+    <Content Include="javascript\CryptoJS\mode-cfb.js" />
+    <Content Include="javascript\CryptoJS\mode-ctr-gladman-min.js" />
+    <Content Include="javascript\CryptoJS\mode-ctr-gladman.js" />
+    <Content Include="javascript\CryptoJS\mode-ctr-min.js" />
+    <Content Include="javascript\CryptoJS\mode-ctr.js" />
+    <Content Include="javascript\CryptoJS\mode-ecb-min.js" />
+    <Content Include="javascript\CryptoJS\mode-ecb.js" />
+    <Content Include="javascript\CryptoJS\mode-ofb-min.js" />
+    <Content Include="javascript\CryptoJS\mode-ofb.js" />
+    <Content Include="javascript\CryptoJS\pad-ansix923-min.js" />
+    <Content Include="javascript\CryptoJS\pad-ansix923.js" />
+    <Content Include="javascript\CryptoJS\pad-iso10126-min.js" />
+    <Content Include="javascript\CryptoJS\pad-iso10126.js" />
+    <Content Include="javascript\CryptoJS\pad-iso97971-min.js" />
+    <Content Include="javascript\CryptoJS\pad-iso97971.js" />
+    <Content Include="javascript\CryptoJS\pad-nopadding-min.js" />
+    <Content Include="javascript\CryptoJS\pad-nopadding.js" />
+    <Content Include="javascript\CryptoJS\pad-zeropadding-min.js" />
+    <Content Include="javascript\CryptoJS\pad-zeropadding.js" />
+    <Content Include="javascript\CryptoJS\pbkdf2-min.js" />
+    <Content Include="javascript\CryptoJS\pbkdf2.js" />
+    <Content Include="javascript\CryptoJS\rabbit-legacy-min.js" />
+    <Content Include="javascript\CryptoJS\rabbit-legacy.js" />
+    <Content Include="javascript\CryptoJS\rabbit-min.js" />
+    <Content Include="javascript\CryptoJS\rabbit.js" />
+    <Content Include="javascript\CryptoJS\rc4-min.js" />
+    <Content Include="javascript\CryptoJS\rc4.js" />
+    <Content Include="javascript\CryptoJS\ripemd160-min.js" />
+    <Content Include="javascript\CryptoJS\ripemd160.js" />
+    <Content Include="javascript\CryptoJS\sha1-min.js" />
+    <Content Include="javascript\CryptoJS\sha1.js" />
+    <Content Include="javascript\CryptoJS\sha224-min.js" />
+    <Content Include="javascript\CryptoJS\sha224.js" />
+    <Content Include="javascript\CryptoJS\sha256-min.js" />
+    <Content Include="javascript\CryptoJS\sha256.js" />
+    <Content Include="javascript\CryptoJS\sha3-min.js" />
+    <Content Include="javascript\CryptoJS\sha3.js" />
+    <Content Include="javascript\CryptoJS\sha384-min.js" />
+    <Content Include="javascript\CryptoJS\sha384.js" />
+    <Content Include="javascript\CryptoJS\sha512-min.js" />
+    <Content Include="javascript\CryptoJS\sha512.js" />
+    <Content Include="javascript\CryptoJS\tripledes-min.js" />
+    <Content Include="javascript\CryptoJS\tripledes.js" />
+    <Content Include="javascript\CryptoJS\x64-core-min.js" />
+    <Content Include="javascript\CryptoJS\x64-core.js" />
     <Content Include="javascript\generic.js" />
+    <Content Include="javascript\jquery.min.js" />
     <Content Include="less\accordion.less" />
     <Content Include="less\bricks.less" />
     <Content Include="less\buttons.less" />
@@ -467,6 +530,9 @@
     <Compile Include="Online\OfflineDownloader\Start.aspx.designer.cs">
       <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Online\ServerPeeker.ashx.cs">
+      <DependentUpon>ServerPeeker.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Online\TFQR.cs" />
     <Compile Include="Online\WoGCorp\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -529,6 +595,9 @@
     <Content Include="Online\MOM\loop_superbirds.ogg" />
     <Content Include="Online\MOM\momStartup.ogg" />
     <Content Include="Online\MOM\TCCEB.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Online\ServerPeeker.ashx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
