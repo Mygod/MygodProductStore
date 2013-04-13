@@ -74,4 +74,5 @@
   <Product ID="105" Name="植物大战僵尸mid音乐" Version="0.16" Producer="MG太软" Date="2013.2.12" Requirements="有能播放mid音乐的播放器（如Windows Media Player）" Screenshots="http://i.imgur.com/2Ez7x41.png" Link="http://pan.baidu.com/share/link?shareid=290037&amp;uk=3104462449" />
   <Product ID="106" Name="小小炼狱汉化补丁 for Steam" Version="1.1h 版" Producer="MG太软; 明日公司; Daxar" Date="2013.3.17" Requirements="需要安装 Little Inferno Steam 版与 Windows" Screenshots="http://i.imgur.com/1c10UaU.jpg" Link="http://pan.baidu.com/share/link?shareid=382979&amp;uk=3104462449" />
   <Product ID="107" Name="Super Fast Clicker" Version="V1.0.0.0" Producer="MG太软" Date="2013.4.6" Requirements="操作系统：Windows" Screenshots="http://i.imgur.com/Kp3OpKL.png" Link="http://pan.baidu.com/share/link?shareid=429509&amp;uk=3104462449" />
+  <Product ID="108" Name="Soulcraft XML Decrypter" Version="V1.0.0.0" Producer="MG太软" Date="2013.4.14" Requirements="操作系统：Windows 8" Screenshots="http://i.imgur.com/hJ41YVe.png^http://i.imgur.com/WBb9fE7.png" Link="http://pan.baidu.com/share/link?shareid=441443&amp;uk=3104462449" />
 </Products>
