@@ -25,6 +25,7 @@ namespace Mygod.Website.ProductStore.OfflineDownloader
             var download = doc.Element("download");
             var url = download.Attribute("url").Value;
             download.SetAttributeValue("id", Process.GetCurrentProcess().Id);
+            doc.Save(xmlPath);
             try
             {
                 var request = WebRequest.Create(url);

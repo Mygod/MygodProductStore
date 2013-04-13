@@ -20,7 +20,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
             var temp = Server.MapPath("/Temp/OfflineDownloader/");
             Directory.CreateDirectory(temp);
             var processing = Process.GetProcessesByName("MygodOfflineDownloader").LongLength;
-            TaskCount = processing + "/" + new DirectoryInfo(temp).GetFiles("*.xml");
+            TaskCount = processing + "/" + new DirectoryInfo(temp).GetFiles("*.xml").LongLength;
             Url = FileSize = DownloadedFileSize = AverageDownloadSpeed = StartTime = SpentTime = RemainingTime = EndingTime = "未知";
             Percentage = "0";
             string md5 = Request.QueryString["Key"] ?? string.Empty, path = Server.MapPath("/Temp/OfflineDownloader/" + md5), 
@@ -32,8 +32,8 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
             }
             var download = XDocument.Load(xmlPath).Element("download");
             Url = string.Format("<a href=\"{0}\">{0}</a>", download.Attribute("url").Value);
-            var fileNameAttr = download.Attribute("fileName");
-            if (fileNameAttr == null)
+            var idAttr = download.Attribute("id");
+            if (idAttr == null)
             {
                 Status = "你的下载正在开始……刷新试试？";
                 return;
@@ -57,11 +57,10 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
             attr = download.Attribute("endTime");
             if (attr == null)
             {
-                attr = download.Attribute("id");
                 bool impossibleEnds;
                 try
                 {
-                    impossibleEnds = attr != null && Process.GetProcessById(int.Parse(attr.Value)).ProcessName == "MygodOfflineDownloader";
+                    impossibleEnds = Process.GetProcessById(int.Parse(idAttr.Value)).ProcessName != "MygodOfflineDownloader";
                 }
                 catch
                 {
@@ -91,7 +90,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 SpentTime = spentTime.ToString("g");
                 var averageDownloadSpeed = downloadedFileSize / spentTime.TotalSeconds;
                 AverageDownloadSpeed = GetSize(averageDownloadSpeed);
-                if (firstLoad) DownloadFile(path, fileNameAttr.Value);
+                if (firstLoad) DownloadFile(path, download.Attribute("fileName").Value);
             }
         }
 
