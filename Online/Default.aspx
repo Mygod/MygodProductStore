@@ -44,13 +44,13 @@
             <small>wogfan in China!</small>
         </button>
         <span id="admin-features">
-            <button class="command-button" type="button" id="nothing-seriously">
-                什么都没有
-                <small>嘿嘿……什么都没有……</small>
+            <button class="command-button" type="button" id="offline-downloader-watcher">
+                Mygod离线下载器监视器
+                <small>监视当前离线下载器正在下载的任务数量。</small>
             </button>
         </span>
     </div>
-    <div style="visibility: collapse;">
+    <div>
         输入管理员密码以解锁网站管理功能：
         <input type="password" id="admin-password-box" />
     </div>
@@ -65,6 +65,8 @@
             $('#youtube-downloader').click(function () { location.href = 'NiGuanDownloader.aspx'; });
             $('#offline-downloader').click(function () { location.href = 'OfflineDownloader/'; });
             $('#wog-leaderboard').click(function () { location.href = 'WoGLeaderboard/'; });
+            
+            $('#offline-downloader-watcher').click(function () { location.href = 'OfflineDownloader/Fetch.aspx'; });
 
             $('#admin-password-box').keypress(function () {
                 setTimeout(function() {
