@@ -195,7 +195,7 @@
         <TiebaRecord>
           <Goos Value="14" Setter="dwerdwer" />
           <Moves Value="0" Setter="MayBeSuper" />
-          <Goal Value="14" Setter="dahkjdas" />
+          <Goal Value="13" Setter="粘粘球世界" />
           <OCD Value="27" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
@@ -492,7 +492,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="15" Setter="dwerdwer" />
-          <Moves Value="9" Setter="Wogfan4Evr" />
+          <Moves Value="6" Setter="粘粘球世界" />
           <Goal Value="23" Setter="Wogfan4Evr" />
           <OCD Value="102" Setter="dwerdwer" />
         </TiebaRecord>
@@ -622,7 +622,7 @@
           <Goos Value="21" Setter="dwerdwer" />
           <Moves Value="4" Setter="dahkjdas" />
           <Goal Value="45" Setter="粘粘球世界" />
-          <OCD Value="91" Setter="dwerdwer" />
+          <OCD Value="60" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Horizontal Transportation Innovation Committee">
@@ -636,7 +636,7 @@
           <Goos Value="58" Setter="dwerdwer" />
           <Moves Value="1" Setter="Wogfan4Evr" />
           <Goal Value="23" Setter="粘粘球世界" />
-          <OCD Value="96" Setter="dwerdwer" />
+          <OCD Value="68" Setter="Mygod" />
         </TiebaRecord>
       </Level>
       <Level Name="Weather Vane">
