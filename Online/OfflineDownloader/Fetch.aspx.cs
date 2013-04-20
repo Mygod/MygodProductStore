@@ -19,6 +19,9 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
         {
             var temp = Server.MapPath("/Temp/OfflineDownloader/");
             Directory.CreateDirectory(temp);
+            var info = new DriveInfo(temp[0].ToString());
+            AvailableFreeSpace = string.Format("{0} / {1} ({2:0.00} %)", GetSize(info.AvailableFreeSpace), GetSize(info.TotalSize),
+                                               100.0 * info.AvailableFreeSpace / info.TotalSize);
             var processing = Process.GetProcessesByName("MygodOfflineDownloader").LongLength;
             TaskCount = processing + "/" + new DirectoryInfo(temp).GetFiles("*.xml").LongLength;
             Url = FileSize = DownloadedFileSize = AverageDownloadSpeed = StartTime = SpentTime = RemainingTime = EndingTime = "未知";
@@ -38,7 +41,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 Status = "你的下载正在开始……刷新试试？";
                 return;
             }
-            var startTime = R.Parse(download.Attribute("startTime").Value);
+            var startTime = R.Parse(download.Attribute("startTime").Value); // TODO: MIGHT BE NULL!!!
             StartTime = startTime.AddHours(8).ToString("yyyy.M.d H:mm:ss.fff");
             var attr = download.Attribute("message");
             if (attr != null)
@@ -101,7 +104,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
         }
 
         protected string Url, Status, FileSize, DownloadedFileSize, AverageDownloadSpeed, StartTime, SpentTime, RemainingTime, 
-                         EndingTime, TaskCount, Percentage;
+                         EndingTime, TaskCount, Percentage, AvailableFreeSpace;
 
         private static readonly string[] Units = new[] { "字节", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB", "BB", "NB", "DB", "CB" };
         private static string GetSize(long size)

@@ -29,6 +29,7 @@
             <div>预计剩余时间：<%=RemainingTime %></div>
             <div>预计结束时间：<%=EndingTime %></div>
             <div>当前任务总数：<%=TaskCount %></div>
+            <div>磁盘可用空间：<%=AvailableFreeSpace %></div>
             <div class="progress-bar">
                 <%-- ReSharper disable UnexpectedValue --%>
                 <div class="bar" style="width: <%=Percentage %>%;"></div>

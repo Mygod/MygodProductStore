@@ -80,7 +80,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="16" Setter="dwerdwer" />
-          <Moves Value="13" Setter="dahkjdas" />
+          <Moves Value="9" Setter="粘粘球世界" />
           <Goal Value="18" Setter="粘粘球世界" />
           <OCD Value="18" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -124,7 +124,7 @@
           <Goos Value="36" Setter="" />
           <Moves Value="1" Setter="Wogfan4Evr" />
           <Goal Value="8" Setter="Wogfan4Evr" />
-          <OCD Value="23" Setter="dahkjdas" />
+          <OCD Value="22" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Chain">
@@ -181,7 +181,7 @@
         <TiebaRecord>
           <Goos Value="38" Setter="dwerdwer" />
           <Moves Value="5" Setter="粘粘球世界" />
-          <Goal Value="21" Setter="粘粘球世界" />
+          <Goal Value="18" Setter="粘粘球世界" />
           <OCD Value="30" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
@@ -193,7 +193,7 @@
           <OCD Value="17" Setter="Peter B" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="14" Setter="dwerdwer" />
+          <Goos Value="15" Setter="粘粘球世界" />
           <Moves Value="0" Setter="MayBeSuper" />
           <Goal Value="13" Setter="粘粘球世界" />
           <OCD Value="27" Setter="粘粘球世界" />
@@ -224,7 +224,7 @@
           <Goos Value="92" Setter="" />
           <Moves Value="7" Setter="粘粘球世界" />
           <Goal Value="39" Setter="dahkjdas" />
-          <OCD Value="121" Setter="Wogfan4Evr" />
+          <OCD Value="119" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Beauty School">
@@ -408,7 +408,7 @@
           <Goos Value="32" Setter="" />
           <Moves Value="9" Setter="粘粘球世界" />
           <Goal Value="11" Setter="粘粘球世界" />
-          <OCD Value="93" Setter="Wogfan4Evr" />
+          <OCD Value="75" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Upper Shaft">
@@ -522,7 +522,7 @@
           <Goos Value="21" Setter="" />
           <Moves Value="11" Setter="粘粘球世界" />
           <Goal Value="27" Setter="Wogfan4Evr" />
-          <OCD Value="52" Setter="dwerdwer" />
+          <OCD Value="34" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Road Blocks">
