@@ -9,7 +9,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             var url = getQueryStringRegExp("URL");
-            if (url) $("#magic-button").val($.base64reversed.decode(url));
+            if (url) $("#link-box").val($.base64reversed.decode(url));
             $("#magic-button").click(function () {
                 var box = $("#link-box");
                 var value = box.val();
