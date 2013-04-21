@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Web.UI;
 
 namespace Mygod.Website.ProductStore.Online
@@ -9,9 +8,7 @@ namespace Mygod.Website.ProductStore.Online
         protected void GetEmAll()
         {
             if (string.IsNullOrWhiteSpace(LinkBox.Text)) return;
-            int count;
-            if (!int.TryParse(CountBox.Text, out count) || count <= 0) count = int.MaxValue;
-            foreach (var video in YouTube.Video.GetVideoFromLink(LinkBox.Text).Take(count))
+            foreach (var video in YouTube.Video.GetVideoFromLink(LinkBox.Text))
             {
                 Response.Write(string.Format("<h3><a href='{1}'>{0}</a></h3>{2}", video.Title, video.Url, Environment.NewLine));
                 foreach (var link in video.FmtStreamMap) 

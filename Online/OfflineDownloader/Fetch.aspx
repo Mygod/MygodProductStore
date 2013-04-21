@@ -37,11 +37,8 @@
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
-    <div>&nbsp;</div>
-    <div class="center">你的任务被服务器咔嚓了？下载失败了？下载完了这个机密文件准备把它销毁了？服务器端的这个文件已经更新了？点击下面可怕的按钮销毁你的文件！</div>
-    <div>&nbsp;</div>
-    <div class="center"><button type="button" id="terrible-button">我就是那个可怕的按钮</button></div>
-    <div>&nbsp;</div>
+    <p class="center">你的任务被服务器咔嚓了？下载失败了？下载完了这个机密文件准备把它销毁了？服务器端的这个文件已经更新了？点击下面可怕的按钮销毁你的文件！</p>
+    <p class="center"><button type="button" id="terrible-button">我就是那个可怕的按钮</button></p>
     <div>与此同时，你也可以做这些事：</div>
     <ul>
         <li>盯着上面的进度看它不断更新；</li>
