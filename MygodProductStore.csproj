@@ -186,7 +186,6 @@
     <Content Include="Online\OfflineDownloader\Default.aspx" />
     <Content Include="Online\OfflineDownloader\Destroy.aspx" />
     <Content Include="Online\OfflineDownloader\Fetch.aspx" />
-    <Content Include="Online\OfflineDownloader\Start.aspx" />
     <Content Include="Online\WoGCorp\AD.png" />
     <Content Include="Online\WoGCorp\AE.png" />
     <Content Include="Online\WoGCorp\AF.png" />
@@ -523,13 +522,6 @@
     </Compile>
     <Compile Include="Online\OfflineDownloader\Fetch.aspx.designer.cs">
       <DependentUpon>Fetch.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\Start.aspx.cs">
-      <DependentUpon>Start.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\Start.aspx.designer.cs">
-      <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
     <Compile Include="Online\TFQR.cs" />
     <Compile Include="Online\WoGCorp\Default.aspx.cs">
