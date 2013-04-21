@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Text;
 using System.Web;
@@ -13,12 +14,8 @@ namespace Mygod.Website.ProductStore.Online
         {
             var url = Request.QueryString["URL"];
             if (string.IsNullOrWhiteSpace(url)) return;
-            var type = TFQR.GetUrlType(url);
-            while (type != Operation.Normal)
-            {
-                url = TFQR.Decode(type, url);
-                type = TFQR.GetUrlType(url);
-            }
+            url = TFQR.Base64Decode(url).Reverse().Aggregate(string.Empty, (c, s) => c + s);
+            url = TFQR.Decode(TFQR.GetUrlType(url), url);
             #region 定义局部变量
             long startBytes = 0;
             const int packSize = 1024 * 10; //分块读取，每块10K bytes  

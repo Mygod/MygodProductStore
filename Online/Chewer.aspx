@@ -12,7 +12,7 @@
                 var box = $("#link-box");
                 var value = box.val();
                 if (!isNullOrWhiteSpace(value) && value.indexOf("mygod.apphb.com") < 0)
-                    box.val("http://mygod.apphb.com/Online/Chewer.aspx?URL=" + $.base64.encode(value.split("").reverse().join("")));
+                    location.href = "?URL=" + $.base64reversed.encode(value);
             });
         });
     </script>
@@ -20,7 +20,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <h2 class="center">Mygod嚼烂喂给你吃下载器</h2>
     <div>记住，Mygod嚼烂喂给你吃下载器……就是这么拽！它还可以当梯子使，不过……嘘！</div>
-    <div>把地址贴上来，然后按下那个神奇的按钮，在那之后你就可以打开这个链接下载了。很遗憾经测试迅雷似乎并不能用，如果你想用迅雷下载，试试<a href="OfflineDownloader/">Mygod离线下载器</a>！</div>
+    <div>把地址贴上来，然后按下那个神奇的按钮就可以立即开始下载了。很遗憾经测试迅雷似乎并不能用，如果你想用迅雷下载，试试<a href="OfflineDownloader/">Mygod离线下载器</a>！</div>
     <div>
         <input type="text" id="link-box" />
     </div>

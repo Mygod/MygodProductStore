@@ -1,10 +1,6 @@
 ﻿<%@ Page Title="Mygod离线下载器飞速下载中" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Fetch.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.OfflineDownloader.Fetch" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
     <script type="text/javascript">
-        function getQueryStringRegExp(name) {
-            var reg = new RegExp("(^|\\?|&)" + name + "=([^&]*)(\\s|&|$)", "i");
-            if (reg.test(location.href)) return unescape(RegExp.$2.replace(/\+/g, " ")); return "";
-        };
         $(document).ready(function () {
             $("#terrible-button").click(function () {
                 location.href = "Destroy.aspx?Key=" + getQueryStringRegExp("Key");
