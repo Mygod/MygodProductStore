@@ -22,7 +22,7 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
                 lines++;
                 result.AppendLine(MygodOfflineDownloader.Prefix + MygodOfflineDownloader.NewTask(Server, link));
             }
-            if (lines == 1) Response.Redirect(result.ToString());
+            if (lines == 1) Response.Redirect(result.ToString().Trim('\r', '\n'));
             else LinkBox.Text = result.ToString();
         }
     }
