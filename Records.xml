@@ -51,7 +51,7 @@
           <OCD Value="21" Setter="DaftasBrush" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="52" Setter="粘粘球世界" />
+          <Goos Value="52" Setter="dahkjdas" />
           <Moves Value="12" Setter="dwerdwer" />
           <Goal Value="16" Setter="粘粘球世界" />
           <OCD Value="24" Setter="dahkjdas" />
@@ -196,7 +196,7 @@
           <Goos Value="15" Setter="粘粘球世界" />
           <Moves Value="0" Setter="MayBeSuper" />
           <Goal Value="13" Setter="粘粘球世界" />
-          <OCD Value="27" Setter="粘粘球世界" />
+          <OCD Value="26" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
       <Level Name="Blustery Day">
@@ -291,7 +291,7 @@
           <OCD Value="19" Setter="DaftasBrush" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="49" Setter="Mygod" />
+          <Goos Value="55" Setter="粘粘球世界" />
           <Moves Value="0" Setter="" />
           <Goal Value="17" Setter="粘粘球世界" />
           <OCD Value="29" Setter="dahkjdas" />
