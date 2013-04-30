@@ -36,14 +36,15 @@ namespace Mygod.Website.ProductStore.Online.OfflineDownloader
             var download = XDocument.Load(xmlPath).Element("download");
             Url = string.Format("<a href=\"{0}\">{0}</a>", download.Attribute("url").Value);
             var idAttr = download.Attribute("id");
-            if (idAttr == null)
+            var attr = download.Attribute("startTime");
+            if (idAttr == null || attr == null)
             {
                 Status = "你的下载正在开始……刷新试试？";
                 return;
             }
-            var startTime = R.Parse(download.Attribute("startTime").Value); // TODO: MIGHT BE NULL!!!
+            var startTime = R.Parse(attr.Value);
             StartTime = startTime.AddHours(8).ToString("yyyy.M.d H:mm:ss.fff");
-            var attr = download.Attribute("message");
+            attr = download.Attribute("message");
             if (attr != null)
             {
                 Status = "发生错误，具体信息：" + attr.Value;

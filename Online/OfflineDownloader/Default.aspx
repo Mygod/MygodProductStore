@@ -16,4 +16,6 @@
     <div>想要销毁任务？把你得到的地址中的Fetch改为Destroy然后打开即可！</div>
     <p><asp:TextBox ID="LinkBox" runat="server" TextMode="MultiLine" CssClass="link-box"></asp:TextBox></p>
     <div class="center"><asp:Button ID="SubmitButton" runat="server" Text="我就是那个神奇的按钮" OnClick="Submit" /></div>
+    <hr />
+    <div>部分特殊网站的离线下载方式：<a href="/Online/NiGuanDownloader.aspx">你管（YouTube）视频</a> <a href="MediaHuo.aspx">媒体火（Mediafire）</a></div>
 </asp:Content>
