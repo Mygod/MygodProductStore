@@ -31,6 +31,6 @@ namespace Mygod.Website.ProductStore.Online.WoGLeaderboard
         {
             get { return string.Format("<a href=\"http://goofans.com/leaderboard/player/{0}\">{1}</a>", Key, Name); }
         }
-        public string TimeFormatted { get { return Time / 60 + ":" + Time % 60; } }
+        public string TimeFormatted { get { return string.Format("{0}:{1:00}", Time / 60, Time % 60); } }
     }
 }

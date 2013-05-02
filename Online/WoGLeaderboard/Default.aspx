@@ -94,6 +94,10 @@
         <% } %>
     </ol>
 
-    <div><a href="Submit.aspx">现在提交你的关卡纪录！</a></div>
-    <div><a href="Refresh.aspx">刷新最后四个排行榜（请在你更新了你的 goofans 存档后使用）</a></div>
+    <div>接下来你要做什么？</div>
+    <ul>
+        <li><a href="Submit.aspx">现在提交你的关卡纪录！</a></li>
+        <li><a href="http://tieba.baidu.com/p/2303510329">现在申请进入玩家排行榜！</a></li>
+        <li><a href="Refresh.aspx">刷新最后四个排行榜！（请在你更新了你的 goofans 存档后使用）</a></li>
+    </ul>
 </asp:Content>
