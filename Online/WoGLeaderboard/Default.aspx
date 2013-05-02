@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <h2 class="center">粘粘世界吧排行榜</h2>
 
-    <h3>关卡纪录</h3>
+    <h3 id="level-record">关卡纪录</h3>
     <div>说明：悬停可查看与世界纪录的差距。</div>
     <table style="width: 100%">
         <thead style="width: 100%">
@@ -50,7 +50,7 @@
         </tbody>
     </table>
     
-    <h3>破纪录数排行榜</h3>
+    <h3 id="record-count">破纪录数排行榜</h3>
     <div>说明：悬停可查看破了哪些纪录。</div>
     <ol>
         <% foreach (var player in Players.Instance.OrderByDescending(player => player.WorldRecords.Count)
@@ -60,7 +60,7 @@
         <% } %>
     </ol>
 
-    <h3>粘粘公司排行榜</h3>
+    <h3 id="wogcorp">粘粘公司排行榜</h3>
     <% var players = XDocument.Load(Server.MapPath("Players.xml")).Element("Players").Elements("Player")
            .Select(e => new LeaderboardPlayer(e)).ToList(); %>
     <ol>
@@ -70,7 +70,7 @@
         <% } %>
     </ol>
 
-    <h3>总球数排行榜</h3>
+    <h3 id="balls">总球数排行榜</h3>
     <ol>
         <% foreach (var player in players.OrderByDescending(player => player.Balls))
            { %>
@@ -78,7 +78,7 @@
         <% } %>
     </ol>
 
-    <h3>总步数排行榜</h3>
+    <h3 id="moves">总步数排行榜</h3>
     <ol>
         <% foreach (var player in players.OrderBy(player => player.Moves))
            { %>
@@ -86,7 +86,7 @@
         <% } %>
     </ol>
 
-    <h3>总过关时间排行榜</h3>
+    <h3 id="time">总过关时间排行榜</h3>
     <ol>
         <% foreach (var player in players.OrderBy(player => player.Time))
            { %>

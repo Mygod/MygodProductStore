@@ -41,7 +41,7 @@
         </button>
         <button class="command-button" type="button" id="wog-leaderboard">
             粘粘世界吧排行榜
-            <small>wogfan in China!</small>
+            <small>粘粘世界吧排行榜，中国的粘粘世界排行榜！</small>
         </button>
         <span id="admin-features">
             <button class="command-button" type="button" id="offline-downloader-watcher">
