@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="粘粘世界吧排行榜" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.WoGLeaderboard.Default" %>
 <%@ Import Namespace="Mygod.Website.ProductStore" %>
+<%@ Import Namespace="Mygod.Website.ProductStore.Online.WoGLeaderboard" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
@@ -49,13 +50,50 @@
         </tbody>
     </table>
     
-    <h3>顶尖玩家排行榜</h3>
+    <h3>破纪录数排行榜</h3>
     <div>说明：悬停可查看破了哪些纪录。</div>
-    <% foreach (var player in Players.Instance.OrderByDescending(player => player.WorldRecords.Count)
+    <ol>
+        <% foreach (var player in Players.Instance.OrderByDescending(player => player.WorldRecords.Count)
                                      .ThenByDescending(player => player.TiebaRecords.Count))
-       { %>
-    <div><%=player %></div>
-    <% } %>
-    <div>&nbsp;</div>
-    <div><a href="Submit.aspx">现在提交你的记录！</a></div>
+           { %>
+        <li><%=player %></li>
+        <% } %>
+    </ol>
+
+    <h3>粘粘公司排行榜</h3>
+    <% var players = XDocument.Load(Server.MapPath("Players.xml")).Element("Players").Elements("Player")
+           .Select(e => new LeaderboardPlayer(e)).ToList(); %>
+    <ol>
+        <% foreach (var player in players.OrderByDescending(player => player.Tower))
+           { %>
+        <li><span class="bold"><%=player.NameWithLink %></span>：<%=player.Tower %>m</li>
+        <% } %>
+    </ol>
+
+    <h3>总球数排行榜</h3>
+    <ol>
+        <% foreach (var player in players.OrderByDescending(player => player.Balls))
+           { %>
+        <li><span class="bold"><%=player.NameWithLink %></span>：<%=player.Balls %> 球</li>
+        <% } %>
+    </ol>
+
+    <h3>总步数排行榜</h3>
+    <ol>
+        <% foreach (var player in players.OrderBy(player => player.Moves))
+           { %>
+        <li><span class="bold"><%=player.NameWithLink %></span>：<%=player.Moves %> 步</li>
+        <% } %>
+    </ol>
+
+    <h3>总过关时间排行榜</h3>
+    <ol>
+        <% foreach (var player in players.OrderBy(player => player.Time))
+           { %>
+        <li><span class="bold"><%=player.NameWithLink %></span>：<%=player.TimeFormatted %></li>
+        <% } %>
+    </ol>
+
+    <div><a href="Submit.aspx">现在提交你的关卡纪录！</a></div>
+    <div><a href="Refresh.aspx">刷新最后四个排行榜（请在你更新了你的 goofans 存档后使用）</a></div>
 </asp:Content>
