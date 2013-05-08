@@ -463,8 +463,8 @@
         <TiebaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="1" Setter="" />
-          <Goal Value="66" Setter="MayBeSuper" />
-          <OCD Value="66" Setter="MayBeSuper" />
+          <Goal Value="61" Setter="ceo5686" />
+          <OCD Value="61" Setter="ceo5686" />
         </TiebaRecord>
       </Level>
     </Chapter>
@@ -564,7 +564,7 @@
           <Goos Value="43" Setter="" />
           <Moves Value="2" Setter="ceo5686" />
           <Goal Value="54" Setter="ceo5686" />
-          <OCD Value="78" Setter="Wogfan4Evr" />
+          <OCD Value="55" Setter="ceo5686" />
         </TiebaRecord>
       </Level>
       <Level Name="The Server Farm">
