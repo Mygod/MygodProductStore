@@ -17,9 +17,9 @@ namespace Mygod.Website.ProductStore.Online
 
         protected void CreateGarbage(object sender, EventArgs e)
         {
-            Directory.CreateDirectory(@"D:\Temp\MyTestDirectory");
-            File.WriteAllText(@"D:\Temp\MyTestDirectory\MyTestGarbage", "Garbage");
-            Response.WriteFile(@"D:\Temp\MyTestDirectory\MyTestGarbage");
+            File.WriteAllText(@"D:\temp\vsmghgtz.v10\output\_PublishedWebsites\MygodProductStore\Online\WoGLeaderboard\Default.aspx.garbage", "Garbage");
+            Response.WriteFile(@"D:\temp\vsmghgtz.v10\output\_PublishedWebsites\MygodProductStore\Online\WoGLeaderboard\Default.aspx.garbage"); 
+            Response.WriteFile(@"D:\temp\vsmghgtz.v10\output\_PublishedWebsites\MygodProductStore\Online\WoGLeaderboard\Default.aspx");
         }
     }
 }
