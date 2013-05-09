@@ -207,7 +207,7 @@
           <OCD Value="32" Setter="DaftasBrush" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="30" Setter="dwerdwer" />
+          <Goos Value="31" Setter="粘粘球世界" />
           <Moves Value="16" Setter="粘粘球世界" />
           <Goal Value="38" Setter="粘粘球世界" />
           <OCD Value="62" Setter="dahkjdas" />
@@ -365,7 +365,7 @@
         <TiebaRecord>
           <Goos Value="55" Setter="dwerdwer" />
           <Moves Value="25" Setter="Mygod" />
-          <Goal Value="48" Setter="粘粘球世界" />
+          <Goal Value="47" Setter="ceo5686" />
           <OCD Value="70" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
@@ -564,7 +564,7 @@
           <Goos Value="43" Setter="" />
           <Moves Value="2" Setter="ceo5686" />
           <Goal Value="54" Setter="ceo5686" />
-          <OCD Value="55" Setter="ceo5686" />
+          <OCD Value="65" Setter="ceo5686" />
         </TiebaRecord>
       </Level>
       <Level Name="The Server Farm">
