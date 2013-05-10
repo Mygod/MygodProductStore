@@ -549,8 +549,8 @@
         <TiebaRecord>
           <Goos Value="12" Setter="dwerdwer" />
           <Moves Value="1" Setter="MayBeSuper" />
-          <Goal Value="12" Setter="Wogfan4Evr" />
-          <OCD Value="12" Setter="Wogfan4Evr" />
+          <Goal Value="11" Setter="粘粘球世界" />
+          <OCD Value="11" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Alice and Bob and the Third Party">
@@ -563,7 +563,7 @@
         <TiebaRecord>
           <Goos Value="43" Setter="" />
           <Moves Value="2" Setter="ceo5686" />
-          <Goal Value="54" Setter="ceo5686" />
+          <Goal Value="48" Setter="粘粘球世界" />
           <OCD Value="65" Setter="ceo5686" />
         </TiebaRecord>
       </Level>
@@ -576,7 +576,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="29" Setter="dahkjdas" />
-          <Moves Value="9" Setter="dwerdwer" />
+          <Moves Value="7" Setter="dahkjdas" />
           <Goal Value="8" Setter="dahkjdas" />
           <OCD Value="13" Setter="粘粘球世界" />
         </TiebaRecord>
