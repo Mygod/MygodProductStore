@@ -160,8 +160,6 @@
     <Content Include="less\theme-dark.less" />
     <Content Include="less\tiles.less" />
     <Content Include="less\typography.less" />
-    <Content Include="Online\OfflineDownloader\MediaHuo.aspx" />
-    <Content Include="Online\OfflineDownloader\MygodOfflineDownloader.exe" />
     <Content Include="Online\BrowserDownload.aspx" />
     <Content Include="Online\Countdowns.aspx" />
     <Content Include="Online\Default.aspx" />
@@ -184,11 +182,7 @@
     <Content Include="Online\MOM\textBar_cursor.png" />
     <Content Include="Online\MOM\textBar_middle_up.png" />
     <Content Include="Online\MOM\textBar_top_up.png" />
-    <Content Include="Online\Chewer.aspx" />
-    <Content Include="Online\OfflineDownloader\Default.aspx" />
-    <Content Include="Online\OfflineDownloader\Destroy.aspx" />
-    <Content Include="Online\OfflineDownloader\Fetch.aspx" />
-    <Content Include="Online\OfflineDownloader\Start.aspx" />
+    <Content Include="Online\Skylark\Default.aspx" />
     <Content Include="Online\WoGCorp\AD.png" />
     <Content Include="Online\WoGCorp\AE.png" />
     <Content Include="Online\WoGCorp\AF.png" />
@@ -431,7 +425,6 @@
     <Content Include="Online\WoGCorp\ZA.png" />
     <Content Include="Online\WoGCorp\ZM.png" />
     <Content Include="Online\WoGCorp\ZW.png" />
-    <Content Include="Online\NiGuanDownloader.aspx" />
     <EmbeddedResource Include="Products.xml" />
     <Content Include="fonts\iconFont.svg" />
     <Content Include="fonts\license.txt" />
@@ -459,7 +452,9 @@
     <Content Include="Online\WoGLeaderboard\Refresh.aspx" />
     <Content Include="Online\WoGLeaderboard\Submit.aspx" />
     <Content Include="Screenshots.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data.cs" />
@@ -470,7 +465,6 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Extensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -481,7 +475,6 @@
     <Compile Include="InstallDotNetFx40.aspx.designer.cs">
       <DependentUpon>InstallDotNetFx40.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Online\Bases.cs" />
     <Compile Include="Online\BrowserDownload.aspx.cs">
       <DependentUpon>BrowserDownload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -503,49 +496,13 @@
     <Compile Include="Online\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Online\Chewer.aspx.cs">
-      <DependentUpon>Chewer.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Chewer.aspx.designer.cs">
-      <DependentUpon>Chewer.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\Default.aspx.cs">
+    <Compile Include="Online\Skylark\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Online\OfflineDownloader\Default.aspx.designer.cs">
+    <Compile Include="Online\Skylark\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Online\OfflineDownloader\Destroy.aspx.cs">
-      <DependentUpon>Destroy.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\Destroy.aspx.designer.cs">
-      <DependentUpon>Destroy.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\Fetch.aspx.cs">
-      <DependentUpon>Fetch.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\Fetch.aspx.designer.cs">
-      <DependentUpon>Fetch.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\MediaHuo.aspx.cs">
-      <DependentUpon>MediaHuo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\MediaHuo.aspx.designer.cs">
-      <DependentUpon>MediaHuo.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\Start.aspx.cs">
-      <DependentUpon>Start.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\OfflineDownloader\Start.aspx.designer.cs">
-      <DependentUpon>Start.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\TFQR.cs" />
     <Compile Include="Online\WoGCorp\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -574,14 +531,6 @@
     </Compile>
     <Compile Include="Online\WoGLeaderboard\Submit.aspx.designer.cs">
       <DependentUpon>Submit.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\YouTube.cs" />
-    <Compile Include="Online\NiGuanDownloader.aspx.cs">
-      <DependentUpon>NiGuanDownloader.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\NiGuanDownloader.aspx.designer.cs">
-      <DependentUpon>NiGuanDownloader.aspx</DependentUpon>
     </Compile>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="InstallDotNetFx40Client.aspx.cs">

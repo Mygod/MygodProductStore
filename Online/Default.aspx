@@ -27,27 +27,15 @@
             Mygod浏览器下载小工具
             <small>用来用浏览器下载一些东西……（我的第一个Javascript程序）</small>
         </button>
-        <button class="command-button" type="button" id="chewer">
-            Mygod嚼烂喂给你吃下载器
-            <small>记住，Mygod嚼烂喂给你吃下载器……就是这么拽！</small>
-        </button>
-        <button class="command-button" type="button" id="youtube-downloader">
-            你管下载者 Online
-            <small>使用它可以下载任何一部你管上的视频！（支持离线下载）</small>
-        </button>
-        <button class="command-button" type="button" id="offline-downloader">
-            Mygod离线下载器
-            <small>迅雷会员一点也不拽，Mygod会员现在也可以获得离线下载的功能！</small>
-        </button>
         <button class="command-button" type="button" id="wog-leaderboard">
             粘粘世界吧排行榜
             <small>粘粘世界吧排行榜，中国的粘粘世界排行榜！</small>
         </button>
+        <button class="command-button" type="button" id="skylark">
+            云雀™
+            <small>云雀™，您的云存储伴侣。</small>
+        </button>
         <span id="admin-features">
-            <button class="command-button" type="button" id="offline-downloader-watcher">
-                Mygod离线下载器监视器
-                <small>监视当前离线下载器正在下载的任务数量。</small>
-            </button>
         </span>
     </div>
     <div>
@@ -61,12 +49,8 @@
             $('#wogcorp').click(function () { location.href = 'WoGCorp/'; });
             $('#countdowns').click(function () { location.href = 'Countdowns.aspx'; });
             $('#browser-download').click(function () { location.href = 'BrowserDownload.aspx'; });
-            $('#chewer').click(function () { location.href = 'Chewer.aspx'; });
-            $('#youtube-downloader').click(function () { location.href = 'NiGuanDownloader.aspx'; });
-            $('#offline-downloader').click(function () { location.href = 'OfflineDownloader/'; });
             $('#wog-leaderboard').click(function () { location.href = 'WoGLeaderboard/'; });
-            
-            $('#offline-downloader-watcher').click(function () { location.href = 'OfflineDownloader/Fetch.aspx'; });
+            $('#skylark').click(function () { location.href = 'Skylark/'; });
 
             $('#admin-password-box').keypress(function () {
                 setTimeout(function() {

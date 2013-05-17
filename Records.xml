@@ -108,7 +108,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="16" Setter="" />
-          <Moves Value="2" Setter="" />
+          <Moves Value="0" Setter="粘粘球世界" />
           <Goal Value="3" Setter="粘粘球世界" />
           <OCD Value="16" Setter="dahkjdas" />
         </TiebaRecord>
@@ -137,7 +137,7 @@
         <TiebaRecord>
           <Goos Value="39" Setter="" />
           <Moves Value="5" Setter="Wogfan4Evr" />
-          <Goal Value="20" Setter="粘粘球世界" />
+          <Goal Value="18" Setter="粘粘球世界" />
           <OCD Value="35" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
@@ -570,7 +570,7 @@
       <Level Name="The Server Farm">
         <WorldRecord>
           <Goos Value="30" Setter="Peter B" />
-          <Moves Value="3" Setter="Peter B" />
+          <Moves Value="2" Setter="Peter B" />
           <Goal Value="5" Setter="Peter B" />
           <OCD Value="10" Setter="DaftasBrush" />
         </WorldRecord>
@@ -619,7 +619,7 @@
           <OCD Value="48" Setter="Peter B" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="22" Setter="粘粘球世界" />
+          <Goos Value="31" Setter="粘粘球世界" />
           <Moves Value="4" Setter="dahkjdas" />
           <Goal Value="45" Setter="粘粘球世界" />
           <OCD Value="60" Setter="Mygod" />
@@ -635,14 +635,14 @@
         <TiebaRecord>
           <Goos Value="58" Setter="dwerdwer" />
           <Moves Value="1" Setter="Wogfan4Evr" />
-          <Goal Value="23" Setter="粘粘球世界" />
+          <Goal Value="15" Setter="粘粘球世界" />
           <OCD Value="57" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Weather Vane">
         <WorldRecord>
           <Goos Value="108" Setter="Peter B" />
-          <Moves Value="10" Setter="Peter B" />
+          <Moves Value="9" Setter="Peter B" />
           <Goal Value="12" Setter="DaftasBrush" />
           <OCD Value="30" Setter="DaftasBrush" />
         </WorldRecord>

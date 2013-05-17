@@ -7,9 +7,9 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace Mygod.Website.ProductStore.Online {
+namespace Mygod.Website.ProductStore.Online.Skylark {
     
     
-    public partial class NiGuanDownloader {
+    public partial class Default {
     }
 }
