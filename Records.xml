@@ -138,7 +138,7 @@
           <Goos Value="39" Setter="" />
           <Moves Value="5" Setter="Wogfan4Evr" />
           <Goal Value="18" Setter="粘粘球世界" />
-          <OCD Value="35" Setter="粘粘球世界" />
+          <OCD Value="32" Setter="lkjhgfdsa431" />
         </TiebaRecord>
       </Level>
       <Level Name="Ode to the Bridge Builder">
@@ -152,7 +152,7 @@
           <Goos Value="58" Setter="dwerdwer" />
           <Moves Value="20" Setter="dwerdwer" />
           <Goal Value="25" Setter="dahkjdas" />
-          <OCD Value="36" Setter="dahkjdas" />
+          <OCD Value="28" Setter="lkjhgfdsa431" />
         </TiebaRecord>
       </Level>
       <Level Name="Regurgitation Pumping Station">
@@ -209,7 +209,7 @@
         <TiebaRecord>
           <Goos Value="31" Setter="粘粘球世界" />
           <Moves Value="16" Setter="粘粘球世界" />
-          <Goal Value="38" Setter="粘粘球世界" />
+          <Goal Value="36" Setter="dahkjdas" />
           <OCD Value="62" Setter="dahkjdas" />
         </TiebaRecord>
       </Level>
@@ -222,7 +222,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="92" Setter="" />
-          <Moves Value="7" Setter="粘粘球世界" />
+          <Moves Value="4" Setter="lkjhgfdsa431" />
           <Goal Value="39" Setter="dahkjdas" />
           <OCD Value="119" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -307,8 +307,8 @@
         <TiebaRecord>
           <Goos Value="18" Setter="" />
           <Moves Value="0" Setter="dahkjdas" />
-          <Goal Value="35" Setter="粘粘球世界" />
-          <OCD Value="35" Setter="粘粘球世界" />
+          <Goal Value="23" Setter="lkjhgfdsa431" />
+          <OCD Value="23" Setter="lkjhgfdsa431" />
         </TiebaRecord>
       </Level>
       <Level Name="Genetic Sorting Machine">
@@ -448,7 +448,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="16" Setter="" />
-          <Moves Value="20" Setter="Wogfan4Evr" />
+          <Moves Value="14" Setter="lkjhgfdsa431" />
           <Goal Value="42" Setter="dahkjdas" />
           <OCD Value="42" Setter="dahkjdas" />
         </TiebaRecord>
@@ -494,7 +494,7 @@
           <Goos Value="15" Setter="dwerdwer" />
           <Moves Value="6" Setter="粘粘球世界" />
           <Goal Value="23" Setter="Wogfan4Evr" />
-          <OCD Value="102" Setter="dwerdwer" />
+          <OCD Value="57" Setter="lkjhgfdsa431" />
         </TiebaRecord>
       </Level>
       <Level Name="Grape Vine Virus">
@@ -578,7 +578,7 @@
           <Goos Value="29" Setter="dahkjdas" />
           <Moves Value="7" Setter="dahkjdas" />
           <Goal Value="8" Setter="dahkjdas" />
-          <OCD Value="13" Setter="粘粘球世界" />
+          <OCD Value="11" Setter="lkjhgfdsa431" />
         </TiebaRecord>
       </Level>
       <Level Name="MOM's Computer">
@@ -633,7 +633,7 @@
           <OCD Value="28" Setter="DaftasBrush" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="58" Setter="dwerdwer" />
+          <Goos Value="60" Setter="lkjhgfdsa431" />
           <Moves Value="1" Setter="Wogfan4Evr" />
           <Goal Value="15" Setter="粘粘球世界" />
           <OCD Value="57" Setter="粘粘球世界" />

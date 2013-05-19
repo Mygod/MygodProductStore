@@ -35,7 +35,15 @@
             云雀™
             <small>云雀™，您的云存储伴侣。</small>
         </button>
+        <button class="command-button" type="button" id="edge-rg">
+            Edge关卡XML参考指南
+            <small>为 Mygod工作室™ 的产品 Edge浏览器 编写的参考指南。</small>
+        </button>
         <span id="admin-features">
+            <button class="command-button" type="button" id="nothing-here">
+                这儿啥都没有……
+                <small>这儿曾经有一个比较有用的东西，不过随着云雀™的诞生而灭亡了……</small>
+            </button>
         </span>
     </div>
     <div>
@@ -51,6 +59,7 @@
             $('#browser-download').click(function () { location.href = 'BrowserDownload.aspx'; });
             $('#wog-leaderboard').click(function () { location.href = 'WoGLeaderboard/'; });
             $('#skylark').click(function () { location.href = 'Skylark/'; });
+            $('#edge-rg').click(function () { location.href = 'Edge/'; });
 
             $('#admin-password-box').keypress(function () {
                 setTimeout(function() {

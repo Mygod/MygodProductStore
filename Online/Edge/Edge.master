@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Edge.master.cs" Inherits="Mygod.Website.ProductStore.Online.Edge.Edge" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="Head" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
+    <h2 class="center">Edge关卡XML参考指南</h2>
+    <div>本参考指南为 Mygod工作室™ 的产品 <a href="/#Product-94">Edge浏览器</a> 编写。如果你还不知道这是什么，先去看看吧。</div>
+    <div>此产品产生的XML是由bin文件转换而来，如果你感兴趣，其格式在此：<a href="http://pastebin.mozilla.org/2413107">http://pastebin.mozilla.org/2413107</a></div>
+    <div>此产品使用的三维坐标系以右前方为Y轴负方向（或北，按键为上），右下角为X轴正方向（或东，按键为右），上为Z轴正方向。</div>
+    <div><a href="Default.aspx">Level 元素</a> / <asp:ContentPlaceHolder runat="server" ID="CurrentPosition" /></div>
+    <div>说明：<asp:ContentPlaceHolder runat="server" ID="Description" /></div>
+    <div>属性列表：</div>
+    <table>
+        <thead>
+            <tr>
+                <td class="nowrap">属性名</td>
+                <td class="nowrap">数据类型</td>
+                <td>备注</td>
+            </tr>
+        </thead>
+        <tbody>
+            <asp:ContentPlaceHolder runat="server" ID="Body" />
+        </tbody>
+    </table>
+    <div>子元素列表：</div>
+    <asp:ContentPlaceHolder runat="server" ID="ChildElements" />
+    <div>&nbsp;</div>
+    <div>附数据类型表：</div>
+    <table>
+        <thead>
+            <tr>
+                <td>数据类型名称</td>
+                <td>有效数据格式</td>
+                <td>样例</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>32位整数</td>
+                <td>-2147483648～2147483647之间的任何整数</td>
+                <td>-24524698</td>
+            </tr>
+            <tr>
+                <td>16位整数</td>
+                <td>-32768～32767之间的任何整数</td>
+                <td>-24598</td>
+            </tr>
+            <tr>
+                <td>16位自然数</td>
+                <td>0～65535之间的任何整数</td>
+                <td>24598</td>
+            </tr>
+            <tr>
+                <td>8位自然数</td>
+                <td>0～255之间的任何整数</td>
+                <td>245</td>
+            </tr>
+            <tr>
+                <td>文本</td>
+                <td>任意文本</td>
+                <td>Hello, world!</td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>不含有半角符号“(,)”这三个中任何一个的文本</td>
+                <td>testing123</td>
+            </tr>
+            <tr>
+                <td>带数据的ID</td>
+                <td>一个ID，后面可选增加一对半角括号，括号内填写数据（16位自然数，默认为0）</td>
+                <td>IdOfSomething (123)</td>
+            </tr>
+            <tr>
+                <td>布尔型</td>
+                <td>真（True）或假（False）</td>
+                <td>False</td>
+            </tr>
+            <tr>
+                <td>可空布尔型</td>
+                <td>真（True）、假（False）或空（Null）</td>
+                <td>Null</td>
+            </tr>
+            <tr>
+                <td>三维大小</td>
+                <td>长x宽x高（分别为16位、16位、8位自然数）</td>
+                <td>1239x1253x123</td>
+            </tr>
+            <tr>
+                <td>{某种类型}列表</td>
+                <td>输入一系列由半角逗号“,”分割的指定数据</td>
+                <td>1239,1253,1234</td>
+            </tr>
+            <tr>
+                <td>三维坐标</td>
+                <td>即由3个16位整数组成的16位整数列表</td>
+                <td>1239,-1253,1234</td>
+            </tr>
+            <tr>
+                <td>二维向量</td>
+                <td>即由2个8位整数组成的8位整数列表</td>
+                <td>13,12</td>
+            </tr>
+            <tr>
+                <td>特殊</td>
+                <td>只能填写在“备注”中指定的几个值</td>
+                <td>Toggle</td>
+            </tr>
+        </tbody>
+    </table>
+</asp:Content>
