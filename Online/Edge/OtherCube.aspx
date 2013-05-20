@@ -5,7 +5,7 @@
      <a href="OtherCube.aspx">OtherCube 元素</a>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Description" runat="server">
-    OtherCube（提示方块），表示一个提示你如何过关的方块。（请注意这玩意儿会像普通方块一样与实际关卡交互，如magic关所示）
+    OtherCube（提示方块），表示一个提示你如何过关的方块。（请注意这玩意儿只能和@Mode=Toggle的Button交互，如magic关所示）
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="Body" runat="server">
     <tr>

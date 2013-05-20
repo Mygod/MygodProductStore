@@ -11,7 +11,7 @@
     <tr>
         <td class="nowrap">Position</td>
         <td class="nowrap">三维坐标</td>
-        <td>必填。该点的坐标。</td>
+        <td>必填。该点的坐标。请注意这里的Z坐标应该在原坐标基础上-1，否则在游戏中将显示不正常！</td>
     </tr>
     <tr>
         <td class="nowrap">TravelTime</td>
