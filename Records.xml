@@ -222,7 +222,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="92" Setter="" />
-          <Moves Value="4" Setter="lkjhgfdsa431" />
+          <Moves Value="3" Setter="粘粘球世界" />
           <Goal Value="39" Setter="dahkjdas" />
           <OCD Value="119" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -237,8 +237,8 @@
         <TiebaRecord>
           <Goos Value="18" Setter="" />
           <Moves Value="0" Setter="Wogfan4Evr" />
-          <Goal Value="16" Setter="Wogfan4Evr" />
-          <OCD Value="16" Setter="Wogfan4Evr" />
+          <Goal Value="15" Setter="粘粘球世界" />
+          <OCD Value="15" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Leap Hole">
@@ -365,7 +365,7 @@
         <TiebaRecord>
           <Goos Value="55" Setter="dwerdwer" />
           <Moves Value="25" Setter="Mygod" />
-          <Goal Value="45" Setter="粘粘球世界" />
+          <Goal Value="41" Setter="粘粘球世界" />
           <OCD Value="70" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
@@ -493,7 +493,7 @@
         <TiebaRecord>
           <Goos Value="15" Setter="dwerdwer" />
           <Moves Value="6" Setter="粘粘球世界" />
-          <Goal Value="23" Setter="Wogfan4Evr" />
+          <Goal Value="21" Setter="粘粘球世界" />
           <OCD Value="57" Setter="lkjhgfdsa431" />
         </TiebaRecord>
       </Level>
