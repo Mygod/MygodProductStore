@@ -41,22 +41,22 @@
     <tr>
         <td class="nowrap">AffectMovingPlatforms</td>
         <td class="nowrap">带数据的ID列表</td>
-        <td>可选。指定一堆要影响的移动方块ID。若数据为0表示遍历所有的路点，否则表示遍历指定个路点。</td>
+        <td>可选。若按钮在ButtonSequence中则此项无效。指定一堆要影响的移动方块ID。若数据为0表示遍历所有的路点，否则表示遍历指定个路点。</td>
     </tr>
     <tr>
         <td class="nowrap">AffectBumpers</td>
         <td class="nowrap">带数据的ID列表</td>
-        <td>可选。指定一堆要影响的撞击器ID。若数据为0表示停止撞击（若正在连续无条件撞击）或撞击一次（如果当前不在撞击），若数据为1表示启动该撞击器的连续无条件撞击。</td>
+        <td>可选。若按钮在ButtonSequence中则此项无效。指定一堆要影响的撞击器ID。若数据为0表示停止撞击（若正在连续无条件撞击）或撞击一次（如果当前不在撞击），若数据为1表示启动该撞击器的连续无条件撞击。</td>
     </tr>
     <tr>
         <td class="nowrap">TriggerAchievements</td>
         <td class="nowrap">带数据的ID列表</td>
-        <td>可选。指定一堆要触发的成就ID。数据表示部分成就使用的元数据。</td>
+        <td>可选。若按钮在ButtonSequence中则此项无效。指定一堆要触发的成就ID。数据表示部分成就使用的元数据。</td>
     </tr>
     <tr>
         <td class="nowrap">AffectButtons</td>
         <td class="nowrap">带数据的ID列表</td>
-        <td>可选。指定一堆要影响的按钮ID。若数据为0表示启动（弹起）按钮，若数据为1表示禁用（按下）按钮。</td>
+        <td>可选。若按钮在ButtonSequence中则此项无效。指定一堆要影响的按钮ID。若数据为0表示启动（弹起）按钮，若数据为1表示禁用（按下）按钮。</td>
     </tr>
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>
