@@ -6,8 +6,8 @@
     <h2 class="center">Edge关卡XML参考指南</h2>
     <div>本参考指南为 Mygod工作室™ 的产品 <a href="/#Product-94">Edge浏览器</a> 编写。如果你还不知道这是什么，先去看看吧。</div>
     <div>此产品产生的XML是由bin文件转换而来，如果你感兴趣，其格式在此：<a href="http://pastebin.mozilla.org/2413107">http://pastebin.mozilla.org/2413107</a></div>
-    <div>此产品使用的三维坐标系以右前方为Y轴负方向（或北，按键为上），右下角为X轴正方向（或东，按键为右），上为Z轴正方向。</div>
-    <div><a href="Default.aspx">Level 元素</a> / <asp:ContentPlaceHolder runat="server" ID="CurrentPosition" /></div>
+    <div>XML中使用的三维坐标系以右前方为Y轴负方向（或北，按键为上），右下角为X轴正方向（或东，按键为右），上为Z轴正方向。</div>
+    <div><a href="Level.aspx">Level 元素</a> / <asp:ContentPlaceHolder runat="server" ID="CurrentPosition" /></div>
     <div>说明：<asp:ContentPlaceHolder runat="server" ID="Description" /></div>
     <div>属性列表：</div>
     <table>

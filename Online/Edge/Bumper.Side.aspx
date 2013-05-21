@@ -11,12 +11,12 @@
     <tr>
         <td class="nowrap">StartDelay</td>
         <td class="nowrap">16位整数</td>
-        <td>可选，默认为0。表示从关卡开始到第一次撞击之间的分秒（0.1秒）数。若为-1表示不撞击。</td>
+        <td>可选，默认为0。表示从关卡开始到第一次撞击之间的帧（1/30秒）数。若为-1表示不撞击。</td>
     </tr>
     <tr>
         <td class="nowrap">PulseRate</td>
         <td class="nowrap">16位整数</td>
-        <td>可选，默认为0。表示两次撞击之间间隔的分秒（0.1秒）数。若为-1表示不撞击。</td>
+        <td>可选，默认为0。表示两次撞击之间间隔的帧（1/30秒）数。若为-1表示不撞击。</td>
     </tr>
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>

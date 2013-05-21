@@ -16,12 +16,12 @@
     <tr>
         <td class="nowrap">TravelTime</td>
         <td class="nowrap">16位自然数</td>
-        <td>可选，默认为0。移动到该点需要使用的分秒（0.1秒）数。</td>
+        <td>可选，默认为0。移动到该点需要使用的帧（1/30秒）数。</td>
     </tr>
     <tr>
         <td class="nowrap">PauseTime</td>
         <td class="nowrap">16位自然数</td>
-        <td>可选，默认为0。在该点停留的分秒（0.1秒）数。</td>
+        <td>可选，默认为0。在该点停留的帧（1/30秒）数。</td>
     </tr>
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>

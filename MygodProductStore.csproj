@@ -172,6 +172,7 @@
     <Content Include="Online\Edge\Checkpoint.aspx" />
     <Content Include="Online\Edge\DarkCube.aspx" />
     <Content Include="Online\Edge\Default.aspx" />
+    <Content Include="Online\Edge\Level.aspx" />
     <Content Include="Online\Edge\FallingPlatform.aspx" />
     <Content Include="Online\Edge\KeyEvent.aspx" />
     <Content Include="Online\Edge\MovingPlatform.aspx" />
@@ -574,6 +575,13 @@
     </Compile>
     <Compile Include="Online\Edge\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Online\Edge\Level.aspx.cs">
+      <DependentUpon>Level.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\Edge\Level.aspx.designer.cs">
+      <DependentUpon>Level.aspx</DependentUpon>
     </Compile>
     <Compile Include="Online\Edge\Edge.master.cs">
       <DependentUpon>Edge.master</DependentUpon>

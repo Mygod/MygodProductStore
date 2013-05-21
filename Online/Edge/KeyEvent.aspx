@@ -11,7 +11,7 @@
     <tr>
         <td class="nowrap">TimeOffset</td>
         <td class="nowrap">16位自然数</td>
-        <td>可选，默认为0。表示从方块被触发到按键间隔的分秒（0.1秒）数。</td>
+        <td>可选，默认为0。表示从方块被触发到按键间隔的帧（1/30秒）数。</td>
     </tr>
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>
