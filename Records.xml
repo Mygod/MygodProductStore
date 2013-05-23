@@ -222,7 +222,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="92" Setter="" />
-          <Moves Value="3" Setter="粘粘球世界" />
+          <Moves Value="2" Setter="lkjhgfdsa431" />
           <Goal Value="39" Setter="dahkjdas" />
           <OCD Value="119" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -346,7 +346,7 @@
           <Goos Value="36" Setter="Peter B" />
           <Moves Value="0" Setter="" />
           <Goal Value="8" Setter="Peter B" />
-          <OCD Value="10" Setter="" />
+          <OCD Value="9" Setter="Peter B" />
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="31" Setter="dwerdwer" />
@@ -364,7 +364,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="55" Setter="dwerdwer" />
-          <Moves Value="25" Setter="Mygod" />
+          <Moves Value="10" Setter="粘粘球世界" />
           <Goal Value="41" Setter="粘粘球世界" />
           <OCD Value="70" Setter="粘粘球世界" />
         </TiebaRecord>
@@ -457,8 +457,8 @@
         <WorldRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="1" Setter="" />
-          <Goal Value="51" Setter="DaftasBrush" />
-          <OCD Value="51" Setter="DaftasBrush" />
+          <Goal Value="49" Setter="Peter B" />
+          <OCD Value="49" Setter="Peter B" />
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="0" Setter="" />
@@ -543,8 +543,8 @@
         <WorldRecord>
           <Goos Value="12" Setter="dwerdwer" />
           <Moves Value="1" Setter="" />
-          <Goal Value="6" Setter="DaftasBrush" />
-          <OCD Value="6" Setter="DaftasBrush" />
+          <Goal Value="2" Setter="Peter B" />
+          <OCD Value="2" Setter="Peter B" />
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="12" Setter="dwerdwer" />
