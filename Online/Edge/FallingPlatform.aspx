@@ -1,4 +1,4 @@
-﻿<%@ Page Title="FallingPlatform 元素 - Edge关卡XML参考指南" Language="C#" MasterPageFile="~/Online/Edge/Edge.master" AutoEventWireup="true" CodeBehind="FallingPlatform.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.Edge.FallingPlatform" %>
+﻿<%@ Page Title="FallingPlatform 元素 - EdgeMod 参考指南" Language="C#" MasterPageFile="~/Online/Edge/EdgeLevel.master" AutoEventWireup="true" CodeBehind="FallingPlatform.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.Edge.FallingPlatform" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CurrentPosition" runat="server">

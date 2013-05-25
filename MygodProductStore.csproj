@@ -576,6 +576,13 @@
     <Compile Include="Online\Edge\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Online\Edge\Edge.master.cs">
+      <DependentUpon>Edge.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\Edge\Edge.master.designer.cs">
+      <DependentUpon>Edge.master</DependentUpon>
+    </Compile>
     <Compile Include="Online\Edge\Level.aspx.cs">
       <DependentUpon>Level.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -583,12 +590,12 @@
     <Compile Include="Online\Edge\Level.aspx.designer.cs">
       <DependentUpon>Level.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Online\Edge\Edge.master.cs">
-      <DependentUpon>Edge.master</DependentUpon>
+    <Compile Include="Online\Edge\EdgeLevel.master.cs">
+      <DependentUpon>EdgeLevel.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Online\Edge\Edge.master.designer.cs">
-      <DependentUpon>Edge.master</DependentUpon>
+    <Compile Include="Online\Edge\EdgeLevel.master.designer.cs">
+      <DependentUpon>EdgeLevel.master</DependentUpon>
     </Compile>
     <Compile Include="Online\Edge\FallingPlatform.aspx.cs">
       <DependentUpon>FallingPlatform.aspx</DependentUpon>
@@ -706,6 +713,9 @@
     <Content Include="Online\MOM\loop_superbirds.ogg" />
     <Content Include="Online\MOM\momStartup.ogg" />
     <Content Include="Online\MOM\TCCEB.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Online\Edge\EdgeLevel.master" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Online\Edge\Edge.master" />

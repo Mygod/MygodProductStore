@@ -36,7 +36,7 @@
             <small>云雀™，您的云存储伴侣。</small>
         </button>
         <button class="command-button" type="button" id="edge-rg">
-            Edge关卡XML参考指南
+            EdgeMod 参考指南
             <small>为 Mygod工作室™ 的产品 Edge浏览器 编写的参考指南。</small>
         </button>
         <span id="admin-features">

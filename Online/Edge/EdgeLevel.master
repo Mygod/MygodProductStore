@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Online/Edge/Edge.Master" AutoEventWireup="true" CodeBehind="EdgeLevel.master.cs" Inherits="Mygod.Website.ProductStore.Online.Edge.EdgeLevel" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="Head" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
+    <div>以下介绍的是 EdgeTool 反编译关卡产生的 XML，它是由关卡 bin 文件转换而来，如果你感兴趣，<a href="http://pastebin.mozilla.org/2442740">其格式在此</a>。</div>
+    <div>XML中使用的三维坐标系以右前方为Y轴负方向（或北，按键为上），右下角为X轴正方向（或东，按键为右），上为Z轴正方向。</div>
+    <div><a href="Level.aspx">Level 元素</a> / <asp:ContentPlaceHolder runat="server" ID="CurrentPosition" /></div>
+    <div>说明：<asp:ContentPlaceHolder runat="server" ID="Description" /></div>
+    <div>属性列表：</div>
+    <table>
+        <thead>
+            <tr>
+                <td class="nowrap">属性名</td>
+                <td class="nowrap">数据类型</td>
+                <td>备注</td>
+            </tr>
+        </thead>
+        <tbody>
+            <asp:ContentPlaceHolder runat="server" ID="Body" />
+        </tbody>
+    </table>
+    <div>子元素列表：</div>
+    <asp:ContentPlaceHolder runat="server" ID="ChildElements" />
+</asp:Content>

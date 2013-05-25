@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Level 元素 - Edge关卡XML参考指南" Language="C#" MasterPageFile="~/Online/Edge/Edge.master" AutoEventWireup="true" CodeBehind="Level.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.Edge.Level" %>
+﻿<%@ Page Title="Level 元素 - EdgeMod 参考指南" Language="C#" MasterPageFile="~/Online/Edge/EdgeLevel.master" AutoEventWireup="true" CodeBehind="Level.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.Edge.Level" %>
 <asp:Content ContentPlaceHolderID="Head" runat="server">
 </asp:Content>
 <asp:Content ContentPlaceHolderID="CurrentPosition" runat="server">&nbsp;</asp:Content>
