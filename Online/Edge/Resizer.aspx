@@ -19,4 +19,5 @@
         <td>可选，默认为True。指定方块尺寸调整器在关卡中是否可见。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;ResizerShrink Position="14,2,3" Visible="False" /&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>

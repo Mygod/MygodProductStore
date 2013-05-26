@@ -24,6 +24,7 @@
         <td>必填。指定撞击器的位置。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;Bumper Position="11,4,0"&gt; ... &lt;/Bumper&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">
     <a href="Bumper.Side.aspx">North &amp; East &amp; South &amp; West 元素</a>（各0～1个）
 </asp:Content>

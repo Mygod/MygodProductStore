@@ -44,5 +44,6 @@
         <td>可选，默认为0。指定触发后相机的角度。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;AdvancedCameraTrigger Position="19,11,1" Reset="True" Duration="15" /&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">
 </asp:Content>

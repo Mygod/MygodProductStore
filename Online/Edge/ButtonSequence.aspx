@@ -34,6 +34,7 @@
         <td>可选。指定一堆要影响的按钮ID。若数据为0表示启动（弹起）按钮，若数据为1表示禁用（按下）按钮。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;ButtonSequence SequenceInOrder="True" AffectMovingPlatforms="Block10,Block11,Block12" AffectBumpers="Bumper1,Bumper2,Bumper3,Bumper4"&gt; ... &lt;/ButtonSequence&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">
     <div><a href="Button.aspx">Button</a>（至少2个）</div>
 </asp:Content>

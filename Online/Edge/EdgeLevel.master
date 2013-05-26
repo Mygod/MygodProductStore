@@ -20,6 +20,7 @@
             <asp:ContentPlaceHolder runat="server" ID="Body" />
         </tbody>
     </table>
+    <div>样例：<asp:ContentPlaceHolder runat="server" ID="Example" /></div>
     <div>子元素列表：</div>
     <asp:ContentPlaceHolder runat="server" ID="ChildElements" />
 </asp:Content>

@@ -24,4 +24,5 @@
         <td>可选，默认为0,0。使方块的坐标与存档点坐标之差的绝对值小于此值时也认为是到达了存档点。（换言之可以使存档点变成一个矩形）</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;Checkpoint Position="6,22,1" RespawnOffsetZ="1" Radius="0,1" /&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>

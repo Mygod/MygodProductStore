@@ -65,6 +65,7 @@
         <td>可选，默认为False。在高级缩放模式下指定是否为视野大小调整缩放级别。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;Level ID="309" Name="1st contact" TimeThresholds="9,25,55,85,145" Size="14x26x4" SpawnPoint="3,22,62" ExitPoint="11,12,1" MusicJava="5" Music="6" Zoom="1"&gt; ... &lt;/Level&gt;</asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="ChildElements">
     <div>
         <a href="MovingPlatform.aspx">MovingPlatform</a><br />

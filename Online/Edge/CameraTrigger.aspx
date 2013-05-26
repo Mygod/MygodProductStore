@@ -24,5 +24,6 @@
         <td>可选，默认为0。指定触发后的缩放级别。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;CameraTrigger Position="4,9,1" Radius="1,2" Zoom="1" /&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">
 </asp:Content>

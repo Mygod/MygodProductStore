@@ -14,4 +14,5 @@
         <td>可选，默认为0。表示从方块被触发到按键间隔的帧（1/30秒）数。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;WestDown TimeOffset="14" /&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>

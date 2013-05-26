@@ -24,4 +24,5 @@
         <td>可选，默认为0。在该点停留的帧（1/30秒）数。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;Waypoint Position="-1,-81,4" PauseTime="24" /&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>

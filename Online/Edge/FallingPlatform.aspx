@@ -19,4 +19,5 @@
         <td>可选，默认为20。表示压过到掉落之间间隔的帧（1/30秒）数。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;FallingPlatform Position="14,3,1" FloatTime="10" /&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>

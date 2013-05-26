@@ -19,4 +19,5 @@
         <td>可选，默认为0。表示两次撞击之间间隔的帧（1/30秒）数。若为-1表示不撞击。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;South PulseRate="30" /&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>

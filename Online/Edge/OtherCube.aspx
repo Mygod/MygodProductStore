@@ -24,6 +24,7 @@
         <td>必填。指定提示方块的初始位置。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;OtherCube PositionTrigger="70,27,1" MovingBlockSync="Block29" PositionCube="69,25,1"&gt; ... &lt;/OtherCube&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">
     <div><a href="KeyEvent.aspx">按键事件元素</a></div>
 </asp:Content>

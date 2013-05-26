@@ -34,6 +34,7 @@
         <td>可选，默认为True。指定该移动方块是完整的一个方块还是只有上半个。（请注意这只是外观上不同，在游戏物理引擎中两者并无差别）</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;MovingPlatform ID="Block19" AutoStart="False" Looped="False"&gt; ... &lt;/MovingPlatform&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">
     <a href="Waypoint.aspx">Waypoint</a>
 </asp:Content>

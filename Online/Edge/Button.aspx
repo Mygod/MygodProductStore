@@ -59,4 +59,5 @@
         <td>可选。若按钮在ButtonSequence中则此项无效。指定一堆要影响的按钮ID。若数据为0表示启动（弹起）按钮，若数据为1表示禁用（按下）按钮。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;Button ID="Button2" Visible="False" Position="11,11,1" AffectButtons="Button1" /&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">无子元素</asp:Content>

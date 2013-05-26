@@ -29,6 +29,7 @@
         <td>必填。指定暗方块的初始位置。</td>
     </tr>
 </asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Example">&lt;DarkCube PositionTrigger="17,19,1" Radius="1,0" PositionCube="17,9,1"&gt; ... &lt;/DarkCube&gt;</asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ChildElements" runat="server">
     <div><a href="KeyEvent.aspx">按键事件元素</a></div>
 </asp:Content>
