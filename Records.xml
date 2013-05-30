@@ -79,7 +79,7 @@
           <OCD Value="12" Setter="Peter B" />
         </WorldRecord>
         <TiebaRecord>
-          <Goos Value="16" Setter="dwerdwer" />
+          <Goos Value="17" Setter="粘粘球世界" />
           <Moves Value="7" Setter="粘粘球世界" />
           <Goal Value="18" Setter="粘粘球世界" />
           <OCD Value="18" Setter="粘粘球世界" />
@@ -164,7 +164,7 @@
         </WorldRecord>
         <TiebaRecord>
           <Goos Value="0" Setter="" />
-          <Moves Value="9" Setter="粘粘球世界" />
+          <Moves Value="2" Setter="粘粘球世界" />
           <Goal Value="42" Setter="粘粘球世界" />
           <OCD Value="42" Setter="粘粘球世界" />
         </TiebaRecord>
