@@ -3,10 +3,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <h3>.edgemod 文件格式</h3>
-    <div>.edgemod 文件格式其本质是一个压缩包。（.rar、.zip之类，不支持.7z）里面包含了一切要覆盖的文件，<b>虽然不强制，但是推荐你将你的关卡 bin 文件放在单独的文件夹里。（如放在 levels/MyCrappyNickname/MyCrappyLevel.bin）</b>。其中有三类文件比较特殊。</div>
-    <div>第一类是 XSL 文件（扩展名为 .xsl），可以用于对 XML 文件进行一些高级操作。通常用于 levels/mapping.xml，这个文件存放着关卡列表。参考资料：<a href="http://pastebin.mozilla.org/2442647">简单地在结尾添加关卡的 XSL（推荐改用 mod.xml，仅当几种操作混合时你才可能需要这东西）</a>；<a href="/#Product-60">《Goomod导论》附录的最后一节有对使用 XSL 操作 XML 文件的简单介绍</a>。</div>
-    <div>第二类是根目录下的 description.txt。其内容即为 EdgeMod 的描述。如果该文件不存在表示没有描述。描述应该包含 Conflicts, Dependency 与 EngineVersion中的信息。</div>
-    <div>第三类是根目录下的 mod.xml。它存放了 EdgeMod 的核心信息。下面将具体介绍。</div>
+    <div>.edgemod 文件格式其本质是一个压缩包。（.rar、.zip之类，不支持.7z）里面包含了一切要覆盖的文件，<b>虽然不强制，但是推荐你将你的关卡 bin 文件放在单独的文件夹里。（如放在 levels/MyCrappyNickname/MyCrappyLevel.bin）</b>。其中有三个文件比较特殊。</div>
+    <div>第一个是 levels/mapping.xsl 文件，可以用于对 levels/mapping.xml 文件进行一些高级操作，这个文件存放着关卡列表。参考资料：<a href="http://pastebin.mozilla.org/2442647">简单地在结尾添加关卡的 XSL（如果只有该操作，推荐改用 mod.xml，仅当几种操作混合时你才可能需要这东西）</a>；<a href="/#Product-60">《Goomod导论》附录的最后一节有对使用 XSL 操作 XML 文件的简单介绍</a>。</div>
+    <div>第二个是根目录下的 description.txt。其内容即为 EdgeMod 的描述。如果该文件不存在表示没有描述。描述应该包含 Conflicts, Dependency 与 EngineVersion中的信息。</div>
+    <div>第三个是根目录下的 mod.xml。它存放了 EdgeMod 的核心信息。下面将具体介绍。</div>
 
     <h3>mod.xml</h3>
     <div>这是一个 XML 文件。根元素为 Mod。其属性如下：</div>
@@ -72,7 +72,7 @@
         </tbody>
     </table>
     <div>样例：&lt;Mod ID="EDGE.Epic" Name="EDGE Epic" Version="1.2" Author="Mygod,WEGFan" Type="Game" /&gt;</div>
-    <div>它有 0～3 个子元素，分别为 standard, bonus 和 extended，表示对应的关卡类型，用于更新前面提到的 levels/mapping.xml 关卡索引。每个子元素下可以放若干个 level 元素。每一个 level 元素表示在当前分类的结尾添加一个关卡。其属性如下：</div>
+    <div>它有 0～3 个子元素，分别为 standard, bonus 和 extended，表示对应的关卡类型，用于更新前面提到的 levels/mapping.xml 关卡索引。每个子元素下可以放若干个 level 元素。每一个 level 元素表示在当前分类的结尾添加一个关卡。请注意这些功能不支持与 levels/mapping.xsl 混用！其属性如下：</div>
     <table>
         <thead>
             <tr>
@@ -90,7 +90,7 @@
             <tr>
                 <td class="nowrap">leaderboard_id</td>
                 <td class="nowrap">32位整数</td>
-                <td>可选。关卡的排行榜 ID。</td>
+                <td>可选。关卡的排行榜 ID。生成方法不明。推荐随便写一个。</td>
             </tr>
             <tr>
                 <td class="nowrap">name_sfx</td>
