@@ -14,6 +14,7 @@
             <small>发布日期：<%=product.Date %></small>
         </button><% } %>
     </div>
+    <div id="disqus_thread"></div>
     <script type="text/javascript">
         var reg = /(.*)#Product-(.*)/;
         var basePage = location.href.replace(reg, "$1");
@@ -26,7 +27,7 @@
             var f = function() {
                 location.href = basePage + "#Product-" + id;
                 var buttons = { };
-                if (screenshots != null) buttons.查看截图 = {
+                if (screenshots != null) buttons["查看截图/留言"] = {
                     'action': function() {
                         window.open("Screenshots.aspx?ID=" + id);
                         returnBase();
@@ -66,5 +67,16 @@
                { %>subscribe('<%= product.ID %>', '<%=product.Title %>', '<%=product.Requirements %>', <%=product.Link == null ? "null" : '\'' + product.Link + '\''%>, <%=product.Screenshots == null ? "null" : '\'' + product.Screenshots + '\''%>);
             <% } %>
         });
+        
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'mygodps'; // required: replace example with your forum shortname
+        var disqus_identifier = 'main';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
     </script>
 </asp:Content>

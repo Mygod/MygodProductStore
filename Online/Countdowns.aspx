@@ -54,4 +54,17 @@
     <h2 class="center">倒计时</h2>
     <p id="countdown">计算中……</p>
     <div>设置：精确到小数点后<input type="text" value="0" id="digits" maxlength="1" />位。</div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'mygodps'; // required: replace example with your forum shortname
+        var disqus_identifier = 'online-countdown';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
 </asp:Content>

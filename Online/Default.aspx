@@ -50,6 +50,7 @@
         输入管理员密码以解锁网站管理功能：
         <input type="password" id="admin-password-box" />
     </div>
+    <div id="disqus_thread"></div>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#mom-cn').click(function () { location.href = 'MOM/'; });
@@ -70,5 +71,16 @@
             });
             $('#admin-features').hide();
         });
+
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'mygodps'; // required: replace example with your forum shortname
+        var disqus_identifier = 'main';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
     </script>
 </asp:Content>

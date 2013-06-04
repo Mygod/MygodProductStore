@@ -17,4 +17,17 @@
         的名字是<asp:Button ID="ShowNameButton" runat="server" Text="……" OnClick="Show" CssClass="bg-color-darken" />
     </div>
     <p>P.S. 玩家名为“Mygod Data Fetcher”的玩家是我的机器人，不要见怪。此外，“居然至少要搭……”功能速度较慢，慎用以免此页被卡死。<a href="http://goofans.com/forum/world-of-goo/general-discussion/3975">太神奇了，这怎么办到的？！</a></p>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'mygodps'; // required: replace example with your forum shortname
+        var disqus_identifier = 'online-wogcorp';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
 </asp:Content>
