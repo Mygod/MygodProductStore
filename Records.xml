@@ -650,7 +650,7 @@
           <Goos Value="101" Setter="粘粘球世界" />
           <Moves Value="15" Setter="粘粘球世界" />
           <Goal Value="20" Setter="粘粘球世界" />
-          <OCD Value="72" Setter="粘粘球世界" />
+          <OCD Value="46" Setter="粘粘球世界" />
         </TiebaRecord>
       </Level>
       <Level Name="Observatory Observation Station">

@@ -11,7 +11,7 @@
     <tr>
         <td class="nowrap">Position</td>
         <td class="nowrap">三维坐标</td>
-        <td>必填。指定可掉落平台的坐标。注意：在部分早期版本中若Z坐标≤0会导致有些崩溃。</td>
+        <td>必填。指定可掉落平台的坐标。在破解版中若Z坐标≤0会导致崩溃。</td>
     </tr>
     <tr>
         <td class="nowrap">FloatTime</td>

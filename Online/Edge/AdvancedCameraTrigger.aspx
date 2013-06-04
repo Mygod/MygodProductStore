@@ -5,7 +5,7 @@
     <a href="AdvancedCameraTrigger.aspx">AdvancedCameraTrigger 元素</a>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Description" runat="server">
-    AdvancedCameraTrigger（高级相机触发器），会在到达这一点（或这一范围）时改变缩放级别。
+    AdvancedCameraTrigger（高级相机触发器），会在到达这一点（或这一范围）时改变缩放级别。不支持破解版。
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="Body" runat="server">
     <tr>

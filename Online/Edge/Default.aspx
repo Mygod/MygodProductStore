@@ -72,7 +72,7 @@
         </tbody>
     </table>
     <div>样例：&lt;Mod ID="EDGE.Epic" Name="EDGE Epic" Version="1.2" Author="Mygod,WEGFan" Type="Game" /&gt;</div>
-    <div>它有 0～3 个子元素，分别为 standard, bonus 和 extended，表示对应的关卡类型，用于更新前面提到的 levels/mapping.xml 关卡索引。每个子元素下可以放若干个 level 元素。每一个 level 元素表示在当前分类的结尾添加一个关卡。请注意这些功能不支持与 levels/mapping.xsl 混用！其属性如下：</div>
+    <div>它有 0～3 个子元素，分别为 standard, bonus 和 extended（破解版不支持 extended），表示对应的关卡类型，用于更新前面提到的 levels/mapping.xml 关卡索引。每个子元素下可以放若干个 level 元素。每一个 level 元素表示在当前分类的结尾添加一个关卡。请注意这些功能不支持与 levels/mapping.xsl 混用！其属性如下：</div>
     <table>
         <thead>
             <tr>

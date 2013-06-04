@@ -52,17 +52,17 @@
     <tr>
         <td class="nowrap">Zoom</td>
         <td class="nowrap">16位整数</td>
-        <td>可选，默认为-1。关卡开始时的缩放级别。若小于0则表示使用高级缩放模式。</td>
+        <td>可选，默认为-1。关卡开始时的缩放级别。若小于0则表示使用高级缩放模式（不支持破解版）。</td>
     </tr>
     <tr>
         <td class="nowrap">FieldOfView</td>
         <td class="nowrap">16位自然数</td>
-        <td>可选，默认为0。表示在高级缩放模式下的视野大小。（单位：°，<a href="http://newinfo.sysu.edu.cn/Snowwaft/?p=933">参考文献</a>）顾名思义视野越大，看到的东西越多，因此物体变得越小。</td>
+        <td>可选，默认为0。不支持破解版。表示在高级缩放模式下的视野大小。（单位：°，<a href="http://newinfo.sysu.edu.cn/Snowwaft/?p=933">参考文献</a>）顾名思义视野越大，看到的东西越多，因此物体变得越小。</td>
     </tr>
     <tr>
         <td class="nowrap">AutoAdjustZoom</td>
         <td class="nowrap">布尔型</td>
-        <td>可选，默认为False。在高级缩放模式下指定是否为视野大小调整缩放级别。</td>
+        <td>可选，默认为False。不支持破解版。在高级缩放模式下指定是否为视野大小调整缩放级别。</td>
     </tr>
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="Example">&lt;Level ID="309" Name="1st contact" TimeThresholds="9,25,55,85,145" Size="14x26x4" SpawnPoint="3,22,62" ExitPoint="11,12,1" MusicJava="5" Music="6" Zoom="1"&gt; ... &lt;/Level&gt;</asp:Content>

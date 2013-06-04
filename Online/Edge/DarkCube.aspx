@@ -5,7 +5,7 @@
     <a href="DarkCube.aspx">DarkCube 元素</a>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Description" runat="server">
-    DarkCube（暗方块），表示一个提示你如何过关或阻碍你过关的方块。（请注意这玩意儿同样会像普通方块一样与实际关卡交互）
+    DarkCube（暗方块），表示一个提示你如何过关或阻碍你过关的方块。（请注意这玩意儿同样会像普通方块一样与实际关卡交互）不支持破解版。
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="Body" runat="server">
     <tr>
