@@ -114,18 +114,4 @@
     <div>当你发现你的新关有任何地方需要改进，修改、重新编译后只需将其拖动到 levels 文件夹的对应位置即可！</div>
     <div>请注意在你测试完关卡后应该将其删除，并撤销 mapping.xml 中的修改，否则可能会导致安装失败。</div>
     <div>如果你的关卡已经编译成 edgemod 且希望修改，你可以安装这个 mod 后直接在 levels 文件夹中修改对应的 bin 文件并进行测试，修改完毕后将它压缩到你的 edgemod 中即可。</div>
-    
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'mygodps'; // required: replace example with your forum shortname
-        var disqus_identifier = 'online-edge';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
 </asp:Content>
