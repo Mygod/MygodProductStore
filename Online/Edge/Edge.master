@@ -6,7 +6,11 @@
     <h2 class="center">EdgeMod 参考指南</h2>
     <div>本参考指南为 Mygod工作室™ 的产品 <a href="/#Product-110">EdgeTool</a> 编写。如果你还不知道这是什么，先去看看吧。</div>
     <asp:ContentPlaceHolder runat="server" ID="Content" />
-    <div>&nbsp;</div>
+    <h3 id="SyntacticSugar">语法糖简述</h3>
+    <div><a href="http://zh.wikipedia.org/zh-cn/%E8%AF%AD%E6%B3%95%E7%B3%96">语法糖</a>，在Edge关卡XML中就是在关卡bin格式中没有却可以用已有功能实现的功能，通常用于实现那些手动实现很复杂、很重复的工作。</div>
+    <div>好处：显然就是简化工作。</div>
+    <div>坏处：基本没有。（相对于手动实现而言）</div>
+    <div>注意点：使用过多，数字过大可能会导致编译出来的关卡bin变得巨大，甚至导致游戏运行速度下降；由于bin格式并不支持这些语法糖，因此一旦编译这些信息就会全部丢失，反编译后你得到的XML将与手动实现无异。</div>
     <h3>附：数据类型表</h3>
     <table>
         <thead>
