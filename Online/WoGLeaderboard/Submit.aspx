@@ -2,21 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    <h2 class="center">粘粘世界吧排行榜提交方式</h2>
+    <h2 class="center">粘粘世界吧排行榜——提交关卡纪录入口</h2>
     <ol>
-        <li><span class="bold">提交方式：<a href="http://tieba.baidu.com/p/2239995284">到百度粘粘世界吧的这个贴回复</a>。</span></li>
-        <li>
-            <span class="bold">提交格式：</span><br />
-            关卡名：<br />
-            破纪录者：<br />
-            项目：<br />
-            原纪录：<br />
-            新纪录：<br />
-            截图：
-        </li>
+        <li><span class="bold">提交方式：</span>在最下方的评论区留下截图与破纪录者（如果与你的账户名相同可以省略）。</li>
         <li>
             <span class="bold">截图说明：</span>普通关卡使用EOL场景；每章最后一关使用WoGModifier的控制台调试器截图，具体见<a href="#comment-1">注1</a>。</li>
-        <li>全体吧务不允许乱删帖！</li>
         <li>作弊者将从排行榜上永久移除。</li>
         <li>如果你认为你先拿到这一个记录，你有以下三种选择：<br />
             ①再次破当前记录。<br />
@@ -40,4 +30,18 @@
         <li>假如你过关了却没有发现HTTP POST这一行怎么办？<br />
             问得好。的确有时候你会找不到HTTP POST这一行，这并不是因为你没有连接到互联网，而是因为控制台调试的内容还在缓存中。为了把这一行弄出来，你可以在粘粘里不断地进入、退出某个章节，或在在线搭塔开启的模式下在粘粘公司待一会儿，直到接下来的内容刷出来为止。</li>
     </ol>
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'mygodps'; // required: replace example with your forum shortname
+        var disqus_identifier = 'online-wogleaderboard-submit';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
 </asp:Content>

@@ -54,12 +54,12 @@ namespace Mygod.Website.ProductStore
             foreach (var chapter in element.Elements("Chapter")) Add(new Chapter(chapter));
             foreach (var chapter in this) for (var i = 0; i < 4; i++)
             {
-                TiebaSum[i] += chapter.TiebaSum[i];
+                ChinaSum[i] += chapter.ChinaSum[i];
                 WorldSum[i] += chapter.WorldSum[i];
             }
         }
 
-        public readonly int[] TiebaSum = new int[4], WorldSum = new int[4];
+        public readonly int[] ChinaSum = new int[4], WorldSum = new int[4];
     }
 
     public class Chapter : List<Level>
@@ -70,14 +70,14 @@ namespace Mygod.Website.ProductStore
             foreach (var level in element.Elements("Level")) Add(new Level(level));
             foreach (var level in this) for (var i = 0; i < 4; i++)
             {
-                TiebaSum[i] += level.TiebaRecord[i].Value;
+                ChinaSum[i] += level.ChinaRecord[i].Value;
                 WorldSum[i] += level.WorldRecord[i].Value;
             }
         }
 
         public readonly string Name;
 
-        public readonly int[] TiebaSum = new int[4], WorldSum = new int[4];
+        public readonly int[] ChinaSum = new int[4], WorldSum = new int[4];
     }
 
     public class Level
@@ -86,11 +86,11 @@ namespace Mygod.Website.ProductStore
         {
             Name = element.GetAttribute("Name");
             WorldRecord = new LevelRecord(this, element.Element("WorldRecord"), true);
-            TiebaRecord = new LevelRecord(this, element.Element("TiebaRecord"), false);
+            ChinaRecord = new LevelRecord(this, element.Element("ChinaRecord"), false);
         }
 
         public readonly string Name;
-        public readonly LevelRecord WorldRecord, TiebaRecord;
+        public readonly LevelRecord WorldRecord, ChinaRecord;
     }
 
     public class LevelRecord : List<Record>
@@ -213,21 +213,21 @@ namespace Mygod.Website.ProductStore
 
         public readonly string ID;
         private string strCache;
-        private readonly List<Record> worldRecords = new List<Record>(), tiebaRecords = new List<Record>();
+        private readonly List<Record> worldRecords = new List<Record>(), chinaRecords = new List<Record>();
 
         public List<Record> WorldRecords
         {
             get { AssortRecords(); return worldRecords; }
         }
-        public List<Record> TiebaRecords
+        public List<Record> ChinaRecords
         {
-            get { AssortRecords(); return tiebaRecords; }
+            get { AssortRecords(); return chinaRecords; }
         }
 
         private void AssortRecords()
         {
-            if (worldRecords.Count == 0 && tiebaRecords.Count == 0)
-                foreach (var record in this) if (record.IsWorldRecord) worldRecords.Add(record); else tiebaRecords.Add(record);
+            if (worldRecords.Count == 0 && chinaRecords.Count == 0)
+                foreach (var record in this) if (record.IsWorldRecord) worldRecords.Add(record); else chinaRecords.Add(record);
         }
 
         public override string ToString()
@@ -236,7 +236,7 @@ namespace Mygod.Website.ProductStore
             {
                 AssortRecords();
                 strCache = "<span class=\"bold\">" + ID + "</span>"
-                    + GetRecordsString(WorldRecords, "世界") + GetRecordsString(TiebaRecords, "贴吧") + "。";
+                    + GetRecordsString(WorldRecords, "世界") + GetRecordsString(ChinaRecords, "中国") + "。";
             }
             return strCache;
         }

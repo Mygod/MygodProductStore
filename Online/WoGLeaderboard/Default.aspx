@@ -27,25 +27,25 @@
                 <td><%=level.Name %></td>
                    <% for (var i = 0; i < 4; i++)
                       {
-                          var record = level.TiebaRecord[i]; %>
+                          var record = level.ChinaRecord[i]; %>
                 <td><span title="<%=record.Tooltip %>"><%=record.Overview %></span></td>
                    <% } %>
             </tr>
                 <% } %>
             <tr>
                 <td class="bold"><%=chapter.Name %> 总计</td>
-                <td><%=chapter.TiebaSum[0] %> (<%=chapter.WorldSum[0] %>)</td>
-                <td><%=chapter.TiebaSum[1] %> (<%=chapter.WorldSum[1] %>)</td>
-                <td><%=chapter.TiebaSum[2] %>s (<%=chapter.WorldSum[2] %>s)</td>
-                <td><%=chapter.TiebaSum[3] %>s (<%=chapter.WorldSum[3] %>s)</td>
+                <td><%=chapter.ChinaSum[0] %> (<%=chapter.WorldSum[0] %>)</td>
+                <td><%=chapter.ChinaSum[1] %> (<%=chapter.WorldSum[1] %>)</td>
+                <td><%=chapter.ChinaSum[2] %>s (<%=chapter.WorldSum[2] %>s)</td>
+                <td><%=chapter.ChinaSum[3] %>s (<%=chapter.WorldSum[3] %>s)</td>
             </tr>
             <% } %>
             <tr>
                 <td class="bold">总计</td>
-                <td><%=Data.Records.TiebaSum[0] %> (<%=Data.Records.WorldSum[0] %>)</td>
-                <td><%=Data.Records.TiebaSum[1] %> (<%=Data.Records.WorldSum[1] %>)</td>
-                <td><%=Data.Records.TiebaSum[2] %>s (<%=Data.Records.WorldSum[2] %>s)</td>
-                <td><%=Data.Records.TiebaSum[3] %>s (<%=Data.Records.WorldSum[3] %>s)</td>
+                <td><%=Data.Records.ChinaSum[0] %> (<%=Data.Records.WorldSum[0] %>)</td>
+                <td><%=Data.Records.ChinaSum[1] %> (<%=Data.Records.WorldSum[1] %>)</td>
+                <td><%=Data.Records.ChinaSum[2] %>s (<%=Data.Records.WorldSum[2] %>s)</td>
+                <td><%=Data.Records.ChinaSum[3] %>s (<%=Data.Records.WorldSum[3] %>s)</td>
             </tr>
         </tbody>
     </table>
@@ -54,7 +54,7 @@
     <div>说明：悬停可查看破了哪些纪录。</div>
     <ol>
         <% foreach (var player in Players.Instance.OrderByDescending(player => player.WorldRecords.Count)
-                                     .ThenByDescending(player => player.TiebaRecords.Count))
+                                     .ThenByDescending(player => player.ChinaRecords.Count))
            { %>
         <li><%=player %></li>
         <% } %>
@@ -97,7 +97,7 @@
     <div>接下来你要做什么？</div>
     <ul>
         <li><a href="Submit.aspx">现在提交你的关卡纪录！</a></li>
-        <li><a href="http://tieba.baidu.com/p/2303510329">现在申请进入玩家排行榜！</a></li>
+        <li>在下面留言留下你的goofans存档地址以申请进入玩家排行榜！</li>
         <li><a href="Refresh.aspx">刷新最后四个排行榜！（请在你更新了你的 goofans 存档后使用）</a></li>
     </ul>
     

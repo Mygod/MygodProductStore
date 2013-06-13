@@ -8,12 +8,12 @@
           <Goal Value="2" Setter="Peter B" />
           <OCD Value="5" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="11" Setter="" />
           <Moves Value="3" Setter="" />
           <Goal Value="3" Setter="dahkjdas" />
           <OCD Value="7" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Small Divide">
         <WorldRecord>
@@ -22,12 +22,12 @@
           <Goal Value="5" Setter="Peter B" />
           <OCD Value="8" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="21" Setter="dahkjdas" />
           <Moves Value="7" Setter="dahkjdas" />
           <Goal Value="7" Setter="dahkjdas" />
           <OCD Value="9" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Hang Low">
         <WorldRecord>
@@ -36,12 +36,12 @@
           <Goal Value="9" Setter="Peter B" />
           <OCD Value="40" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="24" Setter="dwerdwer" />
           <Moves Value="4" Setter="dwerdwer" />
           <Goal Value="12" Setter="dahkjdas" />
           <OCD Value="56" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Impale Sticky">
         <WorldRecord>
@@ -50,12 +50,12 @@
           <Goal Value="15" Setter="DaftasBrush" />
           <OCD Value="21" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="52" Setter="dahkjdas" />
           <Moves Value="7" Setter="粘粘球世界" />
           <Goal Value="16" Setter="粘粘球世界" />
           <OCD Value="23" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Flying Machine">
         <WorldRecord>
@@ -64,12 +64,12 @@
           <Goal Value="10" Setter="Pavke" />
           <OCD Value="10" Setter="Pavke" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="10" Setter="Mygod" />
           <Moves Value="2" Setter="dwerdwer" />
           <Goal Value="12" Setter="dahkjdas" />
           <OCD Value="12" Setter="dahkjdas" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Fisty's Bog">
         <WorldRecord>
@@ -78,12 +78,12 @@
           <Goal Value="12" Setter="Peter B" />
           <OCD Value="12" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="17" Setter="粘粘球世界" />
           <Moves Value="7" Setter="粘粘球世界" />
           <Goal Value="18" Setter="粘粘球世界" />
           <OCD Value="18" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Tower of Goo">
         <WorldRecord>
@@ -92,12 +92,12 @@
           <Goal Value="19" Setter="Peter B" />
           <OCD Value="27" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="102" Setter="dahkjdas" />
           <Moves Value="19" Setter="Mygod" />
           <Goal Value="24" Setter="dahkjdas" />
           <OCD Value="33" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Ivy Towers">
         <WorldRecord>
@@ -106,12 +106,12 @@
           <Goal Value="2" Setter="Peter B" />
           <OCD Value="6" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="16" Setter="" />
           <Moves Value="0" Setter="粘粘球世界" />
           <Goal Value="3" Setter="粘粘球世界" />
           <OCD Value="16" Setter="dahkjdas" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Tumbler">
         <WorldRecord>
@@ -120,12 +120,12 @@
           <Goal Value="4" Setter="Peter B" />
           <OCD Value="15" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="36" Setter="" />
           <Moves Value="0" Setter="粘粘球世界" />
           <Goal Value="8" Setter="Wogfan4Evr" />
           <OCD Value="19" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Chain">
         <WorldRecord>
@@ -134,12 +134,12 @@
           <Goal Value="12" Setter="Peter B" />
           <OCD Value="21" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="39" Setter="" />
           <Moves Value="0" Setter="粘粘球世界" />
           <Goal Value="18" Setter="粘粘球世界" />
           <OCD Value="32" Setter="lkjhgfdsa431" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Ode to the Bridge Builder">
         <WorldRecord>
@@ -148,12 +148,12 @@
           <Goal Value="16" Setter="Peter B" />
           <OCD Value="26" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="58" Setter="dwerdwer" />
           <Moves Value="20" Setter="dwerdwer" />
           <Goal Value="25" Setter="dahkjdas" />
           <OCD Value="28" Setter="lkjhgfdsa431" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Regurgitation Pumping Station">
         <WorldRecord>
@@ -162,12 +162,12 @@
           <Goal Value="16" Setter="Peter B" />
           <OCD Value="16" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="2" Setter="粘粘球世界" />
           <Goal Value="42" Setter="粘粘球世界" />
           <OCD Value="42" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
     </Chapter>
     <Chapter Name="Chapter 2: Little Miss World of Goo">
@@ -178,12 +178,12 @@
           <Goal Value="14" Setter="Peter B" />
           <OCD Value="21" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="38" Setter="dwerdwer" />
           <Moves Value="4" Setter="粘粘球世界" />
           <Goal Value="18" Setter="粘粘球世界" />
           <OCD Value="30" Setter="dahkjdas" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Fly Away Little Ones">
         <WorldRecord>
@@ -192,12 +192,12 @@
           <Goal Value="8" Setter="Peter B" />
           <OCD Value="17" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="15" Setter="粘粘球世界" />
           <Moves Value="0" Setter="MayBeSuper" />
           <Goal Value="13" Setter="粘粘球世界" />
           <OCD Value="26" Setter="dahkjdas" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Blustery Day">
         <WorldRecord>
@@ -206,12 +206,12 @@
           <Goal Value="23" Setter="DaftasBrush" />
           <OCD Value="32" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="31" Setter="粘粘球世界" />
           <Moves Value="16" Setter="粘粘球世界" />
           <Goal Value="36" Setter="dahkjdas" />
           <OCD Value="50" Setter="lkjhgfdsa431" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Welcoming Unit">
         <WorldRecord>
@@ -220,12 +220,12 @@
           <Goal Value="20" Setter="Peter B" />
           <OCD Value="44" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="92" Setter="" />
           <Moves Value="1" Setter="lkjhgfdsa431" />
           <Goal Value="39" Setter="dahkjdas" />
           <OCD Value="119" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Beauty School">
         <WorldRecord>
@@ -234,12 +234,12 @@
           <Goal Value="12" Setter="Peter B" />
           <OCD Value="12" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="18" Setter="" />
           <Moves Value="0" Setter="Wogfan4Evr" />
           <Goal Value="15" Setter="粘粘球世界" />
           <OCD Value="15" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Leap Hole">
         <WorldRecord>
@@ -248,12 +248,12 @@
           <Goal Value="2" Setter="Peter B" />
           <OCD Value="2" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="8" Setter="" />
           <Moves Value="2" Setter="Wogfan4Evr" />
           <Goal Value="4" Setter="粘粘球世界" />
           <OCD Value="4" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Whistler">
         <WorldRecord>
@@ -262,12 +262,12 @@
           <Goal Value="16" Setter="Peter B" />
           <OCD Value="16" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="28" Setter="dwerdwer" />
           <Moves Value="0" Setter="" />
           <Goal Value="20" Setter="dahkjdas" />
           <OCD Value="20" Setter="dahkjdas" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Volcanic Percolator Day Spa">
         <WorldRecord>
@@ -276,12 +276,12 @@
           <Goal Value="18" Setter="DaftasBrush" />
           <OCD Value="18" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="18" Setter="" />
           <Moves Value="0" Setter="" />
           <Goal Value="21" Setter="dahkjdas" />
           <OCD Value="21" Setter="dahkjdas" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Beauty and the Electric Tentacle">
         <WorldRecord>
@@ -290,12 +290,12 @@
           <Goal Value="13" Setter="Pavke" />
           <OCD Value="19" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="55" Setter="粘粘球世界" />
           <Moves Value="0" Setter="" />
           <Goal Value="17" Setter="粘粘球世界" />
           <OCD Value="28" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="The Red Carpet">
         <WorldRecord>
@@ -304,12 +304,12 @@
           <Goal Value="11" Setter="Peter B" />
           <OCD Value="11" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="18" Setter="" />
           <Moves Value="0" Setter="dahkjdas" />
           <Goal Value="23" Setter="lkjhgfdsa431" />
           <OCD Value="23" Setter="lkjhgfdsa431" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Genetic Sorting Machine">
         <WorldRecord>
@@ -318,12 +318,12 @@
           <Goal Value="31" Setter="Pavke" />
           <OCD Value="31" Setter="Pavke" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="24" Setter="dwerdwer" />
           <Moves Value="4" Setter="lkjhgfdsa431" />
           <Goal Value="44" Setter="Wogfan4Evr" />
           <OCD Value="44" Setter="Wogfan4Evr" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
     </Chapter>
     <Chapter Name="Chapter 3: Cog in the Machine">
@@ -334,12 +334,12 @@
           <Goal Value="3" Setter="Peter B" />
           <OCD Value="3" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="39" Setter="粘粘球世界" />
           <Moves Value="0" Setter="" />
           <Goal Value="11" Setter="dahkjdas" />
           <OCD Value="11" Setter="dahkjdas" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Second Hand Smoke">
         <WorldRecord>
@@ -348,12 +348,12 @@
           <Goal Value="8" Setter="Peter B" />
           <OCD Value="9" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="31" Setter="dwerdwer" />
           <Moves Value="0" Setter="" />
           <Goal Value="14" Setter="粘粘球世界" />
           <OCD Value="16" Setter="Mygod" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Misty's Long Bony Road">
         <WorldRecord>
@@ -362,12 +362,12 @@
           <Goal Value="15" Setter="Peter B" />
           <OCD Value="39" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="55" Setter="dwerdwer" />
           <Moves Value="9" Setter="粘粘球世界" />
           <Goal Value="41" Setter="粘粘球世界" />
           <OCD Value="70" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="The Third Wheel">
         <WorldRecord>
@@ -376,12 +376,12 @@
           <Goal Value="25" Setter="Peter B" />
           <OCD Value="25" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="26" Setter="Mygod" />
           <Moves Value="6" Setter="Wogfan4Evr" />
           <Goal Value="61" Setter="Wogfan4Evr" />
           <OCD Value="86" Setter="Wogfan4Evr" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Water Lock">
         <WorldRecord>
@@ -390,12 +390,12 @@
           <Goal Value="21" Setter="Peter B" />
           <OCD Value="45" Setter="naveed_rizvi" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="46" Setter="Mygod" />
           <Moves Value="0" Setter="" />
           <Goal Value="31" Setter="dahkjdas" />
           <OCD Value="53" Setter="ceo5686" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Super Fuse Challenge Time">
         <WorldRecord>
@@ -404,12 +404,12 @@
           <Goal Value="7" Setter="Peter B" />
           <OCD Value="46" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="32" Setter="" />
           <Moves Value="9" Setter="粘粘球世界" />
           <Goal Value="11" Setter="粘粘球世界" />
           <OCD Value="52" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Upper Shaft">
         <WorldRecord>
@@ -418,12 +418,12 @@
           <Goal Value="15" Setter="Peter B" />
           <OCD Value="33" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="56" Setter="dwerdwer" />
           <Moves Value="11" Setter="Wogfan4Evr" />
           <Goal Value="21" Setter="Wogfan4Evr" />
           <OCD Value="84" Setter="lkjhgfdsa431" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="You Have To Explode The Head">
         <WorldRecord>
@@ -432,12 +432,12 @@
           <Goal Value="7" Setter="Peter B" />
           <OCD Value="12" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="94" Setter="dwerdwer" />
           <Moves Value="1" Setter="粘粘球世界" />
           <Goal Value="11" Setter="粘粘球世界" />
           <OCD Value="17" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Incineration Destination">
         <WorldRecord>
@@ -446,12 +446,12 @@
           <Goal Value="29" Setter="Peter B" />
           <OCD Value="29" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="16" Setter="" />
           <Moves Value="14" Setter="lkjhgfdsa431" />
           <Goal Value="42" Setter="dahkjdas" />
           <OCD Value="42" Setter="dahkjdas" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Product Launcher">
         <WorldRecord>
@@ -460,12 +460,12 @@
           <Goal Value="49" Setter="Peter B" />
           <OCD Value="49" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="1" Setter="" />
           <Goal Value="61" Setter="ceo5686" />
           <OCD Value="61" Setter="ceo5686" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
     </Chapter>
     <Chapter Name="Chapter 4: Information Superhighway">
@@ -476,12 +476,12 @@
           <Goal Value="3" Setter="Peter B" />
           <OCD Value="3" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="20" Setter="dwerdwer" />
           <Moves Value="3" Setter="粘粘球世界" />
           <Goal Value="6" Setter="粘粘球世界" />
           <OCD Value="6" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Bulletin Board System">
         <WorldRecord>
@@ -490,12 +490,12 @@
           <Goal Value="14" Setter="Peter B" />
           <OCD Value="32" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="15" Setter="dwerdwer" />
           <Moves Value="6" Setter="粘粘球世界" />
           <Goal Value="21" Setter="粘粘球世界" />
           <OCD Value="57" Setter="lkjhgfdsa431" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Grape Vine Virus">
         <WorldRecord>
@@ -504,12 +504,12 @@
           <Goal Value="31" Setter="DaftasBrush" />
           <OCD Value="35" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="19" Setter="dwerdwer" />
           <Moves Value="38" Setter="ceo5686" />
           <Goal Value="75" Setter="MayBeSuper" />
           <OCD Value="133" Setter="dwerdwer" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Graphic Processing Unit">
         <WorldRecord>
@@ -518,12 +518,12 @@
           <Goal Value="14" Setter="DaftasBrush" />
           <OCD Value="17" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="21" Setter="" />
           <Moves Value="11" Setter="粘粘球世界" />
           <Goal Value="27" Setter="Wogfan4Evr" />
           <OCD Value="34" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Road Blocks">
         <WorldRecord>
@@ -532,12 +532,12 @@
           <Goal Value="7" Setter="Peter B" />
           <OCD Value="7" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="28" Setter="dwerdwer" />
           <Moves Value="3" Setter="dwerdwer" />
           <Goal Value="20" Setter="Wogfan4Evr" />
           <OCD Value="20" Setter="Wogfan4Evr" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Graceful Failure">
         <WorldRecord>
@@ -546,12 +546,12 @@
           <Goal Value="2" Setter="Peter B" />
           <OCD Value="2" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="12" Setter="dwerdwer" />
           <Moves Value="1" Setter="MayBeSuper" />
           <Goal Value="11" Setter="粘粘球世界" />
           <OCD Value="11" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Alice and Bob and the Third Party">
         <WorldRecord>
@@ -560,12 +560,12 @@
           <Goal Value="22" Setter="Peter B" />
           <OCD Value="29" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="43" Setter="" />
           <Moves Value="2" Setter="ceo5686" />
           <Goal Value="48" Setter="粘粘球世界" />
           <OCD Value="65" Setter="ceo5686" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="The Server Farm">
         <WorldRecord>
@@ -574,12 +574,12 @@
           <Goal Value="5" Setter="Peter B" />
           <OCD Value="10" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="29" Setter="dahkjdas" />
           <Moves Value="7" Setter="dahkjdas" />
           <Goal Value="8" Setter="dahkjdas" />
           <OCD Value="11" Setter="lkjhgfdsa431" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="MOM's Computer">
         <WorldRecord>
@@ -588,12 +588,12 @@
           <Goal Value="2" Setter="Peter B" />
           <OCD Value="2" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="1" Setter="Wogfan4Evr" />
           <Goal Value="4" Setter="粘粘球世界" />
           <OCD Value="4" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Deliverance">
         <WorldRecord>
@@ -602,12 +602,12 @@
           <Goal Value="48" Setter="DaftasBrush" />
           <OCD Value="55" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="2" Setter="MayBeSuper" />
           <Goal Value="61" Setter="MayBeSuper" />
           <OCD Value="68" Setter="Wogfan4Evr" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
     </Chapter>
     <Chapter Name="Epilogue: End of the World">
@@ -618,12 +618,12 @@
           <Goal Value="27" Setter="Peter B" />
           <OCD Value="48" Setter="Peter B" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="31" Setter="粘粘球世界" />
           <Moves Value="4" Setter="dahkjdas" />
           <Goal Value="45" Setter="粘粘球世界" />
           <OCD Value="60" Setter="Mygod" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Horizontal Transportation Innovation Committee">
         <WorldRecord>
@@ -632,12 +632,12 @@
           <Goal Value="13" Setter="Peter B" />
           <OCD Value="28" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="60" Setter="lkjhgfdsa431" />
           <Moves Value="1" Setter="Wogfan4Evr" />
           <Goal Value="15" Setter="粘粘球世界" />
           <OCD Value="57" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Weather Vane">
         <WorldRecord>
@@ -646,12 +646,12 @@
           <Goal Value="12" Setter="DaftasBrush" />
           <OCD Value="30" Setter="DaftasBrush" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="101" Setter="粘粘球世界" />
           <Moves Value="15" Setter="粘粘球世界" />
           <Goal Value="20" Setter="粘粘球世界" />
           <OCD Value="46" Setter="粘粘球世界" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
       <Level Name="Observatory Observation Station">
         <WorldRecord>
@@ -660,12 +660,12 @@
           <Goal Value="32" Setter="" />
           <OCD Value="32" Setter="" />
         </WorldRecord>
-        <TiebaRecord>
+        <ChinaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="6" Setter="Wogfan4Evr" />
           <Goal Value="32" Setter="Mygod" />
           <OCD Value="32" Setter="Mygod" />
-        </TiebaRecord>
+        </ChinaRecord>
       </Level>
     </Chapter>
 </Records>
