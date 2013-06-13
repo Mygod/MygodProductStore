@@ -1,8 +1,8 @@
-﻿<%@ Page Title="粘粘世界吧排行榜提交方式" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Submit.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.WoGLeaderboard.Submit" %>
+﻿<%@ Page Title="中国粘粘世界排行榜提交方式" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Submit.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.WoGLeaderboard.Submit" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    <h2 class="center">粘粘世界吧排行榜——提交关卡纪录入口</h2>
+    <h2 class="center">中国粘粘世界排行榜——提交关卡纪录入口</h2>
     <ol>
         <li><span class="bold">提交方式：</span>在最下方的评论区留下截图与破纪录者（如果与你的账户名相同可以省略）。</li>
         <li>

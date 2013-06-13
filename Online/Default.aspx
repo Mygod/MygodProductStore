@@ -28,8 +28,8 @@
             <small>用来用浏览器下载一些东西……（我的第一个Javascript程序）</small>
         </button>
         <button class="command-button" type="button" id="wog-leaderboard">
-            粘粘世界吧排行榜
-            <small>粘粘世界吧排行榜，中国的粘粘世界排行榜！</small>
+            中国粘粘世界排行榜
+            <small>中国的粘粘世界排行榜！支持关卡与玩家！</small>
         </button>
         <button class="command-button" type="button" id="skylark">
             云雀™

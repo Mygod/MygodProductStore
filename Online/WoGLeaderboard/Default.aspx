@@ -1,10 +1,10 @@
-﻿<%@ Page Title="粘粘世界吧排行榜" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.WoGLeaderboard.Default" %>
+﻿<%@ Page Title="中国粘粘世界排行榜" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.WoGLeaderboard.Default" %>
 <%@ Import Namespace="Mygod.Website.ProductStore" %>
 <%@ Import Namespace="Mygod.Website.ProductStore.Online.WoGLeaderboard" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    <h2 class="center">粘粘世界吧排行榜</h2>
+    <h2 class="center">中国粘粘世界排行榜</h2>
 
     <h3 id="level-record">关卡纪录</h3>
     <div>说明：悬停可查看与世界纪录的差距。</div>
