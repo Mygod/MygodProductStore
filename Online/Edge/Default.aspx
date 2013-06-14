@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <h3>.edgemod 文件格式</h3>
     <div>.edgemod 文件格式其本质是一个压缩包。（.rar、.zip之类，不支持.7z）里面包含了一切要覆盖的文件，<b>虽然不强制，但是推荐你将你的关卡 bin 文件放在单独的文件夹里。（如放在 levels/MyCrappyNickname/MyCrappyLevel.bin）</b>。其中有三个文件比较特殊。</div>
-    <div>第一个是 levels/mapping.xsl 文件，可以用于对 levels/mapping.xml 文件进行一些高级操作，这个文件存放着关卡列表。参考资料：<a href="http://pastebin.mozilla.org/2442647">简单地在结尾添加关卡的 XSL（如果只有该操作，推荐改用 mod.xml，仅当几种操作混合时你才可能需要这东西）</a>；<a href="/#Product-60">《Goomod导论》附录的最后一节有对使用 XSL 操作 XML 文件的简单介绍</a>。</div>
+    <div>第一个是 levels/mapping.xsl 文件，可以用于对 levels/mapping.xml 文件进行一些高级操作，这个文件存放着关卡列表。参考资料：<a href="http://pastebin.mozilla.org/2523491">简单地在结尾添加关卡的 XSL（如果只有该操作，推荐改用 mod.xml，仅当几种操作混合时你才可能需要这东西）</a>；<a href="/#Product-60">《Goomod导论》附录的最后一节有对使用 XSL 操作 XML 文件的简单介绍</a>。</div>
     <div>第二个是根目录下的 description.txt。其内容即为 EdgeMod 的描述。如果该文件不存在表示没有描述。描述应该包含 Conflicts, Dependency 与 EngineVersion中的信息。</div>
     <div>第三个是根目录下的 mod.xml。它存放了 EdgeMod 的核心信息。下面将具体介绍。</div>
 
