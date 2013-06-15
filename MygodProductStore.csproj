@@ -163,23 +163,6 @@
     <Content Include="Online\BrowserDownload.aspx" />
     <Content Include="Online\Countdowns.aspx" />
     <Content Include="Online\Default.aspx" />
-    <Content Include="Online\Edge\AdvancedCameraTrigger.aspx" />
-    <Content Include="Online\Edge\Bumper.aspx" />
-    <Content Include="Online\Edge\Bumper.Side.aspx" />
-    <Content Include="Online\Edge\Button.aspx" />
-    <Content Include="Online\Edge\ButtonSequence.aspx" />
-    <Content Include="Online\Edge\CameraTrigger.aspx" />
-    <Content Include="Online\Edge\Checkpoint.aspx" />
-    <Content Include="Online\Edge\DarkCube.aspx" />
-    <Content Include="Online\Edge\Default.aspx" />
-    <Content Include="Online\Edge\Level.aspx" />
-    <Content Include="Online\Edge\FallingPlatform.aspx" />
-    <Content Include="Online\Edge\KeyEvent.aspx" />
-    <Content Include="Online\Edge\MovingPlatform.aspx" />
-    <Content Include="Online\Edge\Resizer.aspx" />
-    <Content Include="Online\Edge\Waypoint.aspx" />
-    <Content Include="Online\Edge\OtherCube.aspx" />
-    <Content Include="Online\Edge\Prism.aspx" />
     <Content Include="Online\MOM\askbutton.png" />
     <Content Include="Online\MOM\bigcomputer2.mp3" />
     <Content Include="Online\MOM\brand.cn.png" />
@@ -513,139 +496,6 @@
     <Compile Include="Online\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Online\Edge\AdvancedCameraTrigger.aspx.cs">
-      <DependentUpon>AdvancedCameraTrigger.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\AdvancedCameraTrigger.aspx.designer.cs">
-      <DependentUpon>AdvancedCameraTrigger.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Bumper.aspx.cs">
-      <DependentUpon>Bumper.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Bumper.aspx.designer.cs">
-      <DependentUpon>Bumper.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Bumper.Side.aspx.cs">
-      <DependentUpon>Bumper.Side.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Bumper.Side.aspx.designer.cs">
-      <DependentUpon>Bumper.Side.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Button.aspx.cs">
-      <DependentUpon>Button.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Button.aspx.designer.cs">
-      <DependentUpon>Button.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\ButtonSequence.aspx.cs">
-      <DependentUpon>ButtonSequence.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\ButtonSequence.aspx.designer.cs">
-      <DependentUpon>ButtonSequence.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\CameraTrigger.aspx.cs">
-      <DependentUpon>CameraTrigger.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\CameraTrigger.aspx.designer.cs">
-      <DependentUpon>CameraTrigger.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Checkpoint.aspx.cs">
-      <DependentUpon>Checkpoint.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Checkpoint.aspx.designer.cs">
-      <DependentUpon>Checkpoint.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\DarkCube.aspx.cs">
-      <DependentUpon>DarkCube.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\DarkCube.aspx.designer.cs">
-      <DependentUpon>DarkCube.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Edge.master.cs">
-      <DependentUpon>Edge.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Edge.master.designer.cs">
-      <DependentUpon>Edge.master</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Level.aspx.cs">
-      <DependentUpon>Level.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Level.aspx.designer.cs">
-      <DependentUpon>Level.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\EdgeLevel.master.cs">
-      <DependentUpon>EdgeLevel.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\EdgeLevel.master.designer.cs">
-      <DependentUpon>EdgeLevel.master</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\FallingPlatform.aspx.cs">
-      <DependentUpon>FallingPlatform.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\FallingPlatform.aspx.designer.cs">
-      <DependentUpon>FallingPlatform.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\KeyEvent.aspx.cs">
-      <DependentUpon>KeyEvent.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\KeyEvent.aspx.designer.cs">
-      <DependentUpon>KeyEvent.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\MovingPlatform.aspx.cs">
-      <DependentUpon>MovingPlatform.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\MovingPlatform.aspx.designer.cs">
-      <DependentUpon>MovingPlatform.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Resizer.aspx.cs">
-      <DependentUpon>Resizer.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Resizer.aspx.designer.cs">
-      <DependentUpon>Resizer.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Waypoint.aspx.cs">
-      <DependentUpon>Waypoint.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Waypoint.aspx.designer.cs">
-      <DependentUpon>Waypoint.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\OtherCube.aspx.cs">
-      <DependentUpon>OtherCube.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\OtherCube.aspx.designer.cs">
-      <DependentUpon>OtherCube.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Edge\Prism.aspx.cs">
-      <DependentUpon>Prism.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Edge\Prism.aspx.designer.cs">
-      <DependentUpon>Prism.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Online\Skylark\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -713,12 +563,6 @@
     <Content Include="Online\MOM\loop_superbirds.ogg" />
     <Content Include="Online\MOM\momStartup.ogg" />
     <Content Include="Online\MOM\TCCEB.TTF" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Online\Edge\EdgeLevel.master" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Online\Edge\Edge.master" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
