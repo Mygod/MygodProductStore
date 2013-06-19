@@ -8,7 +8,11 @@ namespace Mygod.Website.ProductStore
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            Refresh.Now(Server);
+            try
+            {
+                Refresh.Now(Server);
+            }
+            catch { }
         }
 
         protected void Session_Start(object sender, EventArgs e)
