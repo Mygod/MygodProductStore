@@ -22,7 +22,7 @@ namespace Mygod.Website.ProductStore.Online.WoGLeaderboard
 
         public static void Now(HttpServerUtility server)
         {
-            var path = server.MapPath("/Online/WoGLeaderboard/Players.xml");
+            var path = server.MapPath("~/Online/WoGLeaderboard/Players.xml");
             var doc = XDocument.Load(path);
             foreach (var player in doc.Element("Players").Elements("Player"))
             {
