@@ -616,13 +616,13 @@
           <Goos Value="36" Setter="Peter B" />
           <Moves Value="2" Setter="LTumbleweed" />
           <Goal Value="27" Setter="Peter B" />
-          <OCD Value="44" Setter="lkjhgfdsa431" />
+          <OCD Value="43" Setter="" />
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="31" Setter="粘粘球世界" />
           <Moves Value="4" Setter="dahkjdas" />
           <Goal Value="40" Setter="粘粘球世界" />
-          <OCD Value="44" Setter="lkjhgfdsa431" />
+          <OCD Value="43" Setter="粘粘球世界" />
         </ChinaRecord>
       </Level>
       <Level Name="Horizontal Transportation Innovation Committee">

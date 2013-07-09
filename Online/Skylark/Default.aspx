@@ -1,22 +1,24 @@
-﻿<%@ Page Title="云雀™" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.Skylark.Default" %>
+﻿<%@ Page Title="云雀™" Language="C#" MasterPageFile="~/Online/Skylark/Skylark.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Mygod.Website.ProductStore.Online.Skylark.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    <h2 class="center">云雀™</h2>
-    <div>云雀™（开发代号：Skylark）是 Mygod工作室™ 当前正在开发的一个网盘。当前开发进度：Alpha。更多有关该项目的信息将会在该项目完成后添加。</div>
-    <div>稳定版Demo：<a href="http://skylark.apphb.com/">http://skylark.apphb.com/</a></div>
-    <div>最新版Demo：<a href="http://skylarkbeta.apphb.com/">http://skylarkbeta.apphb.com/</a>（注意：由于这是最新版，在这里的东西会随时被删掉）</div>
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'mygodps'; // required: replace example with your forum shortname
-        var disqus_identifier = 'online-skylark';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
+    <div>云雀™ 是由 Mygod 工作室™ 从 2013年5月9日 开始呕心沥血制作出来的云存储服务，通俗地讲就是网盘，但它绝对不是普通的网盘。</div>
+    <h3>神奇的功能</h3>
+    <ol>
+        <li>超大空间：100G 的空间（不过是共享的）</li>
+        <li>超大带宽：反正比你的带宽大，大概有几百 Mbps 吧</li>
+        <li>国外空间：相比国内空间有一个很大的好处</li>
+        <li>离线下载：这个词汇已经用烂了，应该都知道是啥意思，反正服务器的带宽很大，下东西基本秒杀</li>
+        <li>YouTube 视频下载：基于离线下载的一个小扩展，其作用顾名思义</li>
+        <li>MediaFire 网盘下载：同样是基于离线下载的一个小扩展，其作用顾名思义</li>
+        <li>没有广告：云雀™ 没有也不会有广告植入</li>
+        <li>好看的 URL &amp; 直链下载：云雀™ 提供和你的目录完全相同的 URL 以及直链下载，就像是你的 FTP 一样</li>
+        <li>在线欣赏：只要你的浏览器支持，你可以在线欣赏 云雀™ 上的文本、网页、书籍、音乐、视频、图片等</li>
+        <li>在线编辑：在线编辑你的文本</li>
+        <li>云压缩 &amp; 云解压：云端压缩与解压，节约你的 CPU 时间</li>
+        <li>云转码：在云端转换媒体文件格式，节约你的 CPU 时间</li>
+        <li>跨云雀复制：利用超大带宽在多个 云雀™ 之间复制文件</li>
+        <li><a href="https://github.com/Mygod/Skylark">开源</a>：便于开发者进行修改、扩展</li>
+        <li><a href="Api.aspx">API</a>：丰富的 API，便于开发者的创新</li>
+    </ol>
 </asp:Content>
