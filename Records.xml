@@ -110,7 +110,7 @@
           <Goos Value="16" Setter="" />
           <Moves Value="0" Setter="粘粘球世界" />
           <Goal Value="3" Setter="粘粘球世界" />
-          <OCD Value="16" Setter="dahkjdas" />
+          <OCD Value="13" Setter="粘粘球世界" />
         </ChinaRecord>
       </Level>
       <Level Name="Tumbler">
@@ -195,7 +195,7 @@
         <ChinaRecord>
           <Goos Value="15" Setter="粘粘球世界" />
           <Moves Value="0" Setter="MayBeSuper" />
-          <Goal Value="13" Setter="粘粘球世界" />
+          <Goal Value="10" Setter="粘粘球世界" />
           <OCD Value="26" Setter="dahkjdas" />
         </ChinaRecord>
       </Level>
@@ -286,7 +286,7 @@
       <Level Name="Beauty and the Electric Tentacle">
         <WorldRecord>
           <Goos Value="56" Setter="goomatz" />
-          <Moves Value="0" Setter="" />
+          <Moves Value="0" Setter="Marius" />
           <Goal Value="13" Setter="Pavke" />
           <OCD Value="19" Setter="DaftasBrush" />
         </WorldRecord>
@@ -344,7 +344,7 @@
       <Level Name="Second Hand Smoke">
         <WorldRecord>
           <Goos Value="36" Setter="Peter B" />
-          <Moves Value="0" Setter="" />
+          <Moves Value="0" Setter="Kopa" />
           <Goal Value="8" Setter="Peter B" />
           <OCD Value="9" Setter="Peter B" />
         </WorldRecord>
@@ -456,7 +456,7 @@
       <Level Name="Product Launcher">
         <WorldRecord>
           <Goos Value="0" Setter="" />
-          <Moves Value="1" Setter="" />
+          <Moves Value="1" Setter="Marius" />
           <Goal Value="49" Setter="Peter B" />
           <OCD Value="49" Setter="Peter B" />
         </WorldRecord>
@@ -527,7 +527,7 @@
       </Level>
       <Level Name="Road Blocks">
         <WorldRecord>
-          <Goos Value="28" Setter="" />
+          <Goos Value="28" Setter="dwerdwer" />
           <Moves Value="1" Setter="DaftasBrush" />
           <Goal Value="7" Setter="Peter B" />
           <OCD Value="7" Setter="Peter B" />
@@ -542,7 +542,7 @@
       <Level Name="Graceful Failure">
         <WorldRecord>
           <Goos Value="12" Setter="dwerdwer" />
-          <Moves Value="1" Setter="" />
+          <Moves Value="1" Setter="Marius" />
           <Goal Value="2" Setter="Peter B" />
           <OCD Value="2" Setter="Peter B" />
         </WorldRecord>
@@ -616,13 +616,13 @@
           <Goos Value="36" Setter="Peter B" />
           <Moves Value="2" Setter="LTumbleweed" />
           <Goal Value="27" Setter="Peter B" />
-          <OCD Value="43" Setter="粘粘球世界" />
+          <OCD Value="41" Setter="粘粘球世界" />
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="31" Setter="粘粘球世界" />
           <Moves Value="4" Setter="dahkjdas" />
           <Goal Value="40" Setter="粘粘球世界" />
-          <OCD Value="43" Setter="粘粘球世界" />
+          <OCD Value="41" Setter="粘粘球世界" />
         </ChinaRecord>
       </Level>
       <Level Name="Horizontal Transportation Innovation Committee">
@@ -647,7 +647,7 @@
           <OCD Value="30" Setter="DaftasBrush" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="101" Setter="粘粘球世界" />
+          <Goos Value="103" Setter="粘粘球世界" />
           <Moves Value="12" Setter="dahkjdas" />
           <Goal Value="20" Setter="粘粘球世界" />
           <OCD Value="46" Setter="粘粘球世界" />
