@@ -12,7 +12,7 @@
           <Goos Value="11" Setter="" />
           <Moves Value="3" Setter="" />
           <Goal Value="3" Setter="dahkjdas" />
-          <OCD Value="7" Setter="粘粘球世界" />
+          <OCD Value="7" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Small Divide">
@@ -26,7 +26,7 @@
           <Goos Value="21" Setter="dahkjdas" />
           <Moves Value="7" Setter="dahkjdas" />
           <Goal Value="7" Setter="dahkjdas" />
-          <OCD Value="9" Setter="粘粘球世界" />
+          <OCD Value="9" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Hang Low">
@@ -40,7 +40,7 @@
           <Goos Value="24" Setter="dwerdwer" />
           <Moves Value="4" Setter="dwerdwer" />
           <Goal Value="12" Setter="dahkjdas" />
-          <OCD Value="56" Setter="粘粘球世界" />
+          <OCD Value="56" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Impale Sticky">
@@ -52,9 +52,9 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="52" Setter="dahkjdas" />
-          <Moves Value="7" Setter="粘粘球世界" />
-          <Goal Value="16" Setter="粘粘球世界" />
-          <OCD Value="23" Setter="粘粘球世界" />
+          <Moves Value="7" Setter="worldofgooballs" />
+          <Goal Value="16" Setter="worldofgooballs" />
+          <OCD Value="23" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Flying Machine">
@@ -79,10 +79,10 @@
           <OCD Value="12" Setter="Peter B" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="17" Setter="粘粘球世界" />
-          <Moves Value="7" Setter="粘粘球世界" />
-          <Goal Value="18" Setter="粘粘球世界" />
-          <OCD Value="18" Setter="粘粘球世界" />
+          <Goos Value="17" Setter="worldofgooballs" />
+          <Moves Value="7" Setter="worldofgooballs" />
+          <Goal Value="18" Setter="worldofgooballs" />
+          <OCD Value="18" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Tower of Goo">
@@ -93,10 +93,10 @@
           <OCD Value="27" Setter="Peter B" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="103" Setter="粘粘球世界" />
+          <Goos Value="103" Setter="worldofgooballs" />
           <Moves Value="19" Setter="Mygod" />
           <Goal Value="24" Setter="dahkjdas" />
-          <OCD Value="33" Setter="粘粘球世界" />
+          <OCD Value="33" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Ivy Towers">
@@ -108,9 +108,9 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="16" Setter="" />
-          <Moves Value="0" Setter="粘粘球世界" />
-          <Goal Value="3" Setter="粘粘球世界" />
-          <OCD Value="13" Setter="粘粘球世界" />
+          <Moves Value="0" Setter="worldofgooballs" />
+          <Goal Value="3" Setter="worldofgooballs" />
+          <OCD Value="13" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Tumbler">
@@ -122,22 +122,22 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="36" Setter="" />
-          <Moves Value="0" Setter="粘粘球世界" />
+          <Moves Value="0" Setter="worldofgooballs" />
           <Goal Value="8" Setter="Wogfan4Evr" />
-          <OCD Value="19" Setter="粘粘球世界" />
+          <OCD Value="19" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Chain">
         <WorldRecord>
-          <Goos Value="39" Setter="" />
+          <Goos Value="39" Setter="TAO" />
           <Moves Value="0" Setter="Kopa" />
           <Goal Value="12" Setter="Peter B" />
           <OCD Value="21" Setter="Peter B" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="39" Setter="" />
-          <Moves Value="0" Setter="粘粘球世界" />
-          <Goal Value="18" Setter="粘粘球世界" />
+          <Goos Value="39" Setter="TAO" />
+          <Moves Value="0" Setter="worldofgooballs" />
+          <Goal Value="18" Setter="worldofgooballs" />
           <OCD Value="32" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
@@ -164,9 +164,9 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="0" Setter="" />
-          <Moves Value="2" Setter="粘粘球世界" />
-          <Goal Value="42" Setter="粘粘球世界" />
-          <OCD Value="42" Setter="粘粘球世界" />
+          <Moves Value="2" Setter="worldofgooballs" />
+          <Goal Value="42" Setter="worldofgooballs" />
+          <OCD Value="42" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
     </Chapter>
@@ -180,7 +180,7 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="38" Setter="dwerdwer" />
-          <Moves Value="4" Setter="粘粘球世界" />
+          <Moves Value="4" Setter="worldofgooballs" />
           <Goal Value="17" Setter="dahkjdas" />
           <OCD Value="30" Setter="dahkjdas" />
         </ChinaRecord>
@@ -193,9 +193,9 @@
           <OCD Value="17" Setter="Peter B" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="15" Setter="粘粘球世界" />
+          <Goos Value="15" Setter="worldofgooballs" />
           <Moves Value="0" Setter="MayBeSuper" />
-          <Goal Value="10" Setter="粘粘球世界" />
+          <Goal Value="10" Setter="worldofgooballs" />
           <OCD Value="26" Setter="dahkjdas" />
         </ChinaRecord>
       </Level>
@@ -207,8 +207,8 @@
           <OCD Value="32" Setter="DaftasBrush" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="31" Setter="粘粘球世界" />
-          <Moves Value="16" Setter="粘粘球世界" />
+          <Goos Value="31" Setter="worldofgooballs" />
+          <Moves Value="16" Setter="worldofgooballs" />
           <Goal Value="36" Setter="dahkjdas" />
           <OCD Value="50" Setter="lkjhgfdsa431" />
         </ChinaRecord>
@@ -224,7 +224,7 @@
           <Goos Value="92" Setter="" />
           <Moves Value="1" Setter="lkjhgfdsa431" />
           <Goal Value="39" Setter="dahkjdas" />
-          <OCD Value="119" Setter="粘粘球世界" />
+          <OCD Value="119" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Beauty School">
@@ -237,8 +237,8 @@
         <ChinaRecord>
           <Goos Value="18" Setter="" />
           <Moves Value="0" Setter="Wogfan4Evr" />
-          <Goal Value="15" Setter="粘粘球世界" />
-          <OCD Value="15" Setter="粘粘球世界" />
+          <Goal Value="15" Setter="worldofgooballs" />
+          <OCD Value="15" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Leap Hole">
@@ -251,8 +251,8 @@
         <ChinaRecord>
           <Goos Value="8" Setter="" />
           <Moves Value="2" Setter="Wogfan4Evr" />
-          <Goal Value="4" Setter="粘粘球世界" />
-          <OCD Value="4" Setter="粘粘球世界" />
+          <Goal Value="4" Setter="worldofgooballs" />
+          <OCD Value="4" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Whistler">
@@ -291,10 +291,10 @@
           <OCD Value="19" Setter="DaftasBrush" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="55" Setter="粘粘球世界" />
+          <Goos Value="55" Setter="worldofgooballs" />
           <Moves Value="0" Setter="" />
-          <Goal Value="17" Setter="粘粘球世界" />
-          <OCD Value="28" Setter="粘粘球世界" />
+          <Goal Value="17" Setter="worldofgooballs" />
+          <OCD Value="28" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="The Red Carpet">
@@ -335,7 +335,7 @@
           <OCD Value="3" Setter="Peter B" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="39" Setter="粘粘球世界" />
+          <Goos Value="39" Setter="worldofgooballs" />
           <Moves Value="0" Setter="" />
           <Goal Value="11" Setter="dahkjdas" />
           <OCD Value="11" Setter="dahkjdas" />
@@ -351,7 +351,7 @@
         <ChinaRecord>
           <Goos Value="31" Setter="dwerdwer" />
           <Moves Value="0" Setter="" />
-          <Goal Value="14" Setter="粘粘球世界" />
+          <Goal Value="14" Setter="worldofgooballs" />
           <OCD Value="16" Setter="Mygod" />
         </ChinaRecord>
       </Level>
@@ -363,10 +363,10 @@
           <OCD Value="39" Setter="DaftasBrush" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="56" Setter="粘粘球世界" />
-          <Moves Value="9" Setter="粘粘球世界" />
-          <Goal Value="41" Setter="粘粘球世界" />
-          <OCD Value="70" Setter="粘粘球世界" />
+          <Goos Value="56" Setter="worldofgooballs" />
+          <Moves Value="9" Setter="worldofgooballs" />
+          <Goal Value="41" Setter="worldofgooballs" />
+          <OCD Value="70" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="The Third Wheel">
@@ -406,9 +406,9 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="32" Setter="" />
-          <Moves Value="9" Setter="粘粘球世界" />
-          <Goal Value="11" Setter="粘粘球世界" />
-          <OCD Value="52" Setter="粘粘球世界" />
+          <Moves Value="9" Setter="worldofgooballs" />
+          <Goal Value="11" Setter="worldofgooballs" />
+          <OCD Value="52" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Upper Shaft">
@@ -434,9 +434,9 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="94" Setter="dwerdwer" />
-          <Moves Value="1" Setter="粘粘球世界" />
-          <Goal Value="11" Setter="粘粘球世界" />
-          <OCD Value="17" Setter="粘粘球世界" />
+          <Moves Value="1" Setter="worldofgooballs" />
+          <Goal Value="11" Setter="worldofgooballs" />
+          <OCD Value="17" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Incineration Destination">
@@ -478,9 +478,9 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="20" Setter="dwerdwer" />
-          <Moves Value="3" Setter="粘粘球世界" />
-          <Goal Value="6" Setter="粘粘球世界" />
-          <OCD Value="6" Setter="粘粘球世界" />
+          <Moves Value="3" Setter="worldofgooballs" />
+          <Goal Value="6" Setter="worldofgooballs" />
+          <OCD Value="6" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Bulletin Board System">
@@ -492,8 +492,8 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="15" Setter="dwerdwer" />
-          <Moves Value="6" Setter="粘粘球世界" />
-          <Goal Value="21" Setter="粘粘球世界" />
+          <Moves Value="6" Setter="worldofgooballs" />
+          <Goal Value="21" Setter="worldofgooballs" />
           <OCD Value="57" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
@@ -520,9 +520,9 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="21" Setter="dwerdwer" />
-          <Moves Value="11" Setter="粘粘球世界" />
+          <Moves Value="11" Setter="worldofgooballs" />
           <Goal Value="27" Setter="Wogfan4Evr" />
-          <OCD Value="34" Setter="粘粘球世界" />
+          <OCD Value="34" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Road Blocks">
@@ -549,8 +549,8 @@
         <ChinaRecord>
           <Goos Value="12" Setter="dwerdwer" />
           <Moves Value="1" Setter="MayBeSuper" />
-          <Goal Value="11" Setter="粘粘球世界" />
-          <OCD Value="11" Setter="粘粘球世界" />
+          <Goal Value="11" Setter="worldofgooballs" />
+          <OCD Value="11" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Alice and Bob and the Third Party">
@@ -563,7 +563,7 @@
         <ChinaRecord>
           <Goos Value="43" Setter="" />
           <Moves Value="2" Setter="ceo5686" />
-          <Goal Value="48" Setter="粘粘球世界" />
+          <Goal Value="48" Setter="worldofgooballs" />
           <OCD Value="65" Setter="ceo5686" />
         </ChinaRecord>
       </Level>
@@ -591,14 +591,14 @@
         <ChinaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="1" Setter="Wogfan4Evr" />
-          <Goal Value="4" Setter="粘粘球世界" />
-          <OCD Value="4" Setter="粘粘球世界" />
+          <Goal Value="4" Setter="worldofgooballs" />
+          <OCD Value="4" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Deliverance">
         <WorldRecord>
           <Goos Value="0" Setter="" />
-          <Moves Value="2" Setter="" />
+          <Moves Value="2" Setter="Marius" />
           <Goal Value="48" Setter="DaftasBrush" />
           <OCD Value="55" Setter="DaftasBrush" />
         </WorldRecord>
@@ -616,13 +616,13 @@
           <Goos Value="36" Setter="Peter B" />
           <Moves Value="2" Setter="LTumbleweed" />
           <Goal Value="27" Setter="Peter B" />
-          <OCD Value="41" Setter="粘粘球世界" />
+          <OCD Value="41" Setter="worldofgooballs" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="31" Setter="粘粘球世界" />
+          <Goos Value="31" Setter="worldofgooballs" />
           <Moves Value="4" Setter="dahkjdas" />
-          <Goal Value="40" Setter="粘粘球世界" />
-          <OCD Value="41" Setter="粘粘球世界" />
+          <Goal Value="40" Setter="worldofgooballs" />
+          <OCD Value="41" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Horizontal Transportation Innovation Committee">
@@ -635,8 +635,8 @@
         <ChinaRecord>
           <Goos Value="60" Setter="lkjhgfdsa431" />
           <Moves Value="1" Setter="Wogfan4Evr" />
-          <Goal Value="15" Setter="粘粘球世界" />
-          <OCD Value="57" Setter="粘粘球世界" />
+          <Goal Value="15" Setter="worldofgooballs" />
+          <OCD Value="57" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Weather Vane">
@@ -647,10 +647,10 @@
           <OCD Value="30" Setter="DaftasBrush" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="103" Setter="粘粘球世界" />
+          <Goos Value="103" Setter="worldofgooballs" />
           <Moves Value="12" Setter="dahkjdas" />
-          <Goal Value="20" Setter="粘粘球世界" />
-          <OCD Value="46" Setter="粘粘球世界" />
+          <Goal Value="20" Setter="worldofgooballs" />
+          <OCD Value="46" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Observatory Observation Station">
