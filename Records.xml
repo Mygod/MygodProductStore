@@ -386,7 +386,7 @@
       <Level Name="Water Lock">
         <WorldRecord>
           <Goos Value="46" Setter="goomatz" />
-          <Moves Value="0" Setter="" />
+          <Moves Value="0" Setter="LTumbleweed" />
           <Goal Value="21" Setter="Peter B" />
           <OCD Value="45" Setter="naveed_rizvi" />
         </WorldRecord>
@@ -513,13 +513,13 @@
       </Level>
       <Level Name="Graphic Processing Unit">
         <WorldRecord>
-          <Goos Value="21" Setter="" />
+          <Goos Value="21" Setter="dwerdwer" />
           <Moves Value="9" Setter="DaftasBrush" />
           <Goal Value="14" Setter="DaftasBrush" />
           <OCD Value="17" Setter="DaftasBrush" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="21" Setter="" />
+          <Goos Value="21" Setter="dwerdwer" />
           <Moves Value="11" Setter="粘粘球世界" />
           <Goal Value="27" Setter="Wogfan4Evr" />
           <OCD Value="34" Setter="粘粘球世界" />
