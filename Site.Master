@@ -23,7 +23,7 @@
         </div>
         <div class="page-region">
             <div class="page-region-content" style="padding-left: 20px;">
-                <h3><a href="http://mygodstudio.tk/" class="h">官网</a>　<a href="/" class="h">产品</a>　<a href="/Online/" class="h">在线工具</a></h3>
+                <h3><a href="http://mygodstudio.tk/" class="h">官网</a>　<a href="/" class="h">产品</a>　<a href="/Online/" class="h">在线工具</a>　<a href="/Donate.aspx" class="h">捐款</a></h3>
                 <asp:ContentPlaceHolder ID="Content" runat="server">
         
                 </asp:ContentPlaceHolder>
