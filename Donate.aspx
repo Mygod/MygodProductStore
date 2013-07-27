@@ -3,7 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <h2 class="center">捐助我们</h2>
-    <div>你可以给本工作室的比特币账户打比特币：15Haz3tdxEXovnDdCWJdnYVzUQX8wAAM5g</div>
+    <div>Mygod 工作室™ 竭力为您提供优质的共享软件，为了帮助我们更好地为您服务，欢迎您捐助我们。</div>
+    <div>您可以给本工作室的比特币账户打比特币：15Haz3tdxEXovnDdCWJdnYVzUQX8wAAM5g</div>
     <div>比特币可以通过多种方式免费或付费获得，如果你只是闲着没事干，试试使用以下免费的方式帮助我们：</div>
     <ul>
         <li><a href="http://coinreaper.com/?bitcoinAddress=15Haz3tdxEXovnDdCWJdnYVzUQX8wAAM5g">去做任务！</a></li>
@@ -12,4 +13,17 @@
     </ul>
     <div class="center"><a href="http://i1264.photobucket.com/albums/jj483/MygodStudio/ProductStore/indie-developer.jpg~original"><img src="http://i1264.photobucket.com/albums/jj483/MygodStudio/ProductStore/indie-developer.jpg~original" /></a></div>
     <div class="center"><a href="http://i1264.photobucket.com/albums/jj483/MygodStudio/ProductStore/indie-musician.jpg~original"><img src="http://i1264.photobucket.com/albums/jj483/MygodStudio/ProductStore/indie-musician.jpg~original" /></a></div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'mygodps'; // required: replace example with your forum shortname
+        var disqus_identifier = 'donate';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
 </asp:Content>
