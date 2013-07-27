@@ -51,12 +51,12 @@
     <Content Include="css\modern.css" />
     <Content Include="css\theme-dark.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Donate.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\iconFont.eot" />
     <Content Include="fonts\iconFont.ttf" />
     <Content Include="fonts\iconFont.woff" />
     <Content Include="Global.asax" />
-    <Content Include="images\Logo.png" />
     <Content Include="javascript\countdowns.js" />
     <Content Include="javascript\CryptoJS\aes-min.js" />
     <Content Include="javascript\CryptoJS\aes.js" />
@@ -465,6 +465,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate.aspx.cs">
+      <DependentUpon>Donate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate.aspx.designer.cs">
+      <DependentUpon>Donate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
