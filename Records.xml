@@ -124,7 +124,7 @@
           <Goos Value="36" Setter="" />
           <Moves Value="0" Setter="worldofgooballs" />
           <Goal Value="6" Setter="dahkjdas" />
-          <OCD Value="19" Setter="worldofgooballs" />
+          <OCD Value="15" Setter="dahkjdas" />
         </ChinaRecord>
       </Level>
       <Level Name="Chain">
@@ -196,7 +196,7 @@
           <Goos Value="15" Setter="worldofgooballs" />
           <Moves Value="0" Setter="MayBeSuper" />
           <Goal Value="10" Setter="worldofgooballs" />
-          <OCD Value="26" Setter="dahkjdas" />
+          <OCD Value="23" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Blustery Day">
@@ -307,8 +307,8 @@
         <ChinaRecord>
           <Goos Value="18" Setter="" />
           <Moves Value="0" Setter="dahkjdas" />
-          <Goal Value="17" Setter="dahkjdas" />
-          <OCD Value="17" Setter="dahkjdas" />
+          <Goal Value="15" Setter="worldofgooballs" />
+          <OCD Value="15" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Genetic Sorting Machine">
@@ -535,8 +535,8 @@
         <ChinaRecord>
           <Goos Value="28" Setter="dwerdwer" />
           <Moves Value="3" Setter="dwerdwer" />
-          <Goal Value="16" Setter="dahkjdas" />
-          <OCD Value="16" Setter="dahkjdas" />
+          <Goal Value="11" Setter="dahkjdas" />
+          <OCD Value="11" Setter="dahkjdas" />
         </ChinaRecord>
       </Level>
       <Level Name="Graceful Failure">
