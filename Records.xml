@@ -37,7 +37,7 @@
           <OCD Value="40" Setter="Peter B" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="24" Setter="dwerdwer" />
+          <Goos Value="25" Setter="worldofgooballs" />
           <Moves Value="4" Setter="dwerdwer" />
           <Goal Value="12" Setter="dahkjdas" />
           <OCD Value="56" Setter="worldofgooballs" />
@@ -110,7 +110,7 @@
           <Goos Value="16" Setter="" />
           <Moves Value="0" Setter="worldofgooballs" />
           <Goal Value="3" Setter="worldofgooballs" />
-          <OCD Value="13" Setter="worldofgooballs" />
+          <OCD Value="12" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Tumbler">
@@ -196,13 +196,13 @@
           <Goos Value="15" Setter="worldofgooballs" />
           <Moves Value="0" Setter="MayBeSuper" />
           <Goal Value="10" Setter="worldofgooballs" />
-          <OCD Value="23" Setter="worldofgooballs" />
+          <OCD Value="17" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Blustery Day">
         <WorldRecord>
           <Goos Value="36" Setter="Peter B" />
-          <Moves Value="6" Setter="Peter B" />
+          <Moves Value="5" Setter="Peter B" />
           <Goal Value="23" Setter="DaftasBrush" />
           <OCD Value="32" Setter="DaftasBrush" />
         </WorldRecord>
@@ -394,7 +394,7 @@
           <Goos Value="46" Setter="Mygod" />
           <Moves Value="0" Setter="" />
           <Goal Value="31" Setter="dahkjdas" />
-          <OCD Value="53" Setter="ceo5686" />
+          <OCD Value="52" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Super Fuse Challenge Time">
@@ -493,7 +493,7 @@
         <ChinaRecord>
           <Goos Value="15" Setter="dwerdwer" />
           <Moves Value="6" Setter="worldofgooballs" />
-          <Goal Value="21" Setter="worldofgooballs" />
+          <Goal Value="19" Setter="worldofgooballs" />
           <OCD Value="57" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
