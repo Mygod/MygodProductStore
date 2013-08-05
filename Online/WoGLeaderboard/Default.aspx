@@ -25,11 +25,11 @@
                    { %>
             <tr>
                 <td><%=level.Name %></td>
-                   <% for (var i = 0; i < 4; i++)
-                      {
-                          var record = level.ChinaRecord[i]; %>
+                    <% for (var i = 0; i < 4; i++)
+                       {
+                           var record = level.ChinaRecord[i]; %>
                 <td><span title="<%=record.Tooltip %>"<%=record.Color %>><%=record.Overview %></span></td>
-                   <% } %>
+                    <% } %>
             </tr>
                 <% } %>
             <tr>
