@@ -7,7 +7,7 @@
     <h2 class="center">中国粘粘世界排行榜</h2>
 
     <h3 id="level-record">关卡纪录</h3>
-    <div>说明：悬停可查看与世界纪录的差距。</div>
+    <div>说明：悬停可查看与世界纪录的差距，差距越大颜色越红，差距大于10的会变得鲜血淋漓。</div>
     <table style="width: 100%">
         <thead style="width: 100%">
             <tr style="width: 100%">
@@ -28,7 +28,7 @@
                    <% for (var i = 0; i < 4; i++)
                       {
                           var record = level.ChinaRecord[i]; %>
-                <td><span title="<%=record.Tooltip %>"><%=record.Overview %></span></td>
+                <td><span title="<%=record.Tooltip %>"<%=record.Color %>><%=record.Overview %></span></td>
                    <% } %>
             </tr>
                 <% } %>

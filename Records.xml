@@ -40,7 +40,7 @@
           <Goos Value="25" Setter="worldofgooballs" />
           <Moves Value="4" Setter="dwerdwer" />
           <Goal Value="12" Setter="dahkjdas" />
-          <OCD Value="56" Setter="worldofgooballs" />
+          <OCD Value="52" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Impale Sticky">
@@ -67,8 +67,8 @@
         <ChinaRecord>
           <Goos Value="10" Setter="Mygod" />
           <Moves Value="2" Setter="dwerdwer" />
-          <Goal Value="12" Setter="dahkjdas" />
-          <OCD Value="12" Setter="dahkjdas" />
+          <Goal Value="11" Setter="lkjhgfdsa431" />
+          <OCD Value="11" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Fisty's Bog">
@@ -96,7 +96,7 @@
           <Goos Value="103" Setter="worldofgooballs" />
           <Moves Value="19" Setter="Mygod" />
           <Goal Value="24" Setter="dahkjdas" />
-          <OCD Value="33" Setter="worldofgooballs" />
+          <OCD Value="29" Setter="dahkjdas" />
         </ChinaRecord>
       </Level>
       <Level Name="Ivy Towers">
@@ -208,7 +208,7 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="31" Setter="worldofgooballs" />
-          <Moves Value="16" Setter="worldofgooballs" />
+          <Moves Value="15" Setter="lkjhgfdsa431" />
           <Goal Value="32" Setter="dahkjdas" />
           <OCD Value="50" Setter="lkjhgfdsa431" />
         </ChinaRecord>
@@ -224,7 +224,7 @@
           <Goos Value="92" Setter="" />
           <Moves Value="1" Setter="lkjhgfdsa431" />
           <Goal Value="39" Setter="dahkjdas" />
-          <OCD Value="113" Setter="dahkjdas" />
+          <OCD Value="61" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Beauty School">
@@ -265,8 +265,8 @@
         <ChinaRecord>
           <Goos Value="29" Setter="dahkjdas" />
           <Moves Value="0" Setter="" />
-          <Goal Value="20" Setter="dahkjdas" />
-          <OCD Value="20" Setter="dahkjdas" />
+          <Goal Value="19" Setter="lkjhgfdsa431" />
+          <OCD Value="19" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Volcanic Percolator Day Spa">
@@ -351,8 +351,8 @@
         <ChinaRecord>
           <Goos Value="31" Setter="dwerdwer" />
           <Moves Value="0" Setter="" />
-          <Goal Value="14" Setter="worldofgooballs" />
-          <OCD Value="16" Setter="Mygod" />
+          <Goal Value="11" Setter="lkjhgfdsa431" />
+          <OCD Value="13" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Misty's Long Bony Road">
@@ -365,8 +365,8 @@
         <ChinaRecord>
           <Goos Value="56" Setter="worldofgooballs" />
           <Moves Value="9" Setter="worldofgooballs" />
-          <Goal Value="41" Setter="worldofgooballs" />
-          <OCD Value="54" Setter="dahkjdas" />
+          <Goal Value="40" Setter="lkjhgfdsa431" />
+          <OCD Value="48" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="The Third Wheel">
@@ -379,7 +379,7 @@
         <ChinaRecord>
           <Goos Value="26" Setter="Mygod" />
           <Moves Value="6" Setter="Wogfan4Evr" />
-          <Goal Value="61" Setter="Wogfan4Evr" />
+          <Goal Value="49" Setter="lkjhgfdsa431" />
           <OCD Value="86" Setter="Wogfan4Evr" />
         </ChinaRecord>
       </Level>
@@ -407,7 +407,7 @@
         <ChinaRecord>
           <Goos Value="32" Setter="" />
           <Moves Value="9" Setter="worldofgooballs" />
-          <Goal Value="11" Setter="worldofgooballs" />
+          <Goal Value="9" Setter="lkjhgfdsa431" />
           <OCD Value="52" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
@@ -449,8 +449,8 @@
         <ChinaRecord>
           <Goos Value="16" Setter="" />
           <Moves Value="14" Setter="lkjhgfdsa431" />
-          <Goal Value="40" Setter="dahkjdas" />
-          <OCD Value="40" Setter="dahkjdas" />
+          <Goal Value="37" Setter="lkjhgfdsa431" />
+          <OCD Value="37" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Product Launcher">
@@ -479,8 +479,8 @@
         <ChinaRecord>
           <Goos Value="20" Setter="dwerdwer" />
           <Moves Value="3" Setter="worldofgooballs" />
-          <Goal Value="6" Setter="worldofgooballs" />
-          <OCD Value="6" Setter="worldofgooballs" />
+          <Goal Value="5" Setter="lkjhgfdsa431" />
+          <OCD Value="5" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Bulletin Board System">
@@ -507,8 +507,8 @@
         <ChinaRecord>
           <Goos Value="19" Setter="dwerdwer" />
           <Moves Value="38" Setter="ceo5686" />
-          <Goal Value="75" Setter="MayBeSuper" />
-          <OCD Value="133" Setter="dwerdwer" />
+          <Goal Value="67" Setter="dahkjdas" />
+          <OCD Value="111" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Graphic Processing Unit">
@@ -520,9 +520,9 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="21" Setter="dwerdwer" />
-          <Moves Value="11" Setter="worldofgooballs" />
-          <Goal Value="27" Setter="Wogfan4Evr" />
-          <OCD Value="34" Setter="worldofgooballs" />
+          <Moves Value="9" Setter="lkjhgfdsa431" />
+          <Goal Value="18" Setter="lkjhgfdsa431" />
+          <OCD Value="27" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Road Blocks">
@@ -647,10 +647,10 @@
           <OCD Value="30" Setter="DaftasBrush" />
         </WorldRecord>
         <ChinaRecord>
-          <Goos Value="103" Setter="worldofgooballs" />
+          <Goos Value="104" Setter="worldofgooballs" />
           <Moves Value="12" Setter="dahkjdas" />
           <Goal Value="16" Setter="dahkjdas" />
-          <OCD Value="46" Setter="worldofgooballs" />
+          <OCD Value="35" Setter="worldofgooballs" />
         </ChinaRecord>
       </Level>
       <Level Name="Observatory Observation Station">

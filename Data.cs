@@ -123,7 +123,7 @@ namespace Mygod.Website.ProductStore
         public string Setter;
         public bool IsWorldRecord;
 
-        private string formattedValue, overview, tooltip;
+        private string formattedValue, overview, tooltip, color;
         public string FormattedValue
         {
             get
@@ -154,6 +154,30 @@ namespace Mygod.Website.ProductStore
                         : "离世界纪录 " + worldRecord + " 差 " + delta + ' ' + GetUnit(Type) + "！");
                 }
                 return tooltip;
+            }
+        }
+        public string Color
+        {
+            get
+            {
+                if (color == null)
+                {
+                    var worldRecord = Parent.Parent.WorldRecord[(int)Type];
+                    var delta = Math.Abs(worldRecord.Value - Value);
+                    if (delta == 0) color = string.Empty;
+                    else
+                    {
+                        color = " style=\"";
+                        var r = delta * 14 + 115;
+                        if (r > 255)
+                        {
+                            r = 255;
+                            color += "font-weight: bold; ";
+                        }
+                        color += string.Format("color: #{0:X2}0000;\"", r);
+                    }
+                }
+                return color;
             }
         }
 
