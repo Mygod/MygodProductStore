@@ -208,7 +208,7 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="31" Setter="worldofgooballs" />
-          <Moves Value="15" Setter="lkjhgfdsa431" />
+          <Moves Value="7" Setter="worldofgooballs" />
           <Goal Value="32" Setter="dahkjdas" />
           <OCD Value="50" Setter="lkjhgfdsa431" />
         </ChinaRecord>
@@ -605,7 +605,7 @@
         <ChinaRecord>
           <Goos Value="0" Setter="" />
           <Moves Value="2" Setter="MayBeSuper" />
-          <Goal Value="61" Setter="MayBeSuper" />
+          <Goal Value="60" Setter="worldofgooballs" />
           <OCD Value="68" Setter="Wogfan4Evr" />
         </ChinaRecord>
       </Level>
