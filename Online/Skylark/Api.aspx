@@ -238,6 +238,26 @@
         </li>
     </ul>
     
+    <h3>Task/Create/FtpUpload/{*Path}</h3>
+    <div>将指定目录下的文件上传到 FTP。</div>
+    <div>可用的查询字符串：</div>
+    <ul>
+        <li><strong>Target</strong>：目标 FTP 地址，格式为 ftp://[username:password@]host/dir/file，你的用户名和密码不会被保留，也不会在上传进度上显示。</li>
+        <li><strong>Files</strong>：要压缩的文件/目录相对于当前目录的路径，用“|”分割。</li>
+        <li><strong>CompressionLevel</strong>：压缩级别，默认为 Ultra。可以是 Ultra, High, Normal, Low, Fast, None 中的一个。</li>
+    </ul>
+    <div>返回 XML：</div>
+    <ul>
+        <li>
+            <div><strong>result 元素</strong></div>
+            <ul>
+                <li><strong>@status</strong>：指定操作是否成功，值为ok或error。</li>
+                <li><strong>@message</strong>：出错信息。</li>
+                <li><strong>@id</strong>：创建的任务 ID，生成方式为 Convert.ToBase64String(Encoding.UTF8.GetBytes(DateTime.UtcNow.Ticks.ToString(CultureInfo.InvariantCulture)))。</li>
+            </ul>
+        </li>
+    </ul>
+    
     <h3>Task/Create/Compress/{*Path}</h3>
     <div>将指定文件压缩到指定路径。</div>
     <div>可用的查询字符串：</div>
@@ -360,8 +380,8 @@
                         <li><strong>@domain</strong>：源云雀域名。</li>
                         <li><strong>@path</strong>：源云雀路径。</li>
                         <li><strong>@target</strong>：目标路径。</li>
-                        <li><strong>@fileCopied</strong>：目标路径。</li>
-                        <li><strong>@sizeCopied</strong>：目标路径。</li>
+                        <li><strong>@fileCopied</strong>：已经复制的文件数。</li>
+                        <li><strong>@sizeCopied</strong>：已经复制的大小。</li>
                         <li><strong>@current</strong>：当前处理的文件。</li>
                         <li><strong>@message</strong>：错误信息。</li>
                         <li><strong>@finish</strong>：完成时间。</li>

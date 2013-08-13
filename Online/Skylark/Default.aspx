@@ -18,6 +18,7 @@
         <li>云压缩 &amp; 云解压：云端压缩与解压，节约你的 CPU 时间</li>
         <li>云转码：在云端转换媒体文件格式，节约你的 CPU 时间</li>
         <li>跨云雀复制：利用超大带宽在多个 云雀™ 之间复制文件</li>
+        <li>FTP 上传与下载：便于移动数据</li>
         <li><a href="https://github.com/Mygod/Skylark">开源</a>：便于开发者进行修改、扩展</li>
         <li><a href="Api.aspx">API</a>：丰富的 API，便于开发者的创新</li>
     </ol>
