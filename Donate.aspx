@@ -4,8 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <h2 class="center">捐助我们</h2>
     <div>Mygod 工作室™ 竭力为您提供优质的共享软件，为了帮助我们更好地为您服务，也为了增加你的同情心，欢迎您捐助我们。</div>
-    <div>您可以给本工作室的比特币账户打比特币：15Haz3tdxEXovnDdCWJdnYVzUQX8wAAM5g</div>
-    <div>还没有账户？去 <a href="https://coinbase.com/">Coinbase</a> 注册一个！</div>
+    <div><a class="coinbase-button" data-code="29d5fb6e7639e6a225b1ac1568a9aef9" data-button-style="donation_large" data-custom="DONATION" href="https://coinbase.com/checkouts/29d5fb6e7639e6a225b1ac1568a9aef9">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script></div>
     <div>比特币可以通过多种方式免费或付费获得，如果你只是闲着没事干，试试使用以下免费的方式帮助我们：</div>
     <ul>
         <li><a href="http://coinreaper.com/?bitcoinAddress=15Haz3tdxEXovnDdCWJdnYVzUQX8wAAM5g">去做任务！</a>（方法：将我们的地址复制到 Bitcoin address 中，再输入 reCAPTCHA 验证码，然后按下按钮即可，然后点击 NEXT SITE 进入下一个任务。）</li>
