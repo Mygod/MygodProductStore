@@ -7,13 +7,17 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <div>
-        <button class="command-button" type="button" id="mom-cn">
-            MOM 中文版
-            <small>改良版！</small>
+        <button class="command-button" type="button" id="colors">
+            系统定义颜色大全
+            <small>这里显示了所有 System.Drawing.Color 中的系统定义颜色。</small>
         </button>
-        <button class="command-button" type="button" id="mom-en">
-            MOM 英文版
-            <small>改良版！</small>
+        <button class="command-button" type="button" id="skylark">
+            云雀™
+            <small>云雀™，您的云存储伴侣。</small>
+        </button>
+        <button class="command-button" type="button" id="wog-leaderboard">
+            中国粘粘世界排行榜
+            <small>中国的粘粘世界排行榜！支持关卡与玩家！</small>
         </button>
         <button class="command-button" type="button" id="wogcorp">
             搭塔者
@@ -23,17 +27,17 @@
             倒计时
             <small>让你对未来充满希望，或是给你一种莫名的压迫感！</small>
         </button>
+        <button class="command-button" type="button" id="mom-en">
+            MOM 英文版
+            <small>改良版！</small>
+        </button>
+        <button class="command-button" type="button" id="mom-cn">
+            MOM 中文版
+            <small>改良版！</small>
+        </button>
         <button class="command-button" type="button" id="browser-download">
             Mygod浏览器下载小工具
             <small>用来用浏览器下载一些东西……（我的第一个Javascript程序）</small>
-        </button>
-        <button class="command-button" type="button" id="wog-leaderboard">
-            中国粘粘世界排行榜
-            <small>中国的粘粘世界排行榜！支持关卡与玩家！</small>
-        </button>
-        <button class="command-button" type="button" id="skylark">
-            云雀™
-            <small>云雀™，您的云存储伴侣。</small>
         </button>
         <span id="admin-features">
             <button class="command-button" type="button" id="nothing-here">
@@ -49,13 +53,14 @@
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('#mom-cn').click(function () { location.href = 'MOM/'; });
-            $('#mom-en').click(function () { location.href = 'MOM/English.htm'; });
+            $('#colors').click(function () { location.href = 'Colors.aspx'; });
+            $('#skylark').click(function () { location.href = 'Skylark/'; });
+            $('#wog-leaderboard').click(function () { location.href = 'WoGLeaderboard/'; });
             $('#wogcorp').click(function () { location.href = 'WoGCorp/'; });
             $('#countdowns').click(function () { location.href = 'Countdowns.aspx'; });
+            $('#mom-en').click(function () { location.href = 'MOM/English.htm'; });
+            $('#mom-cn').click(function () { location.href = 'MOM/'; });
             $('#browser-download').click(function () { location.href = 'BrowserDownload.aspx'; });
-            $('#wog-leaderboard').click(function () { location.href = 'WoGLeaderboard/'; });
-            $('#skylark').click(function () { location.href = 'Skylark/'; });
 
             $('#admin-password-box').keypress(function () {
                 setTimeout(function() {

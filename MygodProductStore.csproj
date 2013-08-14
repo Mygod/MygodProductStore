@@ -58,6 +58,7 @@
     <Content Include="fonts\iconFont.woff" />
     <Content Include="Global.asax" />
     <Content Include="javascript\countdowns.js" />
+    <Content Include="Online\Colors.aspx" />
     <Content Include="plugins\CryptoJS\aes-min.js" />
     <Content Include="plugins\CryptoJS\aes.js" />
     <Content Include="plugins\CryptoJS\cipher-core-min.js" />
@@ -533,6 +534,13 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Online\WoGCorp\WoGBuddy.cs" />
+    <Compile Include="Online\Colors.aspx.cs">
+      <DependentUpon>Colors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Online\Colors.aspx.designer.cs">
+      <DependentUpon>Colors.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Online\WoGLeaderboard\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
