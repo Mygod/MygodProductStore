@@ -23,7 +23,11 @@
                         <%=color.Name %>
                     </a>
                 </td>
-                <td>#<%=color.ToArgb().ToString("X8") %></td>
+                <td>
+                    <a href="http://www.colorhexa.com/<%=string.Format("{0:x2}{1:x2}{2:x2}", color.R, color.G, color.B) %>">
+                        #<%=color.ToArgb().ToString("X8") %>
+                    </a>
+                </td>
             </tr>
             <% } %>
         </tbody>
