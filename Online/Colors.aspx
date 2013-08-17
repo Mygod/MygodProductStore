@@ -2,36 +2,32 @@
 <%@ Import Namespace="System.Drawing" %>
 <%@ Import Namespace="System.Reflection" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
+    <style type="text/css">
+        li {
+            display: inline-block !important;
+            text-align: center;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <h2 class="center">系统定义颜色大全</h2>
     这里显示了所有 <a href="http://msdn.microsoft.com/zh-cn/library/system.drawing.color.aspx">System.Drawing.Color</a> 中的系统定义颜色。
-    <table>
-        <thead>
-            <tr><td>颜色</td><td>名称</td><td>ARGB 值</td></tr>
-        </thead>
-        <tbody>
-            <% foreach (var color in typeof(Color).GetProperties(BindingFlags.Public | BindingFlags.Static)
-                  .Select(f => (Color) f.GetValue(null, null)).Where(c => c.IsNamedColor).OrderByDescending(color => (uint) color.ToArgb()))
-               { %>
-            <tr>
-                <td style="background-color: <%=string.Format("rgba({0},{1},{2},{3})", color.R, color.G, color.B, color.A / 255.0) %>);
-                     background-color: <%=color.A == 0 ? "transparent" : string.Format("rgb({0},{1},{2})", color.R, color.G, color.B) %>;">
-                </td>
-                <td>
-                    <a href="http://msdn.microsoft.com/zh-cn/library/system.drawing.color.<%=color.Name.ToLower() %>.aspx">
-                        <%=color.Name %>
-                    </a>
-                </td>
-                <td>
-                    <a href="http://www.colorhexa.com/<%=string.Format("{0:x2}{1:x2}{2:x2}", color.R, color.G, color.B) %>">
-                        #<%=color.ToArgb().ToString("X8") %>
-                    </a>
-                </td>
-            </tr>
-            <% } %>
-        </tbody>
-    </table>
+    <ul>
+        <% foreach (var color in typeof(Color).GetProperties(BindingFlags.Public | BindingFlags.Static)
+               .Select(f => (Color) f.GetValue(null, null)).Where(c => c.IsNamedColor).OrderByDescending(color => (uint) color.ToArgb()))
+           {
+               var foreground = Math.Sqrt(0.241 * color.R * color.R + 0.691 * color.G * color.G + 0.068 * color.B * color.B) >= 127.5
+                   ? "black" : "white"; %>
+        <li style="background-color: <%=string.Format("rgba({0},{1},{2},{3})", color.R, color.G, color.B, color.A / 255.0) %>;
+                   background-color: <%=color.A == 0 ? "transparent" : string.Format("rgb({0},{1},{2})", color.R, color.G, color.B) %>;">
+            <a href="http://msdn.microsoft.com/zh-cn/library/system.drawing.color.<%=color.Name.ToLower() %>.aspx" target="_blank"
+               style="color: <%=foreground%>;"><%=color.Name %></a><br /><a style="color: <%=foreground%>;" target="_blank"
+               href="http://www.colorhexa.com/<%=string.Format("{0:x2}{1:x2}{2:x2}", color.R, color.G, color.B) %>">
+                #<%=color.ToArgb().ToString("X8") %>
+            </a>
+        </li>
+        <% } %>
+    </ul>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
