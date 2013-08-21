@@ -5,7 +5,7 @@
     <script type="text/javascript" src="javascript/dialog.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    <p>欢迎来到 Mygod 产品专卖店™！这是 Mygod 工作室™的一项<a href="https://github.com/Mygod/MygodProductStore">开源项目</a>。你可以在 Mygod 网站罢工时来这里订购来自 <a href="http://mygodstudio.tk/">Mygod 工作室™</a> 的<a href="http://mygodstudio.tk/Product/">产品</a>。</p>
+    <p>欢迎来到 Mygod 产品专卖店™！这是 Mygod 工作室™的一项<a href="https://github.com/Mygod/MygodProductStore">开源项目</a>。你可以在 Mygod 网站罢工时来这里订购来自 <a href="http://mygodstudio.tk:88/">Mygod 工作室™</a> 的<a href="http://mygodstudio.tk:88/Product/">产品</a>。</p>
     <div>
         <% foreach (var product in Data.Products)
            { %>
@@ -35,7 +35,7 @@
                 };
                 buttons.官方下载 = {
                     'action': function() {
-                        window.open('http://mygodstudio.tk/Product/Details.aspx?ID=' + id);
+                        window.open('http://mygodstudio.tk:88/Product/Details.aspx?ID=' + id);
                         returnBase();
                     }
                 };

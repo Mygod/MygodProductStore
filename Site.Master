@@ -23,11 +23,11 @@
         </div>
         <div class="page-region">
             <div class="page-region-content" style="padding-left: 20px;">
-                <h3><a href="http://mygodstudio.tk/" class="h">官网</a>　<a href="/" class="h">产品</a>　<a href="/Online/" class="h">在线工具</a>　<a href="/Donate.aspx" class="h">捐款</a></h3>
+                <h3><a href="http://mygodstudio.tk:88/" class="h">官网</a>　<a href="/" class="h">产品</a>　<a href="/Online/" class="h">在线工具</a>　<a href="/Donate.aspx" class="h">捐款</a></h3>
                 <asp:ContentPlaceHolder ID="Content" runat="server">
         
                 </asp:ContentPlaceHolder>
-                <div class="center">Powered by <a href="http://mygodstudio.tk">Mygod 工作室™</a></div>
+                <div class="center">Powered by <a href="http://mygodstudio.tk:88">Mygod 工作室™</a></div>
                 <div class="center">Copyright &copy; 2013 Mygod Product Store™ V<%=Data.CurrentAssembly.GetName().Version.ToString() %></div>
             </div>
         </div>
