@@ -90,13 +90,13 @@
           <Goos Value="105" Setter="Peter B" />
           <Moves Value="11" Setter="naveed_rizvi" />
           <Goal Value="19" Setter="Peter B" />
-          <OCD Value="27" Setter="Peter B" />
+          <OCD Value="26" Setter="dahkjdas" />
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="103" Setter="worldofgooballs" />
           <Moves Value="19" Setter="Mygod" />
           <Goal Value="24" Setter="dahkjdas" />
-          <OCD Value="29" Setter="dahkjdas" />
+          <OCD Value="26" Setter="dahkjdas" />
         </ChinaRecord>
       </Level>
       <Level Name="Ivy Towers">
@@ -345,13 +345,13 @@
         <WorldRecord>
           <Goos Value="36" Setter="Peter B" />
           <Moves Value="0" Setter="Kopa" />
-          <Goal Value="8" Setter="Peter B" />
+          <Goal Value="7" Setter="lkjhgfdsa431" />
           <OCD Value="9" Setter="Peter B" />
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="31" Setter="dwerdwer" />
           <Moves Value="0" Setter="" />
-          <Goal Value="11" Setter="lkjhgfdsa431" />
+          <Goal Value="7" Setter="lkjhgfdsa431" />
           <OCD Value="13" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
