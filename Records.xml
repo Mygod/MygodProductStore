@@ -364,8 +364,8 @@
         </WorldRecord>
         <ChinaRecord>
           <Goos Value="56" Setter="worldofgooballs" />
-          <Moves Value="9" Setter="worldofgooballs" />
-          <Goal Value="40" Setter="lkjhgfdsa431" />
+          <Moves Value="8" Setter="dahkjdas" />
+          <Goal Value="28" Setter="dahkjdas" />
           <OCD Value="48" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
@@ -379,7 +379,7 @@
         <ChinaRecord>
           <Goos Value="26" Setter="Mygod" />
           <Moves Value="6" Setter="Wogfan4Evr" />
-          <Goal Value="49" Setter="lkjhgfdsa431" />
+          <Goal Value="48" Setter="dahkjdas" />
           <OCD Value="86" Setter="Wogfan4Evr" />
         </ChinaRecord>
       </Level>
@@ -394,7 +394,7 @@
           <Goos Value="46" Setter="Mygod" />
           <Moves Value="0" Setter="" />
           <Goal Value="31" Setter="dahkjdas" />
-          <OCD Value="52" Setter="worldofgooballs" />
+          <OCD Value="48" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
       <Level Name="Super Fuse Challenge Time">
@@ -422,7 +422,7 @@
           <Goos Value="56" Setter="dwerdwer" />
           <Moves Value="5" Setter="dahkjdas" />
           <Goal Value="21" Setter="Wogfan4Evr" />
-          <OCD Value="84" Setter="lkjhgfdsa431" />
+          <OCD Value="51" Setter="dahkjdas" />
         </ChinaRecord>
       </Level>
       <Level Name="You Have To Explode The Head">
@@ -493,7 +493,7 @@
         <ChinaRecord>
           <Goos Value="15" Setter="dwerdwer" />
           <Moves Value="6" Setter="worldofgooballs" />
-          <Goal Value="19" Setter="worldofgooballs" />
+          <Goal Value="18" Setter="dahkjdas" />
           <OCD Value="57" Setter="lkjhgfdsa431" />
         </ChinaRecord>
       </Level>
@@ -636,7 +636,7 @@
           <Goos Value="60" Setter="lkjhgfdsa431" />
           <Moves Value="1" Setter="Wogfan4Evr" />
           <Goal Value="15" Setter="worldofgooballs" />
-          <OCD Value="57" Setter="worldofgooballs" />
+          <OCD Value="30" Setter="dahkjdas" />
         </ChinaRecord>
       </Level>
       <Level Name="Weather Vane">

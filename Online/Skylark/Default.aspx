@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    <div>云雀™ 是由 Mygod 工作室™ 从 2013年5月9日 开始呕心沥血制作出来的云存储服务，通俗地讲就是网盘，但它绝对不是普通的网盘。</div>
+    <div>云雀™ 是由 Mygod 工作室™ 从 2013年5月9日 开始呕心沥血制作出来的云存储服务，通俗地讲就是网盘，但它绝对不是普通的网盘。它有以下四大特点使他和普通网盘完全不同：高端大气上档次，低调奢华有内涵。奔放洋气有深度，狂拽炫酷屌炸天。</div>
     <h3>神奇的功能</h3>
     <ol>
         <li>超大空间：100G 的空间（不过是共享的）</li>
