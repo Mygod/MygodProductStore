@@ -51,14 +51,11 @@
     <Content Include="css\modern.css" />
     <Content Include="css\theme-dark.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Donate.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\iconFont.eot" />
     <Content Include="fonts\iconFont.ttf" />
     <Content Include="fonts\iconFont.woff" />
-    <Content Include="Global.asax" />
     <Content Include="javascript\countdowns.js" />
-    <Content Include="Online\Colors.aspx" />
     <Content Include="plugins\CryptoJS\aes-min.js" />
     <Content Include="plugins\CryptoJS\aes.js" />
     <Content Include="plugins\CryptoJS\cipher-core-min.js" />
@@ -127,306 +124,6 @@
     <Content Include="plugins\CryptoJS\x64-core.js" />
     <Content Include="javascript\generic.js" />
     <Content Include="javascript\jquery.min.js" />
-    <Content Include="less\accordion.less" />
-    <Content Include="less\bricks.less" />
-    <Content Include="less\buttons.less" />
-    <Content Include="less\cards.less" />
-    <Content Include="less\carousel.less" />
-    <Content Include="less\code.less" />
-    <Content Include="less\colors.less" />
-    <Content Include="less\dialog.less" />
-    <Content Include="less\forms.less" />
-    <Content Include="less\grid.less" />
-    <Content Include="less\hero.less" />
-    <Content Include="less\icons.less" />
-    <Content Include="less\images.less" />
-    <Content Include="less\layout.less" />
-    <Content Include="less\listview.less" />
-    <Content Include="less\menus.less" />
-    <Content Include="less\modern-responsive-max480.less" />
-    <Content Include="less\modern-responsive-max767.less" />
-    <Content Include="less\modern-responsive-max979.less" />
-    <Content Include="less\modern-responsive-min1200.less" />
-    <Content Include="less\modern-responsive.less" />
-    <Content Include="less\modern.less" />
-    <Content Include="less\notices.less" />
-    <Content Include="less\pagecontrol.less" />
-    <Content Include="less\progress.less" />
-    <Content Include="less\rating.less" />
-    <Content Include="less\reset.less" />
-    <Content Include="less\routines.less" />
-    <Content Include="less\sidebar.less" />
-    <Content Include="less\slider.less" />
-    <Content Include="less\tables.less" />
-    <Content Include="less\theme-dark.less" />
-    <Content Include="less\tiles.less" />
-    <Content Include="less\typography.less" />
-    <Content Include="Online\BrowserDownload.aspx" />
-    <Content Include="Online\Countdowns.aspx" />
-    <Content Include="Online\Default.aspx" />
-    <Content Include="Online\MOM\askbutton.png" />
-    <Content Include="Online\MOM\bigcomputer2.mp3" />
-    <Content Include="Online\MOM\brand.cn.png" />
-    <Content Include="Online\MOM\English.htm" />
-    <Content Include="Online\MOM\Index.htm" />
-    <Content Include="Online\MOM\lensFlare.png" />
-    <Content Include="Online\MOM\loop_superbirds.mp3" />
-    <Content Include="Online\MOM\MOM.css" />
-    <Content Include="Online\MOM\MOM.en.css" />
-    <Content Include="Online\MOM\MOM.en.js" />
-    <Content Include="Online\MOM\MOM.js" />
-    <Content Include="Online\MOM\momSplash.png" />
-    <Content Include="Online\MOM\momStartup.mp3" />
-    <Content Include="Online\MOM\NotSupported.en.htm" />
-    <Content Include="Online\MOM\NotSupported.htm" />
-    <Content Include="Online\MOM\textBar_bottom_up.png" />
-    <Content Include="Online\MOM\textBar_cursor.png" />
-    <Content Include="Online\MOM\textBar_middle_up.png" />
-    <Content Include="Online\MOM\textBar_top_up.png" />
-    <Content Include="Online\Skylark\Api.aspx" />
-    <Content Include="Online\Skylark\Default.aspx" />
-    <Content Include="Online\WoGCorp\AD.png" />
-    <Content Include="Online\WoGCorp\AE.png" />
-    <Content Include="Online\WoGCorp\AF.png" />
-    <Content Include="Online\WoGCorp\AG.png" />
-    <Content Include="Online\WoGCorp\AI.png" />
-    <Content Include="Online\WoGCorp\AL.png" />
-    <Content Include="Online\WoGCorp\AM.png" />
-    <Content Include="Online\WoGCorp\AN.png" />
-    <Content Include="Online\WoGCorp\AO.png" />
-    <Content Include="Online\WoGCorp\AR.png" />
-    <Content Include="Online\WoGCorp\AS.png" />
-    <Content Include="Online\WoGCorp\AT.png" />
-    <Content Include="Online\WoGCorp\AU.png" />
-    <Content Include="Online\WoGCorp\AW.png" />
-    <Content Include="Online\WoGCorp\AX.png" />
-    <Content Include="Online\WoGCorp\AZ.png" />
-    <Content Include="Online\WoGCorp\BA.png" />
-    <Content Include="Online\WoGCorp\BB.png" />
-    <Content Include="Online\WoGCorp\BD.png" />
-    <Content Include="Online\WoGCorp\BE.png" />
-    <Content Include="Online\WoGCorp\BF.png" />
-    <Content Include="Online\WoGCorp\BG.png" />
-    <Content Include="Online\WoGCorp\BH.png" />
-    <Content Include="Online\WoGCorp\BI.png" />
-    <Content Include="Online\WoGCorp\BJ.png" />
-    <Content Include="Online\WoGCorp\BM.png" />
-    <Content Include="Online\WoGCorp\BN.png" />
-    <Content Include="Online\WoGCorp\BO.png" />
-    <Content Include="Online\WoGCorp\BR.png" />
-    <Content Include="Online\WoGCorp\BS.png" />
-    <Content Include="Online\WoGCorp\BT.png" />
-    <Content Include="Online\WoGCorp\BV.png" />
-    <Content Include="Online\WoGCorp\BW.png" />
-    <Content Include="Online\WoGCorp\BY.png" />
-    <Content Include="Online\WoGCorp\BZ.png" />
-    <Content Include="Online\WoGCorp\CA.png" />
-    <Content Include="Online\WoGCorp\CC.png" />
-    <Content Include="Online\WoGCorp\CD.png" />
-    <Content Include="Online\WoGCorp\CF.png" />
-    <Content Include="Online\WoGCorp\CG.png" />
-    <Content Include="Online\WoGCorp\CH.png" />
-    <Content Include="Online\WoGCorp\CI.png" />
-    <Content Include="Online\WoGCorp\CK.png" />
-    <Content Include="Online\WoGCorp\CL.png" />
-    <Content Include="Online\WoGCorp\CM.png" />
-    <Content Include="Online\WoGCorp\CN.png" />
-    <Content Include="Online\WoGCorp\CO.png" />
-    <Content Include="Online\WoGCorp\CR.png" />
-    <Content Include="Online\WoGCorp\CU.png" />
-    <Content Include="Online\WoGCorp\CV.png" />
-    <Content Include="Online\WoGCorp\CX.png" />
-    <Content Include="Online\WoGCorp\CY.png" />
-    <Content Include="Online\WoGCorp\CZ.png" />
-    <Content Include="Online\WoGCorp\DE.png" />
-    <Content Include="Online\WoGCorp\Default.aspx" />
-    <Content Include="Online\WoGCorp\DJ.png" />
-    <Content Include="Online\WoGCorp\DK.png" />
-    <Content Include="Online\WoGCorp\DM.png" />
-    <Content Include="Online\WoGCorp\DO.png" />
-    <Content Include="Online\WoGCorp\EC.png" />
-    <Content Include="Online\WoGCorp\EE.png" />
-    <Content Include="Online\WoGCorp\EG.png" />
-    <Content Include="Online\WoGCorp\EH.png" />
-    <Content Include="Online\WoGCorp\ER.png" />
-    <Content Include="Online\WoGCorp\ES.png" />
-    <Content Include="Online\WoGCorp\ET.png" />
-    <Content Include="Online\WoGCorp\EU.png" />
-    <Content Include="Online\WoGCorp\FI.png" />
-    <Content Include="Online\WoGCorp\FJ.png" />
-    <Content Include="Online\WoGCorp\FK.png" />
-    <Content Include="Online\WoGCorp\FM.png" />
-    <Content Include="Online\WoGCorp\FO.png" />
-    <Content Include="Online\WoGCorp\FR.png" />
-    <Content Include="Online\WoGCorp\GA.png" />
-    <Content Include="Online\WoGCorp\GB.png" />
-    <Content Include="Online\WoGCorp\GD.png" />
-    <Content Include="Online\WoGCorp\GE.png" />
-    <Content Include="Online\WoGCorp\GF.png" />
-    <Content Include="Online\WoGCorp\GG.png" />
-    <Content Include="Online\WoGCorp\GH.png" />
-    <Content Include="Online\WoGCorp\GI.png" />
-    <Content Include="Online\WoGCorp\GL.png" />
-    <Content Include="Online\WoGCorp\GM.png" />
-    <Content Include="Online\WoGCorp\GN.png" />
-    <Content Include="Online\WoGCorp\GP.png" />
-    <Content Include="Online\WoGCorp\GQ.png" />
-    <Content Include="Online\WoGCorp\GR.png" />
-    <Content Include="Online\WoGCorp\GS.png" />
-    <Content Include="Online\WoGCorp\GT.png" />
-    <Content Include="Online\WoGCorp\GU.png" />
-    <Content Include="Online\WoGCorp\GW.png" />
-    <Content Include="Online\WoGCorp\GY.png" />
-    <Content Include="Online\WoGCorp\HK.png" />
-    <Content Include="Online\WoGCorp\HN.png" />
-    <Content Include="Online\WoGCorp\HR.png" />
-    <Content Include="Online\WoGCorp\HT.png" />
-    <Content Include="Online\WoGCorp\HU.png" />
-    <Content Include="Online\WoGCorp\ID.png" />
-    <Content Include="Online\WoGCorp\IE.png" />
-    <Content Include="Online\WoGCorp\IL.png" />
-    <Content Include="Online\WoGCorp\IM.png" />
-    <Content Include="Online\WoGCorp\IN.png" />
-    <Content Include="Online\WoGCorp\IO.png" />
-    <Content Include="Online\WoGCorp\IQ.png" />
-    <Content Include="Online\WoGCorp\IR.png" />
-    <Content Include="Online\WoGCorp\IS.png" />
-    <Content Include="Online\WoGCorp\IT.png" />
-    <Content Include="Online\WoGCorp\JE.png" />
-    <Content Include="Online\WoGCorp\JM.png" />
-    <Content Include="Online\WoGCorp\JO.png" />
-    <Content Include="Online\WoGCorp\JP.png" />
-    <Content Include="Online\WoGCorp\KE.png" />
-    <Content Include="Online\WoGCorp\KG.png" />
-    <Content Include="Online\WoGCorp\KH.png" />
-    <Content Include="Online\WoGCorp\KI.png" />
-    <Content Include="Online\WoGCorp\KM.png" />
-    <Content Include="Online\WoGCorp\KN.png" />
-    <Content Include="Online\WoGCorp\KP.png" />
-    <Content Include="Online\WoGCorp\KR.png" />
-    <Content Include="Online\WoGCorp\KW.png" />
-    <Content Include="Online\WoGCorp\KY.png" />
-    <Content Include="Online\WoGCorp\KZ.png" />
-    <Content Include="Online\WoGCorp\LA.png" />
-    <Content Include="Online\WoGCorp\LB.png" />
-    <Content Include="Online\WoGCorp\LC.png" />
-    <Content Include="Online\WoGCorp\LI.png" />
-    <Content Include="Online\WoGCorp\LK.png" />
-    <Content Include="Online\WoGCorp\LR.png" />
-    <Content Include="Online\WoGCorp\LS.png" />
-    <Content Include="Online\WoGCorp\LT.png" />
-    <Content Include="Online\WoGCorp\LU.png" />
-    <Content Include="Online\WoGCorp\LV.png" />
-    <Content Include="Online\WoGCorp\LY.png" />
-    <Content Include="Online\WoGCorp\MA.png" />
-    <Content Include="Online\WoGCorp\MC.png" />
-    <Content Include="Online\WoGCorp\MD.png" />
-    <Content Include="Online\WoGCorp\MG.png" />
-    <Content Include="Online\WoGCorp\MH.png" />
-    <Content Include="Online\WoGCorp\MK.png" />
-    <Content Include="Online\WoGCorp\ML.png" />
-    <Content Include="Online\WoGCorp\MM.png" />
-    <Content Include="Online\WoGCorp\MN.png" />
-    <Content Include="Online\WoGCorp\MO.png" />
-    <Content Include="Online\WoGCorp\MP.png" />
-    <Content Include="Online\WoGCorp\MQ.png" />
-    <Content Include="Online\WoGCorp\MR.png" />
-    <Content Include="Online\WoGCorp\MS.png" />
-    <Content Include="Online\WoGCorp\MT.png" />
-    <Content Include="Online\WoGCorp\MU.png" />
-    <Content Include="Online\WoGCorp\MV.png" />
-    <Content Include="Online\WoGCorp\MW.png" />
-    <Content Include="Online\WoGCorp\MX.png" />
-    <Content Include="Online\WoGCorp\MY.png" />
-    <Content Include="Online\WoGCorp\MZ.png" />
-    <Content Include="Online\WoGCorp\NA.png" />
-    <Content Include="Online\WoGCorp\NC.png" />
-    <Content Include="Online\WoGCorp\NE.png" />
-    <Content Include="Online\WoGCorp\NF.png" />
-    <Content Include="Online\WoGCorp\NG.png" />
-    <Content Include="Online\WoGCorp\NI.png" />
-    <Content Include="Online\WoGCorp\NL.png" />
-    <Content Include="Online\WoGCorp\NO.png" />
-    <Content Include="Online\WoGCorp\NP.png" />
-    <Content Include="Online\WoGCorp\NR.png" />
-    <Content Include="Online\WoGCorp\NU.png" />
-    <Content Include="Online\WoGCorp\NZ.png" />
-    <Content Include="Online\WoGCorp\OM.png" />
-    <Content Include="Online\WoGCorp\PA.png" />
-    <Content Include="Online\WoGCorp\PE.png" />
-    <Content Include="Online\WoGCorp\PF.png" />
-    <Content Include="Online\WoGCorp\PG.png" />
-    <Content Include="Online\WoGCorp\PH.png" />
-    <Content Include="Online\WoGCorp\PK.png" />
-    <Content Include="Online\WoGCorp\PL.png" />
-    <Content Include="Online\WoGCorp\PM.png" />
-    <Content Include="Online\WoGCorp\PN.png" />
-    <Content Include="Online\WoGCorp\PR.png" />
-    <Content Include="Online\WoGCorp\PS.png" />
-    <Content Include="Online\WoGCorp\PT.png" />
-    <Content Include="Online\WoGCorp\PW.png" />
-    <Content Include="Online\WoGCorp\PY.png" />
-    <Content Include="Online\WoGCorp\QA.png" />
-    <Content Include="Online\WoGCorp\RE.png" />
-    <Content Include="Online\WoGCorp\RO.png" />
-    <Content Include="Online\WoGCorp\RU.png" />
-    <Content Include="Online\WoGCorp\RW.png" />
-    <Content Include="Online\WoGCorp\SA.png" />
-    <Content Include="Online\WoGCorp\SB.png" />
-    <Content Include="Online\WoGCorp\SC.png" />
-    <Content Include="Online\WoGCorp\SD.png" />
-    <Content Include="Online\WoGCorp\SE.png" />
-    <Content Include="Online\WoGCorp\SG.png" />
-    <Content Include="Online\WoGCorp\SH.png" />
-    <Content Include="Online\WoGCorp\SI.png" />
-    <Content Include="Online\WoGCorp\SJ.png" />
-    <Content Include="Online\WoGCorp\SK.png" />
-    <Content Include="Online\WoGCorp\SL.png" />
-    <Content Include="Online\WoGCorp\SM.png" />
-    <Content Include="Online\WoGCorp\SN.png" />
-    <Content Include="Online\WoGCorp\SO.png" />
-    <Content Include="Online\WoGCorp\SR.png" />
-    <Content Include="Online\WoGCorp\ST.png" />
-    <Content Include="Online\WoGCorp\SV.png" />
-    <Content Include="Online\WoGCorp\SY.png" />
-    <Content Include="Online\WoGCorp\SZ.png" />
-    <Content Include="Online\WoGCorp\TC.png" />
-    <Content Include="Online\WoGCorp\TD.png" />
-    <Content Include="Online\WoGCorp\TF.png" />
-    <Content Include="Online\WoGCorp\TG.png" />
-    <Content Include="Online\WoGCorp\TH.png" />
-    <Content Include="Online\WoGCorp\TJ.png" />
-    <Content Include="Online\WoGCorp\TK.png" />
-    <Content Include="Online\WoGCorp\TL.png" />
-    <Content Include="Online\WoGCorp\TM.png" />
-    <Content Include="Online\WoGCorp\TN.png" />
-    <Content Include="Online\WoGCorp\TO.png" />
-    <Content Include="Online\WoGCorp\TR.png" />
-    <Content Include="Online\WoGCorp\TT.png" />
-    <Content Include="Online\WoGCorp\TV.png" />
-    <Content Include="Online\WoGCorp\TW.png" />
-    <Content Include="Online\WoGCorp\TZ.png" />
-    <Content Include="Online\WoGCorp\UA.png" />
-    <Content Include="Online\WoGCorp\UG.png" />
-    <Content Include="Online\WoGCorp\UM.png" />
-    <Content Include="Online\WoGCorp\US.png" />
-    <Content Include="Online\WoGCorp\UY.png" />
-    <Content Include="Online\WoGCorp\UZ.png" />
-    <Content Include="Online\WoGCorp\VA.png" />
-    <Content Include="Online\WoGCorp\VC.png" />
-    <Content Include="Online\WoGCorp\VE.png" />
-    <Content Include="Online\WoGCorp\VG.png" />
-    <Content Include="Online\WoGCorp\VI.png" />
-    <Content Include="Online\WoGCorp\VN.png" />
-    <Content Include="Online\WoGCorp\VU.png" />
-    <Content Include="Online\WoGCorp\WF.png" />
-    <Content Include="Online\WoGCorp\WS.png" />
-    <Content Include="Online\WoGCorp\XX.png" />
-    <Content Include="Online\WoGCorp\YE.png" />
-    <Content Include="Online\WoGCorp\YT.png" />
-    <Content Include="Online\WoGCorp\ZA.png" />
-    <Content Include="Online\WoGCorp\ZM.png" />
-    <Content Include="Online\WoGCorp\ZW.png" />
     <EmbeddedResource Include="Products.xml" />
     <Content Include="fonts\iconFont.svg" />
     <Content Include="fonts\license.txt" />
@@ -448,11 +145,7 @@
     <Content Include="javascript\start-menu.js" />
     <Content Include="javascript\tile-drag.js" />
     <Content Include="javascript\tile-slider.js" />
-    <Content Include="Online\WoGLeaderboard\Default.aspx" />
     <EmbeddedResource Include="Records.xml" />
-    <Content Include="Online\WoGLeaderboard\Players.xml" />
-    <Content Include="Online\WoGLeaderboard\Refresh.aspx" />
-    <Content Include="Online\WoGLeaderboard\Submit.aspx" />
     <Content Include="Screenshots.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -467,100 +160,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Donate.aspx.cs">
-      <DependentUpon>Donate.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Donate.aspx.designer.cs">
-      <DependentUpon>Donate.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
     <Compile Include="InstallDotNetFx40.aspx.cs">
       <DependentUpon>InstallDotNetFx40.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="InstallDotNetFx40.aspx.designer.cs">
       <DependentUpon>InstallDotNetFx40.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\BrowserDownload.aspx.cs">
-      <DependentUpon>BrowserDownload.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\BrowserDownload.aspx.designer.cs">
-      <DependentUpon>BrowserDownload.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Countdowns.aspx.cs">
-      <DependentUpon>Countdowns.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Countdowns.aspx.designer.cs">
-      <DependentUpon>Countdowns.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Skylark\Api.aspx.cs">
-      <DependentUpon>Api.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Skylark\Api.aspx.designer.cs">
-      <DependentUpon>Api.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Skylark\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Skylark\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\Skylark\Skylark.master.cs">
-      <DependentUpon>Skylark.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Skylark\Skylark.master.designer.cs">
-      <DependentUpon>Skylark.master</DependentUpon>
-    </Compile>
-    <Compile Include="Online\WoGCorp\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\WoGCorp\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\WoGCorp\WoGBuddy.cs" />
-    <Compile Include="Online\Colors.aspx.cs">
-      <DependentUpon>Colors.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\Colors.aspx.designer.cs">
-      <DependentUpon>Colors.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\WoGLeaderboard\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\WoGLeaderboard\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\WoGLeaderboard\Refresh.aspx.cs">
-      <DependentUpon>Refresh.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\WoGLeaderboard\Refresh.aspx.designer.cs">
-      <DependentUpon>Refresh.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Online\WoGLeaderboard\Submit.aspx.cs">
-      <DependentUpon>Submit.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Online\WoGLeaderboard\Submit.aspx.designer.cs">
-      <DependentUpon>Submit.aspx</DependentUpon>
     </Compile>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="InstallDotNetFx40Client.aspx.cs">
@@ -587,15 +192,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Online\MOM\bigcomputer2.ogg" />
-    <Content Include="Online\MOM\loop_superbirds.ogg" />
-    <Content Include="Online\MOM\momStartup.ogg" />
-    <Content Include="Online\MOM\TCCEB.TTF" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Online\Skylark\Skylark.master" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
