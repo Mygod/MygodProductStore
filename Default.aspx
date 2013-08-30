@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" Inherits="Mygod.Website.ProductStore.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Globalization" %>
 <%
     string path;
