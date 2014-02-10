@@ -11,6 +11,6 @@
         path = null;
     }
     path = path ?? string.Empty;
-    Response.Redirect("http://mygodstudio.tk/" +
+    Response.Redirect("http://studio.mygod.tk/" +
         (path.StartsWith("Online", true, CultureInfo.InvariantCulture) ? string.Empty : "products/"));
 %>
